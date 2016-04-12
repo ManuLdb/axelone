@@ -1,0 +1,123 @@
+h1 {
+    color: #1991dd;
+}
+
+header {
+
+}
+
+header ul {
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+header ul li a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    color: #ff7d44;
+}
+
+header ul li.current-menu-item a {
+    color: black;
+}
+
+body {
+    margin: 0px;
+}
+
+#head1 {
+    background-color: #00a0d1 !important;
+    height: 600px;
+}
+
+#triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #00a0d1;
+    border-left: 720px solid transparent;
+    float: left;
+
+}
+
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #00a0d1;
+    border-right: 720px solid transparent;
+    float: right !important;
+
+}
+
+#triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid mediumvioletred;
+    border-left: 720px solid transparent;
+    float: left !important;
+    z-index: 999 !important;
+    margin-top: 200px;
+
+}
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid mediumvioletred;
+    border-right: 720px solid transparent;
+    float: right !important;
+    z-index: 999 !important;
+    margin-top: 200px;
+}
+
+.tri {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.nav {
+    margin: 0 auto !important;
+    background: none !important;
+    position: absolute !important;
+    width: 100% !important;
+    z-index: 999 !important;
+    float left;
+}
+
+.secondiv {
+    background-color: greenyellow !important;
+    height: 570px;
+}
+
+.thirdiv {
+    background-color: rebeccapurple !important;
+    height: 800px;
+}
+
+.partenaires {
+    background-color: lightyellow !important;
+    height: 500px;
+}
+
+.projetitre {
+    background-color: aquamarine !important;
+    height: 300px;
+}
+
+.projet {
+    background-color: mediumvioletred !important;
+    height: 500px;
+}
+
