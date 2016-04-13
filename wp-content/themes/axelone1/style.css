@@ -7,13 +7,100 @@
     z-index: 55;
 }
 #deuz{
-    background-color: green;
-    min-height: 65em;
+    background-color: grey;
+    min-height: 40em;
     min-width: 100%;
     position: relative;
     z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:-275px;
+}
+.firstriangle{
+    padding: 0 !important;
+    display: block;
+}
+.bordtriangle1 {
+    width: 0;
+    height: 0;
+    border-bottom: 10em solid yellow;
+    border-right: 75em solid transparent;
+    z-index: 57;
+    float: right;
+    position: absolute;
+    top:-10em;
+}
+.bordtriangle2{
+    width: 0;
+    height: 0;
+    border-bottom: 10em solid yellow;
+    border-left: 75em solid transparent;
+    z-index: 57;
+    float: right;
+    position: relative;
+    top: -10em;
+}
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-bottom: 10em solid grey;
+    border-right: 75em solid transparent;
+    z-index: 58;
+    float: right;
+    position: absolute;
+    top:-275px;
+}
+.triangle2{
+    width: 0;
+    height: 0;
+    border-bottom: 10em solid grey;
+    border-left: 75em solid transparent;
+    z-index: 58;
+    float: right;
+    position: relative;
+    top:-275px;
+}
+.triangle3{
+    width: 0;
+    height: 0;
+    border-bottom: 13em solid yellow;
+    border-left: 68em solid transparent;
+    z-index: 58;
+    float: right;
+    position: relative;
+    top:27em;
+}
+.triangle4{
+    width: 0;
+    height: 0;
+    border-bottom: 13em solid yellow;
+    border-right: 68em solid transparent;
+    z-index: 58;
+    float: right;
+    position: absolute;
+    top:27em;
 }
 
+.bordtriangle3 {
+    width: 0;
+    height: 0;
+    border-bottom: 13em solid red;
+    border-left: 68em solid transparent;
+    z-index: 59;
+    float: right;
+    position: relative;
+    top:27em;
+}
+.bordtriangle4{
+    width: 0;
+    height: 0;
+    border-bottom: 13em solid red;
+    border-right: 68em solid transparent;
+    z-index: 59;
+    float: right;
+    position: absolute;
+    top:27em;
+}
 h1 {
     color: #1991dd;
 }
@@ -63,7 +150,6 @@ body {
     border-top: 100px solid #00a0d1;
     border-left: 720px solid transparent;
     float: left;
-
 }
 
 #triangle-topleft {
@@ -109,7 +195,14 @@ body {
     position: absolute !important;
     width: 100% !important;
     z-index: 999 !important;
-    float left;
+
+}
+
+.menu {
+    float:right;
+    margin-right:5%;
+    margin-top: 2%;
+    font-size: 15px;
 }
 
 .secondiv {
