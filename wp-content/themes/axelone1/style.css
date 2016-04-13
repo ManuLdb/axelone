@@ -1,3 +1,19 @@
+
+#first{
+    background-color: red;
+    min-height: 65em;
+    min-width: 100%;
+    position: relative;
+    z-index: 55;
+}
+#deuz{
+    background-color: green;
+    min-height: 65em;
+    min-width: 100%;
+    position: relative;
+    z-index: 56;
+}
+
 h1 {
     color: #1991dd;
 }

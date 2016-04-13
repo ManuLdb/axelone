@@ -3,8 +3,8 @@
 <head>
 
     <title>Axel'One</title>
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> ../css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> style.css"/>
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap-responsive.min.css" rel="stylesheet">
     <?php wp_head(); ?>
 
 </head>
