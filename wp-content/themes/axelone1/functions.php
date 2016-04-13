@@ -13,6 +13,11 @@ add_theme_support('post-thumbnails');
 register_nav_menu('principal', 'Menu principal');
 register_nav_menu('footer', 'Menu du bas');
 
+/*Vire la barre blanche*/
+add_action('get_header', 'remove_admin_login_header');
+function remove_admin_login_header() {
+    remove_action('wp_head', '_admin_bar_bump_cb');
+}
 
 
 
