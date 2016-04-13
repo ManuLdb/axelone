@@ -4,6 +4,8 @@ Template Name: à propos
 */
 ?>
 
+<?php get_header(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
