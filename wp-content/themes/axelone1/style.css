@@ -207,8 +207,9 @@ header ul li {
     display: inline-block;
     list-style-type: none;
     border-style: solid;
-    border-width: 0px 3px 0px 0px;
+    border-width: 0px 2px 0px 0px;
     border-color: white;
+
 }
 
 header ul li a {
@@ -297,9 +298,8 @@ body {
     margin-right:5%;
     margin-top: 2%;
     font-size: 15px;
-=======
-    float: left;
->>>>>>> Stashed changes
+
+
 }
 
 .secondiv {
