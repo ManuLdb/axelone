@@ -4,6 +4,8 @@ Template Name: à propos
 */
 ?>
 
+<?php get_header(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,8 +71,7 @@ Template Name: à propos
             <h2>L'ENTREPRISE</h2>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc est velit, ullamcorper blandit auctor a,
-                iaculis sit amet erat. Suspendisse pulvinar s purus, id gravida purus. Quisque ullamcorper imperdiet
-                lorem, vel facilisis augue ornare dignissim. Donec diam diam, suscipit vitae quam sit amet, venenatis
+                iaculis sit amet erat. Suspendisse pulvinar s purus, id gravida purus. Venenatis
                 vehicula nisi. Quisque interdum tortor vitae lectus efficitur, eget egestas purus finibus. Cum sociis
                 natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
@@ -117,6 +118,24 @@ Template Name: à propos
         </div>
 
     </div>
+
+
+
+        <div class="col-md-4"><h2>SERVICE 1</h2><i class="glyph glyphicon glyphicon-adjust" style="font-size:40px;"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequa.</p></div>
+    <div class="col-md-4"><h2>SERVICE 2</h2><i class="glyph glyphicon glyphicon-adjust" style="font-size:40px;"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequa.</p></div>
+    <div class="col-md-4"><h2>SERVICE 3</h2><i class="glyph glyphicon glyphicon-adjust" style="font-size:40px;"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequa.</p></div>
+
+
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
