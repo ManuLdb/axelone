@@ -1,4 +1,6 @@
-
+html{
+    overflow-x: hidden;
+}
 #first{
     background-color: red;
     min-height: 65em;
@@ -80,26 +82,114 @@
     position: absolute;
     top:27em;
 }
+#troiz{
+    background-color: green;
+    min-height: 40em;
+    min-width: 100%;
+    position: relative;
+    z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:-275px;
+}
+#katre{
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid red;
+    background-color: purple;
+    min-height: 40em;
+    min-width: 100%;
+    position: relative;
+    z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:-275px;
+}
+#cink{
+    background-color: white;
+    min-height: 50em;
+    min-width: 100%;
+    position: relative;
+    z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:-275px;
+}
 
-.bordtriangle3 {
+.bordtriangle3{
     width: 0;
     height: 0;
-    border-bottom: 13em solid red;
-    border-left: 68em solid transparent;
+    border-bottom: 13em solid white;
+    border-right: 95em solid transparent;
     z-index: 59;
-    float: right;
-    position: relative;
-    top:27em;
+    float: left;
+    left: 100%;
+    position: absolute;
+    top:90px;
 }
+
 .bordtriangle4{
     width: 0;
     height: 0;
-    border-bottom: 13em solid red;
-    border-right: 68em solid transparent;
+    border-bottom: 13em solid white;
+    border-left: 95em solid transparent;
     z-index: 59;
+    float: left;
+    right: 100%;
+    position: absolute;
+    top:90px;
+}
+.triangle5{
+    width: 0;
+    height: 0;
+    border-bottom: 13em solid yellow;
+    border-left: 95em solid transparent;
+    z-index: 58;
+    float: right;
+    position: relative;
+    top:6em;
+}
+.triangle6{
+    width: 0;
+    height: 0;
+    border-bottom: 13em solid yellow;
+    border-right: 95em solid transparent;
+    z-index: 58;
     float: right;
     position: absolute;
-    top:27em;
+    top:6em;
+}
+.triangle7{
+    width: 0;
+    height: 0;
+    border-bottom: 30em solid yellow;
+    border-left: 95em solid transparent;
+    border-top: 30em solid yellow;
+    z-index: 60;
+    float: right;
+    position: relative;
+    top:15em;
+}
+.triangle8{
+    width: 0;
+    height: 0;
+    border-bottom: 30em solid yellow;
+    border-top: 30em solid yellow;
+    border-right: 95em solid transparent;
+    z-index: 60;
+    float: right;
+    position: absolute;
+    top:28em;
+}
+
+#siss{
+    background-color: red;
+    min-height: 50em;
+    min-width: 100%;
+    position: relative;
+    z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:50em;
 }
 h1 {
     color: #1991dd;
