@@ -218,43 +218,81 @@ html{
     width: 0;
     height: 0;
     border-bottom: 30em solid yellow;
-    border-left: 95em solid transparent;
+    border-left: 150em solid transparent;
     border-top: 30em solid yellow;
     z-index: 60;
     float: right;
     position: relative;
     top:15em;
+    left:15em;
 }
 .triangle8{
     width: 0;
     height: 0;
     border-bottom: 30em solid yellow;
     border-top: 30em solid yellow;
-    border-right: 95em solid transparent;
+    border-right: 150em solid transparent;
     z-index: 60;
     float: right;
     position: absolute;
     top:28em;
+    left:-15em;
 }
 
 #siss{
+    margin-top: 35em;
     background-color: red;
     min-height: 50em;
     min-width: 100%;
     position: relative;
     z-index: 56;
     padding: 0 !important;
-    display: block;
     top:5em;
 }
 #siss p{
-    text-transform: uppercase;
-    text-align: center;
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25%;
+    margin:0 !important;
+}
+.sissp{
+    text-transform: uppercase !important;
+    text-align: center !important;
+    width: 50% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+
+#siss input{
+    z-index: 60;
+    min-height: 5em;
+    width: 70%;
+    float: left;
+    margin-bottom: 4em;
+    position: relative !important;
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+    border-top:none;
+    border-bottom: 5px solid white;
+}
+
+#siss textarea{
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+    border-top:none;
+    border-bottom: 5px solid white;
+    width: 70%;
+    float: left;
+}
+#siss button{
+    margin-top: 3em;
+    background-color: white;
+    color:darkgray;
+    min-width: 30%;
+    min-height: 3em;
+    font-size: 20px;
+    float: left;
 }
 .bordtriangle5{
     width: 0;
@@ -264,7 +302,7 @@ html{
     z-index: 58;
     float: right;
     position: absolute;
-    top:20em;
+    top: -9em;
 }
 .bordtriangle6{
     width: 0;
@@ -274,27 +312,27 @@ html{
     z-index: 58;
     float: right;
     position: relative;
-    top:20em;
+    top: -9em;
 }
 .triangle9{
     width: 0;
     height: 0;
-    border-bottom: 15em solid lightgrey;
+    border-bottom: 10em solid lightgrey;
     border-right: 95em solid transparent;
     z-index: 55;
     float: right;
     position: absolute;
-    top:6em;
+    top:-10em;
 }
 .triangle10{
     width: 0;
     height: 0;
-    border-bottom: 15em solid lightgrey;
+    border-bottom: 10em solid lightgrey;
     border-left: 95em solid transparent;
     z-index: 55;
     float: right;
     position: relative;
-    top:6em;
+    top:-20em;
 }
 
 /*autre*/

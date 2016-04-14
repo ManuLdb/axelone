@@ -101,15 +101,19 @@
 
     </div>
     <div class="col-md-6 " id="siss">
+        <div class="col-md-6 bordtriangle5"></div>
+        <div class="col-md-6 bordtriangle6"></div>
+        <div class="col-md-6 triangle9"></div>
+        <div class="col-md-6 triangle10"></div>
         <div class="col-md-6">
-            <p>
+            <p class="sissp">
                 Nunc vel sem a arcu mattis luctus et quis quam. Donec faucibus pulvinar velit, eget finibus risus ornare tristique.
                 Duis elit diam, hendrerit non dictum quis, egestas in nulla. Pellentesque consectetur at dolor ac dapibus. Phasellus feugiat libero id ex scelerisque,
                 congue laoreet sapien finibus. Sed et neque eu tortor suscipit venenatis. Praesent felis tortor, sodales quis commodo sit amet, rutrum vitae quam.
             </p>
         </div>
         <div class="col-md-6">
-
+            <?php echo do_shortcode('[contact-form-7 id="6" title="Formulaire de contact 1"]'); ?>
         </div>
     </div>
 </main>
