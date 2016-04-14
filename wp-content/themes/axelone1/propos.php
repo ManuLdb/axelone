@@ -141,6 +141,19 @@ Template Name: à propos
         </p>
     </div>
 
+   
+       <div class="row">
+          
+          <div class="col-md-12"> <img src="" class="img-responsive" id="industrie" alt=""/></div>
+        
+       </div>
+
+    
+
+
+
+
+
 
 
 

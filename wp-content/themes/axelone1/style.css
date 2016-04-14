@@ -1,14 +1,30 @@
 html{
     overflow-x: hidden;
 }
-/*Manu*/
 #first{
-    background-color: dodgerblue;
+    background-color: red;
     min-height: 65em;
     min-width: 100%;
     position: relative;
     z-index: 55;
 }
+<<<<<<< HEAD
+=======
+#deuz{
+    background-color: grey;
+    min-height: 40em;
+    min-width: 100%;
+    position: relative;
+    z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:-275px;
+}
+.firstriangle{
+    padding: 0 !important;
+    display: block;
+}
+>>>>>>> e466525a341ec6271e656cc1e4320c9068804806
 .bordtriangle1 {
     width: 0;
     height: 0;
@@ -32,22 +48,22 @@ html{
 .triangle1 {
     width: 0;
     height: 0;
-    border-bottom: 10em solid lightgrey;
+    border-bottom: 10em solid grey;
     border-right: 75em solid transparent;
     z-index: 58;
     float: right;
     position: absolute;
-    top:-274px;
+    top:-275px;
 }
 .triangle2{
     width: 0;
     height: 0;
-    border-bottom: 10em solid lightgrey;
+    border-bottom: 10em solid grey;
     border-left: 75em solid transparent;
     z-index: 58;
     float: right;
     position: relative;
-    top:-274px;
+    top:-275px;
 }
 #deuz{
     background-color: lightgrey;
@@ -108,7 +124,7 @@ h3{
 #katre{
     border-top: 3px solid yellow;
     border-bottom: 3px solid red;
-    background-color: lightgrey;
+    background-color: purple;
     min-height: 40em;
     min-width: 100%;
     position: relative;
@@ -195,13 +211,14 @@ h3{
 }
 
 #siss{
-    background-color: orangered;
+    background-color: red;
     min-height: 50em;
     min-width: 100%;
     position: relative;
     z-index: 56;
     padding: 0 !important;
     display: block;
+<<<<<<< HEAD
     top:5em;
 }
 .bordtriangle5{
@@ -246,6 +263,10 @@ h3{
 }
 
 /*autre*/
+=======
+    top:50em;
+}
+>>>>>>> e466525a341ec6271e656cc1e4320c9068804806
 h1 {
     color: #1991dd;
 }
@@ -262,8 +283,9 @@ header ul li {
     display: inline-block;
     list-style-type: none;
     border-style: solid;
-    border-width: 0px 3px 0px 0px;
+    border-width: 0px 2px 0px 0px;
     border-color: white;
+
 }
 
 header ul li a {
@@ -352,9 +374,8 @@ body {
     margin-right:5%;
     margin-top: 2%;
     font-size: 15px;
-=======
-    float: left;
->>>>>>> Stashed changes
+
+
 }
 
 .secondiv {
@@ -404,3 +425,7 @@ p {
     margin-top: 3%;
 }
 
+#industrie{
+    background:url('../axelone1/img/industrie.png') no-repeat center center;
+    height: 500px;
+}

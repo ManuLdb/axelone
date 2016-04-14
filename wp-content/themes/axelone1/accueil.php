@@ -5,7 +5,8 @@
 <?php get_header(); ?>
 
 <main>
-    <div class="col-md-12" id="first"></div>
+    <div class="col-md-12" id="first">
+    </div>
         <div class="col-md-6 firstriangle">
             <div class="bordtriangle1"></div>
         </div>
@@ -17,7 +18,7 @@
         </div>
         <div class="col-md-6 firstriangle">
             <div class="triangle2"></div>
-        </div>
+    </div>
     <div class="col-md-12" id="deuz">
         <div class="col-md-12">
             <div class="col-md-4 deuztext">
@@ -84,20 +85,5 @@
         <div class="col-md-6 triangle8"></div>
 
     </div>
-
-    <div class="col-md-6 firstriangle">
-        <div class="bordtriangle5"></div>
-    </div>
-    <div class="col-md-6 firstriangle">
-        <div class="bordtriangle6"></div>
-    </div>
-    <div class="col-md-6 firstriangle">
-        <div class="triangle9"></div>
-    </div>
-    <div class="col-md-6 firstriangle">
-        <div class="triangle10"></div>
-    </div>
-
     <div class="col-md-6 " id="siss"></div>
 </main>
-<?php get_footer(); ?>
