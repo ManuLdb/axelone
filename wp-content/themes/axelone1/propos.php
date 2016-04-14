@@ -134,6 +134,19 @@ Template Name: à propos
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequa.</p></div>
 
+   
+       <div class="row">
+          
+          <div class="col-md-12"> <img src="" class="img-responsive" id="industrie" alt=""/></div>
+        
+       </div>
+
+    
+
+
+
+
+
 
 
 

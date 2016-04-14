@@ -349,3 +349,7 @@ p {
     margin-top: 3%;
 }
 
+#industrie{
+    background:url('../axelone1/img/industrie.png') no-repeat center center;
+    height: 500px;
+}
