@@ -16,6 +16,16 @@ html{
     background:url('../axelone1/img/flatusine.png') no-repeat center center;
     position: absolute;
 }
+
+#persoheader{
+
+    min-height: 65em;
+    z-index: 99;
+    min-width: 100%;
+    background:url('../axelone1/img/personnages.png') no-repeat center bottom;
+    position: absolute;
+}
+
 #deuz{
     background-color: grey;
     min-height: 40em;

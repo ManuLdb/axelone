@@ -6,7 +6,9 @@
 
 <main>
     <div class="col-md-12" id="first">
-        <div id="usine"></div>
+        <div id="usine">
+            <div id="persoheader"></div>
+        </div>
     </div>
         <div class="col-md-6 firstriangle">
             <div class="bordtriangle1"></div>
@@ -120,3 +122,5 @@
         </div>
     </div>
 </main>
+
+<?php get_footer(); ?>
