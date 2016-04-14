@@ -64,6 +64,8 @@
         </div>
     </div>
     <div class="col-md-12" id="troiz">
+        <div class="col-md-5" id="opacity1"></div>
+        <div class="col-md-5" id="opacity2" ></div>
     </div>
     <div class="col-md-12" id="katre">
         <h3>NOS PARTENAIRES</h3>

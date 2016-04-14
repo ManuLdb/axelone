@@ -25,7 +25,7 @@ html{
 .bordtriangle1 {
     width: 0;
     height: 0;
-    border-bottom: 10em solid yellow;
+    border-bottom: 10em solid #ddc503;
     border-right: 75em solid transparent;
     z-index: 57;
     float: right;
@@ -35,7 +35,7 @@ html{
 .bordtriangle2{
     width: 0;
     height: 0;
-    border-bottom: 10em solid yellow;
+    border-bottom: 10em solid #ddc503;
     border-left: 75em solid transparent;
     z-index: 57;
     float: right;
@@ -91,7 +91,7 @@ html{
 .triangle3{
     width: 0;
     height: 0;
-    border-bottom: 13em solid yellow;
+    border-bottom: 13em solid #ddc503;
     border-left: 68em solid transparent;
     z-index: 60;
     float: right;
@@ -101,7 +101,7 @@ html{
 .triangle4{
     width: 0;
     height: 0;
-    border-bottom: 13em solid yellow;
+    border-bottom: 13em solid #ddc503;
     border-right: 68em solid transparent;
     z-index: 60;
     float: right;
@@ -121,8 +121,23 @@ html{
     background-size:cover;
 
 }
+
+#opacity1 {
+    background-color: black;
+    min-height: 45em;
+    margin: 40px 50px 40px 5%;
+    opacity:0.6;
+}
+
+#opacity2 {
+    background-color: black;
+    height: 45em;
+    margin: 40px 5% 40px 20px;
+    opacity:0.6;
+}
+
 #katre{
-    border-top: 3px solid yellow;
+    border-top: 3px solid #ddc503;
     border-bottom: 3px solid red;
     background-color: lightgrey;
     min-height: 40em;
@@ -157,7 +172,7 @@ html{
 .blockjaune{
     min-height: 10em;
     min-width: 10em;
-    background-color: yellow;
+    background-color: #ddc503;
     width: 80%;
     margin-left: 20%;
     position: absolute;
@@ -200,7 +215,7 @@ html{
 .triangle5{
     width: 0;
     height: 0;
-    border-bottom: 13em solid yellow;
+    border-bottom: 13em solid #ddc503;
     border-left: 95em solid transparent;
     z-index: 58;
     float: right;
@@ -210,7 +225,7 @@ html{
 .triangle6{
     width: 0;
     height: 0;
-    border-bottom: 13em solid yellow;
+    border-bottom: 13em solid #ddc503;
     border-right: 95em solid transparent;
     z-index: 58;
     float: right;
@@ -220,9 +235,9 @@ html{
 .triangle7{
     width: 0;
     height: 0;
-    border-bottom: 30em solid yellow;
+    border-bottom: 30em solid #ddc503;
     border-left: 150em solid transparent;
-    border-top: 30em solid yellow;
+    border-top: 30em solid #ddc503;
     z-index: 60;
     float: right;
     position: relative;
@@ -232,8 +247,8 @@ html{
 .triangle8{
     width: 0;
     height: 0;
-    border-bottom: 30em solid yellow;
-    border-top: 30em solid yellow;
+    border-bottom: 30em solid #ddc503;
+    border-top: 30em solid #ddc503;
     border-right: 150em solid transparent;
     z-index: 60;
     float: right;
