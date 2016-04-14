@@ -129,10 +129,17 @@ Template Name: à propos
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequa.</p></div>
-    <div class="col-md-4"><h2>SERVICE 3</h2><i class="glyph glyphicon glyphicon-adjust" style="font-size:40px;"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <div class="col-md-4 deuztext">
+        <h2>SERVICE 3</h2>
+        <i class="glyph glyphicon glyphicon-adjust" style="font-size:40px;"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequa.</p></div>
+            laboris nisi ut aliquip ex ea commodo consequa.
+        </p>
+    </div>
 
 
 

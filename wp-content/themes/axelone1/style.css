@@ -9,20 +9,6 @@ html{
     position: relative;
     z-index: 55;
 }
-#deuz{
-    background-color: lightgrey;
-    min-height: 40em;
-    min-width: 100%;
-    position: relative;
-    z-index: 56;
-    padding: 0 !important;
-    display: block;
-    top:-275px;
-}
-.firstriangle{
-    padding: 0 !important;
-    display: block;
-}
 .bordtriangle1 {
     width: 0;
     height: 0;
@@ -63,25 +49,51 @@ html{
     position: relative;
     top:-274px;
 }
+#deuz{
+    background-color: lightgrey;
+    min-height: 40em;
+    min-width: 100%;
+    position: relative;
+    z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:-275px;
+}
+.deuztext{
+    position: relative;
+    z-index: 90;
+    top:6em;
+}
+h3{
+    z-index: 90;
+    position: relative;
+    text-align: center;
+    top:4em;
+    font-size: 60px;
+}
+.firstriangle{
+    padding: 0 !important;
+    display: block;
+}
 .triangle3{
     width: 0;
     height: 0;
     border-bottom: 13em solid yellow;
     border-left: 68em solid transparent;
-    z-index: 58;
+    z-index: 60;
     float: right;
     position: relative;
-    top:27em;
+    top:8em;
 }
 .triangle4{
     width: 0;
     height: 0;
     border-bottom: 13em solid yellow;
     border-right: 68em solid transparent;
-    z-index: 58;
+    z-index: 60;
     float: right;
     position: absolute;
-    top:27em;
+    top:8em;
 }
 #troiz{
     background-color: green;
@@ -196,41 +208,41 @@ html{
     width: 0;
     height: 0;
     border-bottom: 10em solid orangered;
-    border-right: 75em solid transparent;
+    border-right: 95em solid transparent;
     z-index: 58;
     float: right;
     position: absolute;
-    top:15em;
+    top:20em;
 }
 .bordtriangle6{
     width: 0;
     height: 0;
     border-bottom: 10em solid orangered;
-    border-left: 75em solid transparent;
+    border-left: 95em solid transparent;
     z-index: 58;
     float: right;
     position: relative;
-    top:15em;
+    top:20em;
 }
 .triangle9{
     width: 0;
     height: 0;
-    border-bottom: 10em solid lightgrey;
-    border-right: 75em solid transparent;
-    z-index: 57;
+    border-bottom: 15em solid lightgrey;
+    border-right: 95em solid transparent;
+    z-index: 55;
     float: right;
     position: absolute;
-    top:4em;
+    top:6em;
 }
 .triangle10{
     width: 0;
     height: 0;
-    border-bottom: 10em solid lightgrey;
-    border-left: 75em solid transparent;
-    z-index: 57;
+    border-bottom: 15em solid lightgrey;
+    border-left: 95em solid transparent;
+    z-index: 55;
     float: right;
     position: relative;
-    top:4em;
+    top:6em;
 }
 
 /*autre*/
