@@ -110,13 +110,16 @@ html{
 }
 #troiz{
     background-color: black;
-    min-height: 40em;
+    min-height: 50em;
     min-width: 100%;
     position: relative;
     z-index: 56;
     padding: 0 !important;
     display: block;
     top:-275px;
+    background:url('../axelone1/img/factory.png') no-repeat;
+    background-size:cover;
+
 }
 #katre{
     border-top: 3px solid yellow;
@@ -497,4 +500,6 @@ body {
 #industrie{
     background:url('../axelone1/img/industrie.png') no-repeat center center;
     height: 500px;
+    z-index: 99;
 }
+
