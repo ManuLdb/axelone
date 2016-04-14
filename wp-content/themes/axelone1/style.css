@@ -77,7 +77,7 @@ html{
     z-index: 90;
     top:6em;
 }
-h3{
+#deuz h3{
     z-index: 90;
     position: relative;
     text-align: center;
@@ -109,7 +109,7 @@ h3{
     top:8em;
 }
 #troiz{
-    background-color: green;
+    background-color: black;
     min-height: 40em;
     min-width: 100%;
     position: relative;
@@ -121,7 +121,7 @@ h3{
 #katre{
     border-top: 3px solid yellow;
     border-bottom: 3px solid red;
-    background-color: purple;
+    background-color: lightgrey;
     min-height: 40em;
     min-width: 100%;
     position: relative;
@@ -129,6 +129,36 @@ h3{
     padding: 0 !important;
     display: block;
     top:-275px;
+}
+#katre h3{
+    z-index: 90;
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    top:1em;
+    color:grey;
+}
+#katre p{
+    font-size: 20px;
+    text-align: center;
+    top: 5em;
+    z-index: 90;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10em;
+}
+.blockjaune{
+    min-height: 10em;
+    min-width: 10em;
+    background-color: yellow;
+    width: 80%;
+    margin-left: 20%;
+    position: absolute;
+    bottom: 0;
 }
 #cink{
     background-color: white;
@@ -215,8 +245,16 @@ h3{
     z-index: 56;
     padding: 0 !important;
     display: block;
-<<<<<<< HEAD
     top:5em;
+}
+#siss p{
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25%;
 }
 .bordtriangle5{
     width: 0;
@@ -260,10 +298,6 @@ h3{
 }
 
 /*autre*/
-=======
-    top:50em;
-}
->>>>>>> e466525a341ec6271e656cc1e4320c9068804806
 h1 {
     color: #1991dd;
 }
@@ -403,7 +437,7 @@ body {
 /** Fabien à propos **/
 
 
-h2 {
+.deuztext h2 {
     text-align: center !important;
 }
 
@@ -414,7 +448,7 @@ h2 {
     margin-right: auto !important;
 }
 
-p {
+.deuztext p {
     text-align: center !important;
     display: block !important;
     margin-left: auto !important;
