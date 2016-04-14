@@ -6,6 +6,7 @@
 
 <main>
     <div class="col-md-12" id="first">
+        <div id="usine"></div>
     </div>
         <div class="col-md-6 firstriangle">
             <div class="bordtriangle1"></div>

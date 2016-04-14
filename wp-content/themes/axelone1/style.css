@@ -2,12 +2,19 @@ html{
     overflow-x: hidden;
 }
 #first{
-    background-color: dodgerblue;
+    background-color: #0a5aa6;
     min-height: 65em;
     min-width: 100%;
     position: relative;
     z-index: 55;
+}
 
+#usine{
+    min-height: 65em;
+    z-index: 99;
+    min-width: 100%;
+    background:url('../axelone1/img/flatusine.png') no-repeat center center;
+    position: absolute;
 }
 #deuz{
     background-color: grey;
