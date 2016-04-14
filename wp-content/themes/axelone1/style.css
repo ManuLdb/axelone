@@ -7,6 +7,7 @@ html{
     min-width: 100%;
     position: relative;
     z-index: 55;
+
 }
 #deuz{
     background-color: grey;
@@ -518,3 +519,19 @@ body {
     z-index: 99;
 }
 
+@font-face {
+    font-family: 'code_lightregular';
+    src: url('font/code_light.eot');
+    src: url('font/code_light.eot?#iefix') format('embedded-opentype'),
+    url('font/code_light.woff2') format('woff2'),
+    url('font/code_light.woff') format('woff'),
+    url('font/code_light.ttf') format('truetype'),
+    url('font/code_light.svg#code_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#titre {
+    font-family: 'code_lightregular';
+    font-weight: bold;
+}

@@ -22,7 +22,7 @@
     <div class="col-md-12" id="deuz">
         <div class="col-md-12">
             <div class="col-md-4 deuztext">
-                <h2>SERVICE 3</h2>
+                <h2 id="titre">SERVICE 1</h2>
                 <i class="glyph glyphicon glyphicon-adjust" style="font-size:40px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -32,7 +32,7 @@
                 </p>
             </div>
             <div class="col-md-4 deuztext">
-                <h2>SERVICE 3</h2>
+                <h2 id="titre">SERVICE 2</h2>
                 <i class="glyph glyphicon glyphicon-adjust" style="font-size:40px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -42,7 +42,7 @@
                 </p>
             </div>
             <div class="col-md-4 deuztext">
-                <h2>SERVICE 3</h2>
+                <h2 id="titre">SERVICE 3</h2>
                 <i class="glyph glyphicon glyphicon-adjust" style="font-size:40px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -52,7 +52,7 @@
                 </p>
             </div>
         </div>
-        <h3>A propos</h3>
+        <h3 id="titre">À propos</h3>
 
         <div class="col-md-12">
             <div class="col-md-6 firstriangle">
@@ -68,7 +68,7 @@
         <div class="col-md-5" id="opacity2" ></div>
     </div>
     <div class="col-md-12" id="katre">
-        <h3>NOS PARTENAIRES</h3>
+        <h3 id="titre">NOS PARTENAIRES</h3>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis facere illo labore libero obcaecati
             quae repellendus veritatis? Corporis doloremque exercitationem illum, inventore maiores
