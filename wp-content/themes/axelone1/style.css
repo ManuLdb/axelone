@@ -2,14 +2,12 @@ html{
     overflow-x: hidden;
 }
 #first{
-    background-color: red;
+    background-color: dodgerblue;
     min-height: 65em;
     min-width: 100%;
     position: relative;
     z-index: 55;
 }
-<<<<<<< HEAD
-=======
 #deuz{
     background-color: grey;
     min-height: 40em;
@@ -24,7 +22,6 @@ html{
     padding: 0 !important;
     display: block;
 }
->>>>>>> e466525a341ec6271e656cc1e4320c9068804806
 .bordtriangle1 {
     width: 0;
     height: 0;
@@ -48,7 +45,7 @@ html{
 .triangle1 {
     width: 0;
     height: 0;
-    border-bottom: 10em solid grey;
+    border-bottom: 10em solid lightgrey;
     border-right: 75em solid transparent;
     z-index: 58;
     float: right;
@@ -58,7 +55,7 @@ html{
 .triangle2{
     width: 0;
     height: 0;
-    border-bottom: 10em solid grey;
+    border-bottom: 10em solid lightgrey;
     border-left: 75em solid transparent;
     z-index: 58;
     float: right;
