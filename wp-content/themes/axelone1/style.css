@@ -287,25 +287,25 @@ html{
     width: 0;
     height: 0;
     border-bottom: 30em solid #ddc503;
-    border-left: 150em solid transparent;
+    border-left: 200em solid transparent;
     border-top: 30em solid #ddc503;
     z-index: 60;
     float: right;
     position: relative;
     top:15em;
-    left:15em;
+    left:30em;
 }
 .triangle8{
     width: 0;
     height: 0;
     border-bottom: 30em solid #ddc503;
     border-top: 30em solid #ddc503;
-    border-right: 150em solid transparent;
+    border-right: 200em solid transparent;
     z-index: 60;
     float: right;
     position: absolute;
     top:28em;
-    left:-15em;
+    left:-30em;
 }
 
 #siss{
