@@ -110,7 +110,7 @@ html{
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
-    border-left: 68em solid transparent;
+    border-left: 90em solid transparent;
     z-index: 60;
     float: right;
     position: relative;
@@ -120,7 +120,7 @@ html{
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
-    border-right: 68em solid transparent;
+    border-right: 90em solid transparent;
     z-index: 60;
     float: right;
     position: absolute;
@@ -195,6 +195,7 @@ html{
     margin-left: 20%;
     position: absolute;
     bottom: 0;
+    z-index: 60;
 }
 #scroller{
     position: relative;
@@ -202,7 +203,7 @@ html{
     z-index: 80;
     margin-top:3em;
     height: 100% !important;
-    min-height: 5em !important;
+    min-height: 10em !important;
 }
 #scroller .zone{
     overflow: hidden;position: absolute;left: 0;right: 0;top: 0;bottom: 0;
@@ -216,14 +217,12 @@ html{
 #scroller img{
     position: relative;
     z-index: 80;
-    margin-left:10em;
-    margin-right: 10em;
-    min-height: 15em;
-    max-width: 150px;
-    max-height: 150px;
-    min-width: 150px;
-    min-height: 150px;
-    min-width: 15em;
+    margin-left:15em;
+    margin-right: 15em;
+    min-width: 10em;
+    min-height: 10em;
+    max-height: 10em;
+    max-width: 10em;
 }
 #scroller img:hover{
     position: relative;
