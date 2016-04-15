@@ -196,6 +196,27 @@ html{
     position: absolute;
     bottom: 0;
 }
+#scroller{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#scroller .zone{
+    position: absolute;left: 0;right: 0;top: 0;bottom: 0;
+}
+#scroller ul{
+    padding: 0;margin: 0;position: relative;
+}
+#scroller li{
+    padding: 0;margin: 0;list-style-type: none;position: absolute;
+}
+#scroller img{
+    margin-left: 1em;
+    margin-right: 1em;
+    position: relative;
+    z-index: 1;
+    max-height: 10em;
+}
 #cink{
     background-color: white;
     min-height: 50em;
