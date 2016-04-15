@@ -46,7 +46,7 @@
             </div>
             <div class="col-md-4 deuztext">
                 <h2 id="titre">SERVICE 3</h2>
-                <i class="fa fa-camera-retro glyph" style="font-size:40px;"></i>
+                <i class="fa fa-clock-o glyph" style="font-size:40px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
