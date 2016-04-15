@@ -199,10 +199,13 @@ html{
 #scroller{
     position: relative;
     width: 100%;
-    z-index: 1;
+    z-index: 80;
+    margin-top:3em;
+    height: 100% !important;
+    min-height: 5em !important;
 }
 #scroller .zone{
-    position: absolute;left: 0;right: 0;top: 0;bottom: 0;
+    overflow: hidden;position: absolute;left: 0;right: 0;top: 0;bottom: 0;
 }
 #scroller ul{
     padding: 0;margin: 0;position: relative;
@@ -211,11 +214,20 @@ html{
     padding: 0;margin: 0;list-style-type: none;position: absolute;
 }
 #scroller img{
-    margin-left: 1em;
-    margin-right: 1em;
     position: relative;
-    z-index: 1;
-    max-height: 10em;
+    z-index: 80;
+    margin-left:10em;
+    margin-right: 10em;
+    min-height: 15em;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    min-width: 15em;
+}
+#scroller img:hover{
+    position: relative;
+    z-index: 81;
 }
 #cink{
     background-color: white;
@@ -298,7 +310,7 @@ html{
 
 #siss{
     margin-top: 35em;
-    background-color: red;
+    background-color: #d65c5c;
     min-height: 50em;
     min-width: 100%;
     position: relative;
@@ -354,7 +366,7 @@ html{
 .bordtriangle5{
     width: 0;
     height: 0;
-    border-bottom: 10em solid orangered;
+    border-bottom: 10em solid #d65c5c;
     border-right: 95em solid transparent;
     z-index: 58;
     float: right;
@@ -364,7 +376,7 @@ html{
 .bordtriangle6{
     width: 0;
     height: 0;
-    border-bottom: 10em solid orangered;
+    border-bottom: 10em solid #d65c5c;
     border-left: 95em solid transparent;
     z-index: 58;
     float: right;

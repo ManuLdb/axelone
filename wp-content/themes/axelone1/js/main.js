@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
     var scroller = $('#scroller div.zone');
     var scrollerContent = scroller.children('ul');
     scrollerContent.children().clone().appendTo(scrollerContent);
