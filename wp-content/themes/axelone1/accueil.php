@@ -10,17 +10,17 @@
             <div id="persoheader"></div>
         </div>
     </div>
-        <div class="col-md-6 firstriangle">
-            <div class="bordtriangle1"></div>
-        </div>
-        <div class="col-md-6 firstriangle">
-            <div class="bordtriangle2"></div>
-        </div>
-        <div class="col-md-6 firstriangle">
-            <div class="triangle1"></div>
-        </div>
-        <div class="col-md-6 firstriangle">
-            <div class="triangle2"></div>
+    <div class="col-md-6 firstriangle">
+        <div class="bordtriangle1"></div>
+    </div>
+    <div class="col-md-6 firstriangle">
+        <div class="bordtriangle2"></div>
+    </div>
+    <div class="col-md-6 firstriangle">
+        <div class="triangle1"></div>
+    </div>
+    <div class="col-md-6 firstriangle">
+        <div class="triangle2"></div>
     </div>
     <div class="col-md-12" id="deuz">
         <div class="col-md-12">
@@ -67,8 +67,19 @@
         </div>
     </div>
     <div class="col-md-12" id="troiz">
-        <div class="col-md-5" id="opacity1"></div>
-        <div class="col-md-5" id="opacity2" ></div>
+        <div class="col-md-5" id="opacity1">
+            <h1 id="titre" class="axel">AXEL'ONE</h1>
+            <p class="apropotxt">
+                ÉLITE ORGANISATION est un cabinet spécialisé dans l'amélioration des performances et des organisations, intervenant dans tous les secteurs d'activité : industrie, services, logistique, BTP, etc.
+                <br>
+                <br>
+                ÉLITE ORGANISATION vous conseille, forme vos équipes et les accompagne dans la mise en œuvre des plans d'amélioration.
+           </p>
+
+        </div>
+        <div class="col-md-5" id="opacity2">
+            <h1 id="titre" class="karine">KARINE G.L</h1>
+        </div>
     </div>
     <div class="col-md-12" id="katre">
         <h3 id="titre">NOS PARTENAIRES</h3>
@@ -87,6 +98,7 @@
             <div class="col-md-12" id="scroller">
                 <div class="zone">
                     <ul>
+<<<<<<< Updated upstream
                         <li style="left: 0px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 120px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
                         <li style="left: 236px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
@@ -102,6 +114,38 @@
                         <li style="left: 2535px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 2745px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
                         <li style="left: 3011px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
+=======
+                        <li style="left: 0px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                               class="img-responsive"></a></li>
+                        <li style="left: 120px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                 class="img-responsive"></a></li>
+                        <li style="left: 236px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                 class="img-responsive"></a></li>
+                        <li style="left: 351px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                 class="img-responsive"></a></li>
+                        <li style="left: 466px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                 class="img-responsive"></a></li>
+                        <li style="left: 1353px;"><img src="../wp-content/themes/axelone1/img/a.png"
+                                                       class="img-responsive"></a></li>
+                        <li style="left: 1438px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+                        <li style="left: 1538px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+                        <li style="left: 1668px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+                        <li style="left: 1906px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+                        <li style="left: 2140px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+                        <li style="left: 2304px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+                        <li style="left: 2535px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+                        <li style="left: 2745px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+                        <li style="left: 3011px;"><a href=""><img src="../wp-content/themes/axelone1/img/a.png"
+                                                                  class="img-responsive"></a></li>
+>>>>>>> Stashed changes
                     </ul>
                 </div>
             </div>
@@ -132,9 +176,12 @@
         <div class="col-md-6 triangle10"></div>
         <div class="col-md-6">
             <p class="sissp">
-                Nunc vel sem a arcu mattis luctus et quis quam. Donec faucibus pulvinar velit, eget finibus risus ornare tristique.
-                Duis elit diam, hendrerit non dictum quis, egestas in nulla. Pellentesque consectetur at dolor ac dapibus. Phasellus feugiat libero id ex scelerisque,
-                congue laoreet sapien finibus. Sed et neque eu tortor suscipit venenatis. Praesent felis tortor, sodales quis commodo sit amet, rutrum vitae quam.
+                Nunc vel sem a arcu mattis luctus et quis quam. Donec faucibus pulvinar velit, eget finibus risus ornare
+                tristique.
+                Duis elit diam, hendrerit non dictum quis, egestas in nulla. Pellentesque consectetur at dolor ac
+                dapibus. Phasellus feugiat libero id ex scelerisque,
+                congue laoreet sapien finibus. Sed et neque eu tortor suscipit venenatis. Praesent felis tortor, sodales
+                quis commodo sit amet, rutrum vitae quam.
             </p>
         </div>
         <div class="col-md-6">

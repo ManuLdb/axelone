@@ -154,6 +154,31 @@ html{
     opacity:0.6;
 }
 
+.karine {
+    color: white;
+    text-align: center;
+    display:block;
+    margin-top:50%;
+    font-size: 70px;
+    font-weight: lighter!important;
+}
+
+.axel {
+    color: #ddc503;
+    text-align: center;
+    font-size: 55px;
+    font-weight: lighter!important;
+    margin-top: 10%;
+}
+
+.apropotxt {
+    color: white;
+    font-family: helvetica;
+    font-size:20px;
+    margin-top: 20%;
+}
+
+
 #katre{
     border-top: 3px solid #ddc503;
     border-bottom: 3px solid red;
