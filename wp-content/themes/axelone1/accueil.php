@@ -87,7 +87,7 @@
             <div class="col-md-12" id="scroller">
                 <div class="zone">
                     <ul>
-                        <li style="left: 0px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
+                        <li style="left: 0px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 120px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
                         <li style="left: 236px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
                         <li style="left: 351px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
