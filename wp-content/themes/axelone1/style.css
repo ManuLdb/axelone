@@ -5,7 +5,6 @@ html{
     background-color: #0a5aa6;
     min-height: 65em;
     min-width: 100%;
-    position: relative;
     z-index: 55;
 }
 
@@ -27,10 +26,9 @@ html{
 }
 
 #deuz{
-    background-color: grey;
+    background-color: lightgrey;
     min-height: 40em;
     min-width: 100%;
-    position: relative;
     z-index: 56;
     padding: 0 !important;
     display: block;
@@ -80,16 +78,6 @@ html{
     position: relative;
     top:-275px;
 }
-#deuz{
-    background-color: lightgrey;
-    min-height: 40em;
-    min-width: 100%;
-    position: relative;
-    z-index: 56;
-    padding: 0 !important;
-    display: block;
-    top:-275px;
-}
 .deuztext{
     position: relative;
     z-index: 90;
@@ -135,9 +123,11 @@ html{
     padding: 0 !important;
     display: block;
     top:-275px;
-    background:url('../axelone1/img/factory.png') no-repeat;
-    background-size:cover;
-
+    background:url('../axelone1/img/factory.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #opacity1 {
@@ -153,6 +143,31 @@ html{
     margin: 40px 5% 40px 20px;
     opacity:0.6;
 }
+
+.karine {
+    color: white;
+    text-align: center;
+    display:block;
+    margin-top:50%;
+    font-size: 70px;
+    font-weight: lighter!important;
+}
+
+.axel {
+    color: #ddc503;
+    text-align: center;
+    font-size: 55px;
+    font-weight: lighter!important;
+    margin-top: 10%;
+}
+
+.apropotxt {
+    color: white;
+    font-family: helvetica;
+    font-size:20px;
+    margin-top: 20%;
+}
+
 
 #katre{
     border-top: 3px solid #ddc503;
@@ -570,12 +585,12 @@ body {
 
 @font-face {
     font-family: 'code_lightregular';
-    src: url('font/code_light.eot');
-    src: url('font/code_light.eot?#iefix') format('embedded-opentype'),
-    url('font/code_light.woff2') format('woff2'),
-    url('font/code_light.woff') format('woff'),
-    url('font/code_light.ttf') format('truetype'),
-    url('font/code_light.svg#code_lightregular') format('svg');
+    src: url('fonts/code_light.eot');
+    src: url('fonts/code_light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/code_light.woff2') format('woff2'),
+    url('fonts/code_light.woff') format('woff'),
+    url('fonts/code_light.ttf') format('truetype'),
+    url('fonts/code_light.svg#code_lightregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
