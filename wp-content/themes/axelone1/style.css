@@ -98,7 +98,7 @@ html{
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
-    border-left: 90em solid transparent;
+    border-left: 100em solid transparent;
     z-index: 60;
     float: right;
     position: relative;
@@ -108,7 +108,7 @@ html{
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
-    border-right: 90em solid transparent;
+    border-right: 100em solid transparent;
     z-index: 60;
     float: right;
     position: absolute;
