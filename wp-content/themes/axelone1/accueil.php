@@ -84,7 +84,7 @@
     <div class="col-md-12" id="katre">
         <h3 id="titre">NOS PARTENAIRES</h3>
         <p>
-            Depuis notre création en 2003, notre équipe ELITE ORGANISATION s'est structurée de manière cohérente et maîtrisée autor de six pôles d'expertises:
+            Depuis notre création en 2003, notre équipe <FONT color="yellow"> <b>ELITE ORGANISATION</b> </FONT> s'est structurée de manière cohérente et maîtrisée autour de six pôles d'expertises:
             Logistique, Méthodes, Lean, Ergonomie, QSE et Management
         </p>
         <div class="blockjaune">
