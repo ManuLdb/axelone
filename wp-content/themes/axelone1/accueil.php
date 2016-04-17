@@ -84,15 +84,8 @@
     <div class="col-md-12" id="katre">
         <h3 id="titre">NOS PARTENAIRES</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis facere illo labore libero obcaecati
-            quae repellendus veritatis? Corporis doloremque exercitationem illum, inventore maiores
-            molestias nostrum numquam saepe! Architecto, quod?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis facere illo labore libero obcaecati
-            quae repellendus veritatis? Corporis doloremque exercitationem illum, inventore maiores
-            molestias nostrum numquam saepe! Architecto, quod?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis facere illo labore libero obcaecati
-            quae repellendus veritatis? Corporis doloremque exercitationem illum, inventore maiores
-            molestias nostrum numquam saepe! Architecto, quod?
+            Depuis notre création en 2003, notre équipe ELITE ORGANISATION s'est structurée de manière cohérente et maîtrisée autor de six pôles d'expertises:
+            Logistique, Méthodes, Lean, Ergonomie, QSE et Management
         </p>
         <div class="blockjaune">
             <div class="col-md-12" id="scroller">
