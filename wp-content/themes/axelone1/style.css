@@ -251,6 +251,7 @@ html{
     padding: 0 !important;
     display: block;
     top:-275px;
+    max-height: 80em;
 }
 #cink h3{
     z-index: 90;
@@ -265,7 +266,7 @@ html{
     position:relative;
 }
 .cinkontact{
-    top:-20em;
+    top:-100em;
 }
 #cink h5{
     color:gold;
@@ -336,7 +337,7 @@ html{
     z-index: 60;
     float: right;
     position: relative;
-    top: 14em;
+    top: 10em;
     left: 30%;
 }
 .triangle8{
@@ -348,8 +349,14 @@ html{
     z-index: 60;
     float: right;
     position: absolute;
-    top: 40em;
-    left: 30%;
+    top:10em;
+    left: -30%;
+}
+#cink img{
+    z-index: 59;
+    position: relative;
+    min-height: 80em;
+    top: -56em;
 }
 
 #siss{
