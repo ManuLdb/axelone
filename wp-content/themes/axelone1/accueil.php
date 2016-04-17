@@ -98,7 +98,6 @@
             <div class="col-md-12" id="scroller">
                 <div class="zone">
                     <ul>
-<<<<<<< HEAD
                         <li style="left: 0px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 120px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
                         <li style="left: 236px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
@@ -114,7 +113,6 @@
                         <li style="left: 2535px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 2745px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
                         <li style="left: 3011px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
-=======
                         <li style="left: 0px;"><a href=""><img  src=" wp-content/theme/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 120px;"><a href=""><img  src=" img/partenaire2.png" class="img-responsive"></a></li>
                         <li style="left: 236px;"><a href=""><img  src=" img/partenaire3.png" class="img-responsive"></a></li>
@@ -130,14 +128,13 @@
                         <li style="left: 2535px;"><a href=""><img  src="img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 2745px;"><a href=""><img  src="img/partenaire2.png" class="img-responsive"></a></li>
                         <li style="left: 3011px;"><a href=""><img  src="img/partenaire3.png" class="img-responsive"></a></li>
->>>>>>> ee36b70f28754e2da1fce34f05959743daa34927
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-md-12" id="cink">
-
+        <h3>PROJETS</h3>
         <div class="col-md-6 firstriangle">
             <div class="bordtriangle3"></div>
         </div>
@@ -150,9 +147,21 @@
         <div class="col-md-6 firstriangle">
             <div class="triangle6"></div>
         </div>
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <h4>PROJET 1</h4>
+            </div>
+            <div class="col-md-6">
+                <h4>PROJET 2</h4>
+            </div>
+        </div>
         <div class="col-md-6 triangle7"></div>
         <div class="col-md-6 triangle8"></div>
-
+        <div class="col-md-12 cinkontact">
+            <h5>CONTACT</h5>
+            <h6>UNE QUESTION,</h6>
+            <h6>UN PROJET ?</h6>
+        </div>
     </div>
     <div class="col-md-6 " id="siss">
         <div class="col-md-6 bordtriangle5"></div>

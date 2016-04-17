@@ -245,7 +245,6 @@ html{
 }
 #cink{
     background-color: white;
-    min-height: 50em;
     min-width: 100%;
     position: relative;
     z-index: 56;
@@ -253,7 +252,39 @@ html{
     display: block;
     top:-275px;
 }
-
+#cink h3{
+    z-index: 90;
+    text-align: center;
+    font-size: 60px;
+}
+#cink h4{
+    z-index: 90;
+    text-align: center;
+    font-size: 60px;
+    top:5em;
+    position:relative;
+}
+.cinkontact{
+    top:-20em;
+}
+#cink h5{
+    color:gold;
+    z-index: 90;
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 1em;
+    top:10em;
+}
+#cink h6{
+    color:gold;
+    z-index: 90;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 1em;
+    top:12em;
+}
 .bordtriangle3{
     width: 0;
     height: 0;
@@ -265,7 +296,6 @@ html{
     position: absolute;
     top:90px;
 }
-
 .bordtriangle4{
     width: 0;
     height: 0;
@@ -301,13 +331,13 @@ html{
     width: 0;
     height: 0;
     border-bottom: 30em solid #ddc503;
-    border-left: 200em solid transparent;
     border-top: 30em solid #ddc503;
+    border-left: 200em solid transparent;
     z-index: 60;
     float: right;
     position: relative;
-    top:15em;
-    left:30em;
+    top: 14em;
+    left: 30%;
 }
 .triangle8{
     width: 0;
@@ -318,8 +348,8 @@ html{
     z-index: 60;
     float: right;
     position: absolute;
-    top:28em;
-    left:-30em;
+    top: 40em;
+    left: 30%;
 }
 
 #siss{
@@ -330,7 +360,7 @@ html{
     position: relative;
     z-index: 56;
     padding: 0 !important;
-    top:5em;
+    top:0em;
 }
 #siss p{
     margin:0 !important;
