@@ -11,11 +11,18 @@ html{
 }
 
 #usine{
-    min-height: 65em;
-    z-index: 99;
+    min-height:75em;
     min-width: 100%;
-    background:url('../axelone1/img/flatusine.png') no-repeat center center;
-    position: absolute;
+    position: relative;
+    z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:-275px;
+    background:url('../axelone1/img/flatusine.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #persoheader{
@@ -25,6 +32,7 @@ html{
     min-width: 100%;
     background:url('../axelone1/img/personnages.png') no-repeat center bottom;
     position: absolute;
+    margin-top: 25em;
 }
 
 #deuz{
@@ -606,6 +614,7 @@ body {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    color:#d65c5c;
 }
 
 .deuztext p {
