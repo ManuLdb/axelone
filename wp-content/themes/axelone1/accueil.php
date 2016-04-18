@@ -134,7 +134,7 @@
         </div>
     </div>
     <div class="col-md-12" id="cink">
-        <h3>PROJETS</h3>
+        <h3 id="titre">PROJETS</h3>
         <div class="col-md-6 firstriangle">
             <div class="bordtriangle3"></div>
         </div>
@@ -149,10 +149,10 @@
         </div>
         <div class="col-md-12">
             <div class="col-md-6">
-                <h4>PROJET 1</h4>
+                <h4 id="titre">PROJET 1</h4>
             </div>
             <div class="col-md-6">
-                <h4>PROJET 2</h4>
+                <h4 id="titre">PROJET 2</h4>
             </div>
         </div>
         <div class="col-md-12">
@@ -161,9 +161,9 @@
             <img src="wp-content/themes/axelone1/img/imgprojets.png" alt="imgprojet" class="img-responsive">
         </div>
         <div class="col-md-12 cinkontact">
-            <h5>CONTACT</h5>
-            <h6>UNE QUESTION,</h6>
-            <h6>UN PROJET ?</h6>
+            <h5 id="titre">CONTACT</h5>
+            <h6 id="titre"> UNE QUESTION,</h6>
+            <h6 id="titre">UN PROJET ?</h6>
         </div>
     </div>
     <div class="col-md-6 " id="siss">
