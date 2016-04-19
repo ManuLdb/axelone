@@ -385,10 +385,11 @@ html{
 .sissp{
     text-transform: uppercase !important;
     text-align: center !important;
-    width: 50% !important;
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    color: white;
+    line-height: 50px;
 
 }
 

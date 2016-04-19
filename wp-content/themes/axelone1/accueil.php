@@ -166,12 +166,13 @@
         <div class="col-md-6 triangle10"></div>
         <div class="col-md-6">
             <p class="sissp">
-                Nunc vel sem a arcu mattis luctus et quis quam. Donec faucibus pulvinar velit, eget finibus risus ornare
-                tristique.
-                Duis elit diam, hendrerit non dictum quis, egestas in nulla. Pellentesque consectetur at dolor ac
-                dapibus. Phasellus feugiat libero id ex scelerisque,
-                congue laoreet sapien finibus. Sed et neque eu tortor suscipit venenatis. Praesent felis tortor, sodales
-                quis commodo sit amet, rutrum vitae quam.
+                CENTRE D'AFFAIRES EXALIS - BAT. F </br>
+                11 RUE DU CHEMIN ROUGE - CS 97332 </br>
+                44373 NANTES CEDEX 3.</br>
+                TEL : 02 40 20 83 29</br>
+                FAX : 02 51 13 49 940</br>
+                INFO@ELITE-ORGANISATION.FR
+                
             </p>
         </div>
         <div class="col-md-6">
