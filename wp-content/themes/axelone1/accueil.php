@@ -84,7 +84,7 @@
     <div class="col-md-12" id="katre">
         <h3 id="titre">NOS PARTENAIRES</h3>
         <p>
-            Depuis notre création en 2003, notre équipe <FONT color="yellow"> <b>ELITE ORGANISATION</b> </FONT> s'est structurée de manière cohérente et maîtrisée autour de six pôles d'expertises:
+            Depuis notre création en 2003, notre équipe <FONT color="yellow"> <b>ELITE ORGANISATION</b> </FONT> s'est structurée de manière cohérente et maîtrisée autour de six pôles d'expertises:</br>
             Logistique, Méthodes, Lean, Ergonomie, QSE et Management
         </p>
         <div class="blockjaune">
@@ -152,6 +152,7 @@
             <div class="col-md-6 triangle7"></div>
             <div class="col-md-6 triangle8"></div>
             <img src="wp-content/themes/axelone1/img/imgprojets.png" alt="imgprojet" class="img-responsive">
+            
         </div>
         <div class="col-md-12 cinkontact">
             <h5 id="titre">CONTACT</h5>
@@ -165,15 +166,16 @@
         <div class="col-md-6 triangle9"></div>
         <div class="col-md-6 triangle10"></div>
         <div class="col-md-6">
-            <p class="sissp">
+           <div class="col-md-8 col-md-offset-3">
+               <p class="sissp">
                 CENTRE D'AFFAIRES EXALIS - BAT. F </br>
                 11 RUE DU CHEMIN ROUGE - CS 97332 </br>
                 44373 NANTES CEDEX 3.</br>
                 TEL : 02 40 20 83 29</br>
                 FAX : 02 51 13 49 940</br>
                 INFO@ELITE-ORGANISATION.FR
-                
-            </p>
+            </p></div>
+            
         </div>
         <div class="col-md-6">
             <?php echo do_shortcode('[contact-form-7 id="6" title="Formulaire de contact 1"]'); ?>
