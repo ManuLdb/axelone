@@ -1,5 +1,9 @@
 html {
     overflow-x: hidden;
+    margin-top: 0px !important;
+}
+body{
+    margin-top: 0px !important;
 }
 
 /*Accueil*/
@@ -495,15 +499,28 @@ html {
 }
 
 /*Formation*/
+<<<<<<< HEAD
+#formation1{
+    margin-top:0 !important;
+=======
 
 #formation1 {
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
     background-color: #c80d0d;
-    min-height: 60em;
+    min-height: 20em;
+    z-index: 59;
+    position: relative;
 }
 #formation1 h2 {
     text-align: center;
     font-size: 60px;
+<<<<<<< HEAD
+    top: 4em;
+    position: relative;
+    z-index: 61;
+=======
     top: 13em;
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
 }
 .formationtriangle1 {
     width: 0;
@@ -513,7 +530,11 @@ html {
     z-index: 60;
     float: right;
     position: relative;
+<<<<<<< HEAD
+    top:10em;
+=======
     top: 54em;
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
 }
 .formationtriangle2 {
     width: 0;
@@ -523,16 +544,71 @@ html {
     z-index: 60;
     float: right;
     position: absolute;
+<<<<<<< HEAD
+    top:10em;
+}
+#formation2{
+    min-height: 20em;
+    max-height: 60em;
+    z-index: 54;
+}
+.formationvideo{
+    z-index: 55 !important;
+    min-height: 70em !important;
+    min-width: 100% !important;
+    position: relative;
+    top: -11em;
+}
+#formation3{
+    min-height: 40em;
+    z-index: 60;
+}
+#formation3 h3{
+    text-align: center;
+    font-size: 50px;
+}
+#formation3 p{
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 2em;
+}
+#formation4{
+    margin-top:0 !important;
+    background-color: #ddc503;
+    min-height: 60em;
+    z-index: 59;
+    position: relative;
+}
+.formationtriangle3{
+=======
     top: 54em;
 }
 .formationbordtriangle1 {
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
     width: 0;
     height: 0;
-    border-top: 15em solid blue;
-    border-left: 50em solid transparent;
-    z-index: 59;
+    border-bottom: 13em solid #ddc503;
+    border-left: 100em solid transparent;
+    z-index: 60;
     float: right;
     position: relative;
+<<<<<<< HEAD
+    top:-12em;
+}
+.formationtriangle4{
+    width: 0;
+    height: 0;
+    border-bottom: 13em solid #ddc503;
+    border-right: 100em solid transparent;
+    z-index: 60;
+    float: right;
+    position: absolute;
+    top:-12em;
+=======
     top: 50em;
 }
 .formationbordtriangle2 {
@@ -544,6 +620,7 @@ html {
     -o-transform: skew(0deg, 3deg);
     transform: skew(0deg, 3deg);
     border-top: 10px solid #191919;
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
 }
 
 /*autre*/
