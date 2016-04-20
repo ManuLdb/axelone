@@ -705,4 +705,10 @@ body {
     font-family: code_lightregular;
     font-weight: bold;
     font-size: 1em;
+    
+}
+
+.footer a {
+    text-decoration: none!important;
+    font-color:black!important;
 }
