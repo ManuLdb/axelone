@@ -653,3 +653,11 @@ body {
     font-family: 'code_lightregular';
     font-weight: bold;
 }
+
+.footer {
+    background-color:darkgrey;
+    text-align: center;
+    font-family: code_lightregular;
+    font-weight: bold;
+    font-size: 1em;
+}
