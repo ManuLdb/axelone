@@ -1,6 +1,7 @@
 html{
     overflow-x: hidden;
 }
+/*Accueil*/
 #first{
     background-color: #0a5aa6;
     min-height: 65em;
@@ -89,10 +90,6 @@ html{
     text-align: center;
     top:4em;
     font-size: 60px;
-}
-.firstriangle{
-    padding: 0 !important;
-    display: block;
 }
 .triangle3{
     width: 0;
@@ -251,7 +248,7 @@ html{
     padding: 0 !important;
     display: block;
     top:-275px;
-    max-height: 80em;
+    max-height: 70em;
 }
 #cink h3{
     z-index: 90;
@@ -362,7 +359,7 @@ html{
 #siss{
     margin-top: 35em;
     background-color: #d65c5c;
-    min-height: 50em;
+    min-height: 20em;
     min-width: 100%;
     position: relative;
     z-index: 56;
@@ -454,7 +451,56 @@ html{
     position: relative;
     top:-20em;
 }
-
+/*Formation*/
+#formation1{
+    background-color: #c80d0d;
+    min-height: 60em;
+}
+#formation1 h2{
+    text-align: center;
+    font-size: 60px;
+    top:13em;
+}
+.formationtriangle1{
+    width: 0;
+    height: 0;
+    border-top: 15em solid #c80d0d;
+    border-left: 30em solid transparent;
+    z-index: 60;
+    float: right;
+    position: relative;
+    top:54em;
+}
+.formationtriangle2{
+    width: 0;
+    height: 0;
+    border-top: 15em solid #c80d0d;
+    border-right: 30em solid transparent;
+    z-index: 60;
+    float: right;
+    position: absolute;
+    top:54em;
+}
+.formationbordtriangle1{
+    width: 0;
+    height: 0;
+    border-top: 15em solid blue;
+    border-left: 50em solid transparent;
+    z-index: 59;
+    float: right;
+    position: relative;
+    top:50em;
+}
+.formationbordtriangle2{
+    position:absolute;
+    width:100%;
+    height:1em;
+    -webkit-transform: skew(0deg, 3deg);
+    -moz-transform: skew(0deg, 3deg);
+    -o-transform: skew(0deg, 3deg);
+    transform: skew(0deg, 3deg);
+    border-top:10px solid #191919;
+}
 /*autre*/
 h1 {
     color: #1991dd;
