@@ -1,9 +1,5 @@
 html {
     overflow-x: hidden;
-    margin-top: 0px !important;
-}
-body{
-    margin-top: 0px !important;
 }
 
 /*Accueil*/
@@ -501,19 +497,21 @@ body{
 /*Formation*/
 <<<<<<< HEAD
 #formation1{
+<<<<<<< HEAD
     margin-top:0 !important;
 =======
 
 #formation1 {
 >>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
+=======
+>>>>>>> parent of 429fca3... Page formation presque finit
     background-color: #c80d0d;
-    min-height: 20em;
-    z-index: 59;
-    position: relative;
+    min-height: 60em;
 }
 #formation1 h2 {
     text-align: center;
     font-size: 60px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     top: 4em;
     position: relative;
@@ -521,6 +519,9 @@ body{
 =======
     top: 13em;
 >>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
+=======
+    top:13em;
+>>>>>>> parent of 429fca3... Page formation presque finit
 }
 .formationtriangle1 {
     width: 0;
@@ -531,10 +532,14 @@ body{
     float: right;
     position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
     top:10em;
 =======
     top: 54em;
 >>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
+=======
+    top:54em;
+>>>>>>> parent of 429fca3... Page formation presque finit
 }
 .formationtriangle2 {
     width: 0;
@@ -544,6 +549,7 @@ body{
     z-index: 60;
     float: right;
     position: absolute;
+<<<<<<< HEAD
 <<<<<<< HEAD
     top:10em;
 }
@@ -589,13 +595,19 @@ body{
 }
 .formationbordtriangle1 {
 >>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
+=======
+    top:54em;
+}
+.formationbordtriangle1{
+>>>>>>> parent of 429fca3... Page formation presque finit
     width: 0;
     height: 0;
-    border-bottom: 13em solid #ddc503;
-    border-left: 100em solid transparent;
-    z-index: 60;
+    border-top: 15em solid blue;
+    border-left: 50em solid transparent;
+    z-index: 59;
     float: right;
     position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
     top:-12em;
 }
@@ -610,6 +622,19 @@ body{
     top:-12em;
 =======
     top: 50em;
+=======
+    top:50em;
+}
+.formationbordtriangle2{
+    position:absolute;
+    width:100%;
+    height:1em;
+    -webkit-transform: skew(0deg, 3deg);
+    -moz-transform: skew(0deg, 3deg);
+    -o-transform: skew(0deg, 3deg);
+    transform: skew(0deg, 3deg);
+    border-top:10px solid #191919;
+>>>>>>> parent of 429fca3... Page formation presque finit
 }
 .formationbordtriangle2 {
     position: absolute;
