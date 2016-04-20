@@ -100,22 +100,6 @@ html{
     top:4em;
     font-size: 60px;
 }
-<<<<<<< HEAD
-=======
-.firstriangle{
-    padding: 0 !important;
-    display: block;
-}
-
-.firstriangleapropos{
-    padding: 0 !important;
-    display: block;
-}
-
-.triangleapropos {
-    margin-top: -11%;
-}
->>>>>>> master
 .triangle3{
     width: 0;
     height: 0;
@@ -126,18 +110,6 @@ html{
     position: relative;
     top:8em;
 }
-
-.triangle3apropos{
-    width: 0;
-    height: 0;
-    border-top: 13em solid #ddc503;
-    border-left: 100em solid transparent;
-    z-index: 0;
-    float: right;
-    position: relative;
-    top:8em;
-}
-
 .triangle4{
     width: 0;
     height: 0;
@@ -148,18 +120,6 @@ html{
     position: absolute;
     top:8em;
 }
-
-.triangle4apropos{
-    width: 0;
-    height: 0;
-    border-top: 13em solid #ddc503;
-    border-right: 100em solid transparent;
-    z-index: 0;
-    float: right;
-    position: absolute;
-    top:8em;
-}
-
 #troiz{
     background-color: black;
     min-height: 50em;
@@ -716,6 +676,11 @@ body {
     margin-top: 3%;
 }
 
+#industrie{
+    background:url('../axelone1/img/industrie.png') no-repeat center center;
+    height: 500px;
+    z-index: 99;
+}
 
 @font-face {
     font-family: 'code_lightregular';
@@ -740,24 +705,10 @@ body {
     font-family: code_lightregular;
     font-weight: bold;
     font-size: 1em;
-<<<<<<< HEAD
     
 }
 
 .footer a {
     text-decoration: none!important;
     font-color:black!important;
-=======
-}
-
-.entreprise {
-    margin-top: 10%;
-    margin-left: 55%;
-    
-}
-
-.histoire {
-    margin-left: 5%;
-    
->>>>>>> master
 }
