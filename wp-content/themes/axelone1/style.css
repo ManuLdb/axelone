@@ -2,6 +2,7 @@ html{
     overflow-x: hidden;
 }
 /*Accueil*/
+
 #first{
     background-color: #0a5aa6;
     min-height: 65em;
@@ -10,11 +11,18 @@ html{
 }
 
 #usine{
-    min-height: 65em;
-    z-index: 99;
+    min-height:75em;
     min-width: 100%;
-    background:url('../axelone1/img/flatusine.png') no-repeat center center;
-    position: absolute;
+    position: relative;
+    z-index: 56;
+    padding: 0 !important;
+    display: block;
+    top:-275px;
+    background:url('../axelone1/img/flatusine.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #persoheader{
@@ -24,6 +32,7 @@ html{
     min-width: 100%;
     background:url('../axelone1/img/personnages.png') no-repeat center bottom;
     position: absolute;
+    margin-top: 26em;
 }
 
 #deuz{
@@ -371,11 +380,17 @@ html{
 }
 .sissp{
     text-transform: uppercase !important;
-    text-align: center !important;
-    width: 50% !important;
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    color: white;
+    line-height: 50px;
+    font-family: 'Helvetica Neue';
+	font-size: 20px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	line-height: 50px; 
 
 }
 
@@ -650,6 +665,7 @@ body {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    color:#d65c5c;
 }
 
 .deuztext p {
@@ -681,4 +697,12 @@ body {
 #titre {
     font-family: 'code_lightregular';
     font-weight: bold;
+}
+
+.footer {
+    background-color:darkgrey;
+    text-align: center;
+    font-family: code_lightregular;
+    font-weight: bold;
+    font-size: 1em;
 }

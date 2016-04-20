@@ -84,15 +84,8 @@
     <div class="col-md-12" id="katre">
         <h3 id="titre">NOS PARTENAIRES</h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis facere illo labore libero obcaecati
-            quae repellendus veritatis? Corporis doloremque exercitationem illum, inventore maiores
-            molestias nostrum numquam saepe! Architecto, quod?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis facere illo labore libero obcaecati
-            quae repellendus veritatis? Corporis doloremque exercitationem illum, inventore maiores
-            molestias nostrum numquam saepe! Architecto, quod?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis facere illo labore libero obcaecati
-            quae repellendus veritatis? Corporis doloremque exercitationem illum, inventore maiores
-            molestias nostrum numquam saepe! Architecto, quod?
+            Depuis notre création en 2003, notre équipe <FONT color="yellow"> <b>ELITE ORGANISATION</b> </FONT> s'est structurée de manière cohérente et maîtrisée autour de six pôles d'expertises:</br>
+            Logistique, Méthodes, Lean, Ergonomie, QSE et Management
         </p>
         <div class="blockjaune">
             <div class="col-md-12" id="scroller">
@@ -134,7 +127,7 @@
         </div>
     </div>
     <div class="col-md-12" id="cink">
-        <h3>PROJETS</h3>
+        <h3 id="titre">PROJETS</h3>
         <div class="col-md-6 firstriangle">
             <div class="bordtriangle3"></div>
         </div>
@@ -149,21 +142,22 @@
         </div>
         <div class="col-md-12">
             <div class="col-md-6">
-                <h4>PROJET 1</h4>
+                <h4 id="titre">PROJET 1</h4>
             </div>
             <div class="col-md-6">
-                <h4>PROJET 2</h4>
+                <h4 id="titre">PROJET 2</h4>
             </div>
         </div>
         <div class="col-md-12">
             <div class="col-md-6 triangle7"></div>
             <div class="col-md-6 triangle8"></div>
             <img src="wp-content/themes/axelone1/img/imgprojets.png" alt="imgprojet" class="img-responsive">
+            
         </div>
         <div class="col-md-12 cinkontact">
-            <h5>CONTACT</h5>
-            <h6>UNE QUESTION,</h6>
-            <h6>UN PROJET ?</h6>
+            <h5 id="titre">CONTACT</h5>
+            <h6 id="titre"> UNE QUESTION,</h6>
+            <h6 id="titre">UN PROJET ?</h6>
         </div>
     </div>
     <div class="col-md-6 " id="siss">
@@ -172,19 +166,20 @@
         <div class="col-md-6 triangle9"></div>
         <div class="col-md-6 triangle10"></div>
         <div class="col-md-6">
-            <p class="sissp">
-                Nunc vel sem a arcu mattis luctus et quis quam. Donec faucibus pulvinar velit, eget finibus risus ornare
-                tristique.
-                Duis elit diam, hendrerit non dictum quis, egestas in nulla. Pellentesque consectetur at dolor ac
-                dapibus. Phasellus feugiat libero id ex scelerisque,
-                congue laoreet sapien finibus. Sed et neque eu tortor suscipit venenatis. Praesent felis tortor, sodales
-                quis commodo sit amet, rutrum vitae quam.
-            </p>
+           <div class="col-md-8 col-md-offset-3">
+               <p class="sissp">
+                CENTRE D'AFFAIRES EXALIS - BAT. F </br>
+                11 RUE DU CHEMIN ROUGE - CS 97332 </br>
+                44373 NANTES CEDEX 3.</br>
+                TEL : 02 40 20 83 29</br>
+                FAX : 02 51 13 49 940</br>
+                INFO@ELITE-ORGANISATION.FR
+            </p></div>
+            
         </div>
         <div class="col-md-6">
             <?php echo do_shortcode('[contact-form-7 id="6" title="Formulaire de contact 1"]'); ?>
         </div>
     </div>
 </main>
-
 <?php get_footer(); ?>
