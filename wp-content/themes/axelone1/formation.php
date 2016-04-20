@@ -14,6 +14,7 @@
                 <div class="formationtriangle2"></div>
             </div>
         </div>
+<<<<<<< HEAD
     </div>
     <div id="formation2">
         <iframe class="formationvideo" src="https://www.youtube.com/embed/dsDTJ__jioo" frameborder="0" allowfullscreen></iframe>
@@ -53,6 +54,17 @@
         <div class="col-md-6">
 
         </div>
+=======
+        <div class="col-md-12">
+            <div class="col-md-6 firstriangle">
+                <div class="formationbordtriangle1"></div>
+            </div>
+            <div class="col-md-6 firstriangle">
+                <div class="formationbordtriangle2"></div>
+            </div>
+>>>>>>> 99c1f8995a548c625e6a5b02a601bb6a7bafdbe9
         </div>
     </div>
 </main>
+<?php get_footer(); ?>
+
