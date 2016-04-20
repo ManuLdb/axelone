@@ -14,7 +14,6 @@
                 <div class="formationtriangle2"></div>
             </div>
         </div>
-<<<<<<< HEAD
     </div>
     <div id="formation2">
         <iframe class="formationvideo" src="https://www.youtube.com/embed/dsDTJ__jioo" frameborder="0" allowfullscreen></iframe>
