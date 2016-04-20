@@ -1,54 +1,51 @@
-html{
+html {
     overflow-x: hidden;
     margin-top: 0px !important;
 }
 body{
     margin-top: 0px !important;
 }
+
 /*Accueil*/
 
-#first{
+#first {
     background-color: #0a5aa6;
     min-height: 65em;
     min-width: 100%;
     z-index: 55;
 }
-
-#usine{
-    min-height:75em;
+#usine {
+    min-height: 75em;
     min-width: 100%;
     position: relative;
     z-index: 56;
     padding: 0 !important;
     display: block;
-    top:-275px;
-    background:url('../axelone1/img/flatusine.png') no-repeat center center fixed;
+    top: -275px;
+    background: url('../axelone1/img/flatusine.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
-#persoheader{
-
+#persoheader {
     min-height: 65em;
     z-index: 99;
     min-width: 100%;
-    background:url('../axelone1/img/personnages.png') no-repeat center bottom;
+    background: url('../axelone1/img/personnages.png') no-repeat center bottom;
     position: absolute;
     margin-top: 26em;
 }
-
-#deuz{
+#deuz {
     background-color: lightgrey;
     min-height: 40em;
     min-width: 100%;
     z-index: 56;
     padding: 0 !important;
     display: block;
-    top:-275px;
+    top: -275px;
 }
-.firstriangle{
+.firstriangle {
     padding: 0 !important;
     display: block;
 }
@@ -60,9 +57,9 @@ body{
     z-index: 57;
     float: right;
     position: absolute;
-    top:-10em;
+    top: -10em;
 }
-.bordtriangle2{
+.bordtriangle2 {
     width: 0;
     height: 0;
     border-bottom: 10em solid #ddc503;
@@ -80,9 +77,9 @@ body{
     z-index: 58;
     float: right;
     position: absolute;
-    top:-275px;
+    top: -275px;
 }
-.triangle2{
+.triangle2 {
     width: 0;
     height: 0;
     border-bottom: 10em solid lightgrey;
@@ -90,21 +87,32 @@ body{
     z-index: 58;
     float: right;
     position: relative;
-    top:-275px;
+    top: -275px;
 }
-.deuztext{
+.deuztext {
     position: relative;
     z-index: 90;
-    top:6em;
+    top: 6em;
 }
-#deuz h3{
+#deuz h3 {
     z-index: 90;
     position: relative;
     text-align: center;
-    top:4em;
+    top: 4em;
     font-size: 60px;
 }
-.triangle3{
+.firstriangle {
+    padding: 0 !important;
+    display: block;
+}
+.firstriangleapropos {
+    padding: 0 !important;
+    display: block;
+}
+.triangleapropos {
+    margin-top: -11%;
+}
+.triangle3 {
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
@@ -112,9 +120,19 @@ body{
     z-index: 60;
     float: right;
     position: relative;
-    top:8em;
+    top: 8em;
 }
-.triangle4{
+.triangle3apropos {
+    width: 0;
+    height: 0;
+    border-top: 13em solid #ddc503;
+    border-left: 100em solid transparent;
+    z-index: 0;
+    float: right;
+    position: relative;
+    top: 8em;
+}
+.triangle4 {
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
@@ -122,9 +140,19 @@ body{
     z-index: 60;
     float: right;
     position: absolute;
-    top:8em;
+    top: 8em;
 }
-#troiz{
+.triangle4apropos {
+    width: 0;
+    height: 0;
+    border-top: 13em solid #ddc503;
+    border-right: 100em solid transparent;
+    z-index: 0;
+    float: right;
+    position: absolute;
+    top: 8em;
+}
+#troiz {
     background-color: black;
     min-height: 50em;
     min-width: 100%;
@@ -132,37 +160,33 @@ body{
     z-index: 56;
     padding: 0 !important;
     display: block;
-    top:-275px;
-    background:url('../axelone1/img/factory.png') no-repeat center center fixed;
+    top: -275px;
+    background: url('../axelone1/img/factory.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 #opacity1 {
     background-color: black;
     min-height: 45em;
     margin: 40px 50px 40px 5%;
-    opacity:0.6;
+    opacity: 0.6;
 }
-
 #opacity2 {
     background-color: black;
     height: 45em;
     margin: 40px 5% 40px 20px;
-    opacity:0.6;
+    opacity: 0.6;
 }
-
 .karine {
     color: white;
     text-align: center;
-    display:block;
-    margin-top:50%;
+    display: block;
+    margin-top: 50%;
     font-size: 70px;
     font-weight: lighter!important;
 }
-
 .axel {
     color: #ddc503;
     text-align: center;
@@ -170,16 +194,13 @@ body{
     font-weight: lighter!important;
     margin-top: 10%;
 }
-
 .apropotxt {
     color: white;
     font-family: helvetica;
-    font-size:20px;
+    font-size: 20px;
     margin-top: 20%;
 }
-
-
-#katre{
+#katre {
     border-top: 3px solid #ddc503;
     border-bottom: 3px solid red;
     background-color: lightgrey;
@@ -189,17 +210,17 @@ body{
     z-index: 56;
     padding: 0 !important;
     display: block;
-    top:-275px;
+    top: -275px;
 }
-#katre h3{
+#katre h3 {
     z-index: 90;
     position: relative;
     text-align: center;
     font-size: 60px;
-    top:1em;
-    color:grey;
+    top: 1em;
+    color: grey;
 }
-#katre p{
+#katre p {
     font-size: 20px;
     text-align: center;
     top: 5em;
@@ -212,7 +233,7 @@ body{
     margin-left: auto;
     margin-bottom: 10em;
 }
-.blockjaune{
+.blockjaune {
     min-height: 10em;
     min-width: 10em;
     background-color: #ddc503;
@@ -222,81 +243,91 @@ body{
     bottom: 0;
     z-index: 60;
 }
-#scroller{
+#scroller {
     position: relative;
     width: 100%;
     z-index: 80;
-    margin-top:3em;
+    margin-top: 3em;
     height: 100% !important;
     min-height: 10em !important;
 }
-#scroller .zone{
-    overflow: hidden;position: absolute;left: 0;right: 0;top: 0;bottom: 0;
+#scroller .zone {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
-#scroller ul{
-    padding: 0;margin: 0;position: relative;
+#scroller ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
 }
-#scroller li{
-    padding: 0;margin: 0;list-style-type: none;position: absolute;
+#scroller li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
 }
-#scroller img{
+#scroller img {
     position: relative;
     z-index: 80;
-    margin-left:15em;
+    margin-left: 15em;
     margin-right: 15em;
     min-width: 10em;
     min-height: 10em;
     max-height: 10em;
     max-width: 10em;
 }
-#scroller img:hover{
+#scroller img:hover {
     position: relative;
     z-index: 81;
 }
-#cink{
+#cink {
     background-color: white;
     min-width: 100%;
     position: relative;
     z-index: 56;
     padding: 0 !important;
     display: block;
-    top:-275px;
+    top: -275px;
     max-height: 70em;
 }
-#cink h3{
+#cink h3 {
     z-index: 90;
     text-align: center;
     font-size: 60px;
 }
-#cink h4{
+#cink h4 {
     z-index: 90;
     text-align: center;
     font-size: 60px;
-    top:5em;
-    position:relative;
+    top: 5em;
+    position: relative;
 }
-.cinkontact{
-    top:-100em;
+.cinkontact {
+    top: -100em;
 }
-#cink h5{
-    color:gold;
+#cink h5 {
+    color: gold;
     z-index: 90;
     position: relative;
     text-align: center;
     font-size: 60px;
     margin-bottom: 1em;
-    top:10em;
+    top: 10em;
 }
-#cink h6{
-    color:gold;
+#cink h6 {
+    color: gold;
     z-index: 90;
     position: relative;
     text-align: center;
     font-size: 50px;
     margin-bottom: 1em;
-    top:12em;
+    top: 12em;
 }
-.bordtriangle3{
+.bordtriangle3 {
     width: 0;
     height: 0;
     border-bottom: 13em solid white;
@@ -305,9 +336,9 @@ body{
     float: left;
     left: 100%;
     position: absolute;
-    top:90px;
+    top: 90px;
 }
-.bordtriangle4{
+.bordtriangle4 {
     width: 0;
     height: 0;
     border-bottom: 13em solid white;
@@ -316,9 +347,9 @@ body{
     float: left;
     right: 100%;
     position: absolute;
-    top:90px;
+    top: 90px;
 }
-.triangle5{
+.triangle5 {
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
@@ -326,9 +357,9 @@ body{
     z-index: 58;
     float: right;
     position: relative;
-    top:6em;
+    top: 6em;
 }
-.triangle6{
+.triangle6 {
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
@@ -336,9 +367,9 @@ body{
     z-index: 58;
     float: right;
     position: absolute;
-    top:6em;
+    top: 6em;
 }
-.triangle7{
+.triangle7 {
     width: 0;
     height: 0;
     border-bottom: 30em solid #ddc503;
@@ -350,7 +381,7 @@ body{
     top: 10em;
     left: 30%;
 }
-.triangle8{
+.triangle8 {
     width: 0;
     height: 0;
     border-bottom: 30em solid #ddc503;
@@ -359,17 +390,16 @@ body{
     z-index: 60;
     float: right;
     position: absolute;
-    top:10em;
+    top: 10em;
     left: -30%;
 }
-#cink img{
+#cink img {
     z-index: 59;
     position: relative;
     min-height: 80em;
     top: -56em;
 }
-
-#siss{
+#siss {
     margin-top: 35em;
     background-color: #d65c5c;
     min-height: 20em;
@@ -377,12 +407,12 @@ body{
     position: relative;
     z-index: 56;
     padding: 0 !important;
-    top:0em;
+    top: 0em;
 }
-#siss p{
-    margin:0 !important;
+#siss p {
+    margin: 0 !important;
 }
-.sissp{
+.sissp {
     text-transform: uppercase !important;
     display: block !important;
     margin-left: auto !important;
@@ -390,15 +420,13 @@ body{
     color: white;
     line-height: 50px;
     font-family: 'Helvetica Neue';
-	font-size: 20px;
-	font-style: normal;
-	font-variant: small-caps;
-	font-weight: 100;
-	line-height: 50px; 
-
+    font-size: 20px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 100;
+    line-height: 50px;
 }
-
-#siss input{
+#siss input {
     z-index: 60;
     min-height: 5em;
     width: 70%;
@@ -408,29 +436,28 @@ body{
     background-color: transparent;
     border-right: none;
     border-left: none;
-    border-top:none;
+    border-top: none;
     border-bottom: 5px solid white;
 }
-
-#siss textarea{
+#siss textarea {
     background-color: transparent;
     border-right: none;
     border-left: none;
-    border-top:none;
+    border-top: none;
     border-bottom: 5px solid white;
     width: 70%;
     float: left;
 }
-#siss button{
+#siss button {
     margin-top: 3em;
     background-color: white;
-    color:darkgray;
+    color: darkgray;
     min-width: 30%;
     min-height: 3em;
     font-size: 20px;
     float: left;
 }
-.bordtriangle5{
+.bordtriangle5 {
     width: 0;
     height: 0;
     border-bottom: 10em solid #d65c5c;
@@ -440,7 +467,7 @@ body{
     position: absolute;
     top: -9em;
 }
-.bordtriangle6{
+.bordtriangle6 {
     width: 0;
     height: 0;
     border-bottom: 10em solid #d65c5c;
@@ -450,7 +477,7 @@ body{
     position: relative;
     top: -9em;
 }
-.triangle9{
+.triangle9 {
     width: 0;
     height: 0;
     border-bottom: 10em solid lightgrey;
@@ -458,9 +485,9 @@ body{
     z-index: 55;
     float: right;
     position: absolute;
-    top:-10em;
+    top: -10em;
 }
-.triangle10{
+.triangle10 {
     width: 0;
     height: 0;
     border-bottom: 10em solid lightgrey;
@@ -468,24 +495,34 @@ body{
     z-index: 55;
     float: right;
     position: relative;
-    top:-20em;
+    top: -20em;
 }
+
 /*Formation*/
+<<<<<<< HEAD
 #formation1{
     margin-top:0 !important;
+=======
+
+#formation1 {
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
     background-color: #c80d0d;
     min-height: 20em;
     z-index: 59;
     position: relative;
 }
-#formation1 h2{
+#formation1 h2 {
     text-align: center;
     font-size: 60px;
+<<<<<<< HEAD
     top: 4em;
     position: relative;
     z-index: 61;
+=======
+    top: 13em;
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
 }
-.formationtriangle1{
+.formationtriangle1 {
     width: 0;
     height: 0;
     border-top: 15em solid #c80d0d;
@@ -493,9 +530,13 @@ body{
     z-index: 60;
     float: right;
     position: relative;
+<<<<<<< HEAD
     top:10em;
+=======
+    top: 54em;
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
 }
-.formationtriangle2{
+.formationtriangle2 {
     width: 0;
     height: 0;
     border-top: 15em solid #c80d0d;
@@ -503,6 +544,7 @@ body{
     z-index: 60;
     float: right;
     position: absolute;
+<<<<<<< HEAD
     top:10em;
 }
 #formation2{
@@ -542,6 +584,11 @@ body{
     position: relative;
 }
 .formationtriangle3{
+=======
+    top: 54em;
+}
+.formationbordtriangle1 {
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
@@ -549,6 +596,7 @@ body{
     z-index: 60;
     float: right;
     position: relative;
+<<<<<<< HEAD
     top:-12em;
 }
 .formationtriangle4{
@@ -560,29 +608,37 @@ body{
     float: right;
     position: absolute;
     top:-12em;
+=======
+    top: 50em;
 }
+.formationbordtriangle2 {
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    -webkit-transform: skew(0deg, 3deg);
+    -moz-transform: skew(0deg, 3deg);
+    -o-transform: skew(0deg, 3deg);
+    transform: skew(0deg, 3deg);
+    border-top: 10px solid #191919;
+>>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
+}
+
 /*autre*/
+
 h1 {
     color: #1991dd;
 }
-
-header {
-
-}
-
+header {}
 header ul {
     margin: 0;
 }
-
 header ul li {
     display: inline-block;
     list-style-type: none;
     border-style: solid;
     border-width: 0px 2px 0px 0px;
     border-color: white;
-
 }
-
 header ul li a {
     color: white;
     padding: 10px 20px;
@@ -590,25 +646,20 @@ header ul li a {
     text-transform: uppercase;
     text-decoration: none !important;
 }
-
 header ul li a:hover {
     text-decoration: none;
     color: #ff7d44;
 }
-
 header ul li.current-menu-item a {
     color: black;
 }
-
 body {
     margin: 0px;
 }
-
 #head1 {
     background-color: #00a0d1 !important;
     height: 600px;
 }
-
 #triangle-topright {
     width: 0;
     height: 0;
@@ -616,16 +667,13 @@ body {
     border-left: 720px solid transparent;
     float: left;
 }
-
 #triangle-topleft {
     width: 0;
     height: 0;
     border-top: 100px solid #00a0d1;
     border-right: 720px solid transparent;
     float: right !important;
-
 }
-
 #triangle-bottomright {
     width: 0;
     height: 0;
@@ -634,9 +682,7 @@ body {
     float: left !important;
     z-index: 999 !important;
     margin-top: 200px;
-
 }
-
 #triangle-bottomleft {
     width: 0;
     height: 0;
@@ -646,14 +692,11 @@ body {
     z-index: 999 !important;
     margin-top: 200px;
 }
-
 .tri {
-
     margin-left: auto;
     margin-right: auto;
     width: auto;
 }
-
 .nav {
     margin: 0 auto !important;
     background: none !important;
@@ -661,38 +704,29 @@ body {
     width: 100% !important;
     z-index: 999 !important;
     Updated: upstream
-
 }
-
 .menu {
-    float:right;
-    margin-right:5%;
+    float: right;
+    margin-right: 5%;
     margin-top: 2%;
     font-size: 15px;
-
-
 }
-
 .secondiv {
     background-color: greenyellow !important;
     height: 570px;
 }
-
 .thirdiv {
     background-color: rebeccapurple !important;
     height: 800px;
 }
-
 .partenaires {
     background-color: lightyellow !important;
     height: 500px;
 }
-
 .projetitre {
     background-color: aquamarine !important;
     height: 300px;
 }
-
 .projet {
     background-color: mediumvioletred !important;
     height: 500px;
@@ -700,19 +734,16 @@ body {
 
 /** Fabien à propos **/
 
-
 .deuztext h2 {
     text-align: center !important;
 }
-
 .glyph {
     text-align: center !important;
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    color:#d65c5c;
+    color: #d65c5c;
 }
-
 .deuztext p {
     text-align: center !important;
     display: block !important;
@@ -720,34 +751,38 @@ body {
     margin-right: auto !important;
     margin-top: 3%;
 }
-
-#industrie{
-    background:url('../axelone1/img/industrie.png') no-repeat center center;
-    height: 500px;
-    z-index: 99;
-}
-
 @font-face {
     font-family: 'code_lightregular';
     src: url('fonts/code_light.eot');
-    src: url('fonts/code_light.eot?#iefix') format('embedded-opentype'),
-    url('fonts/code_light.woff2') format('woff2'),
-    url('fonts/code_light.woff') format('woff'),
-    url('fonts/code_light.ttf') format('truetype'),
-    url('fonts/code_light.svg#code_lightregular') format('svg');
+    src: url('fonts/code_light.eot?#iefix') format('embedded-opentype'), url('fonts/code_light.woff2') format('woff2'), url('fonts/code_light.woff') format('woff'), url('fonts/code_light.ttf') format('truetype'), url('fonts/code_light.svg#code_lightregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 #titre {
     font-family: 'code_lightregular';
     font-weight: bold;
 }
-
 .footer {
-    background-color:darkgrey;
+    background-color: darkgrey;
     text-align: center;
     font-family: code_lightregular;
     font-weight: bold;
     font-size: 1em;
+}
+.footer a {
+    text-decoration: none!important;
+    font-color: black!important;
+}
+.entreprise {
+    margin-top: 10%;
+    margin-left: 55%;
+    text-align: center;
+}
+.histoire {
+    margin-left: 5%;
+    text-align: center;
+}
+
+.apropos {
+    background-color: darkgrey;
 }
