@@ -101,17 +101,6 @@ body{
     top: 4em;
     font-size: 60px;
 }
-.firstriangle {
-    padding: 0 !important;
-    display: block;
-}
-.firstriangleapropos {
-    padding: 0 !important;
-    display: block;
-}
-.triangleapropos {
-    margin-top: -11%;
-}
 .triangle3 {
     width: 0;
     height: 0;
@@ -122,32 +111,12 @@ body{
     position: relative;
     top: 8em;
 }
-.triangle3apropos {
-    width: 0;
-    height: 0;
-    border-top: 13em solid #ddc503;
-    border-left: 100em solid transparent;
-    z-index: 0;
-    float: right;
-    position: relative;
-    top: 8em;
-}
 .triangle4 {
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
     border-right: 100em solid transparent;
     z-index: 60;
-    float: right;
-    position: absolute;
-    top: 8em;
-}
-.triangle4apropos {
-    width: 0;
-    height: 0;
-    border-top: 13em solid #ddc503;
-    border-right: 100em solid transparent;
-    z-index: 0;
     float: right;
     position: absolute;
     top: 8em;
@@ -499,13 +468,10 @@ body{
 }
 
 /*Formation*/
-<<<<<<< HEAD
 #formation1{
-    margin-top:0 !important;
-=======
-
-#formation1 {
->>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
+    margin-top: 0 !important;
+}
+#formation1{
     background-color: #c80d0d;
     min-height: 20em;
     z-index: 59;
@@ -514,13 +480,10 @@ body{
 #formation1 h2 {
     text-align: center;
     font-size: 60px;
-<<<<<<< HEAD
     top: 4em;
     position: relative;
     z-index: 61;
-=======
-    top: 13em;
->>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
+    top: 4em;
 }
 .formationtriangle1 {
     width: 0;
@@ -530,11 +493,7 @@ body{
     z-index: 60;
     float: right;
     position: relative;
-<<<<<<< HEAD
     top:10em;
-=======
-    top: 54em;
->>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
 }
 .formationtriangle2 {
     width: 0;
@@ -544,13 +503,32 @@ body{
     z-index: 60;
     float: right;
     position: absolute;
-<<<<<<< HEAD
     top:10em;
 }
 #formation2{
     min-height: 20em;
     max-height: 60em;
     z-index: 54;
+}
+.formationbordtriangle1 {
+    width: 0;
+    height: 0;
+    border-bottom: 13em solid #ddc503;
+    border-left: 100em solid transparent;
+    z-index: 60;
+    float: right;
+    position: relative;
+    top:-12em;
+}
+.formationbordtriangle2 {
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    -webkit-transform: skew(0deg, 3deg);
+    -moz-transform: skew(0deg, 3deg);
+    -o-transform: skew(0deg, 3deg);
+    transform: skew(0deg, 3deg);
+    border-top: 10px solid #191919;
 }
 .formationvideo{
     z-index: 55 !important;
@@ -584,11 +562,6 @@ body{
     position: relative;
 }
 .formationtriangle3{
-=======
-    top: 54em;
-}
-.formationbordtriangle1 {
->>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
     width: 0;
     height: 0;
     border-bottom: 13em solid #ddc503;
@@ -596,7 +569,6 @@ body{
     z-index: 60;
     float: right;
     position: relative;
-<<<<<<< HEAD
     top:-12em;
 }
 .formationtriangle4{
@@ -608,20 +580,8 @@ body{
     float: right;
     position: absolute;
     top:-12em;
-=======
-    top: 50em;
 }
-.formationbordtriangle2 {
-    position: absolute;
-    width: 100%;
-    height: 1em;
-    -webkit-transform: skew(0deg, 3deg);
-    -moz-transform: skew(0deg, 3deg);
-    -o-transform: skew(0deg, 3deg);
-    transform: skew(0deg, 3deg);
-    border-top: 10px solid #191919;
->>>>>>> 9b6ce6fad862bf3b44b3c9d4e3844b4c57a9f417
-}
+
 
 /*autre*/
 
@@ -782,7 +742,33 @@ body {
     margin-left: 5%;
     text-align: center;
 }
-
 .apropos {
     background-color: darkgrey;
+}
+.triangle3apropos {
+    width: 0;
+    height: 0;
+    border-top: 13em solid #ddc503;
+    border-left: 100em solid transparent;
+    z-index: 0;
+    float: right;
+    position: relative;
+    top: 8em;
+}
+.triangle4apropos {
+    width: 0;
+    height: 0;
+    border-top: 13em solid #ddc503;
+    border-right: 100em solid transparent;
+    z-index: 0;
+    float: right;
+    position: absolute;
+    top: 8em;
+}
+.firstriangleapropos {
+    padding: 0 !important;
+    display: block;
+}
+.triangleapropos {
+    margin-top: 9em;
 }

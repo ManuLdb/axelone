@@ -46,12 +46,13 @@
         </div>
         <div class="col-md-6 firstriangle">
             <div class="formationtriangle4"></div>
-            <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
                 <img src="../wp-content/themes/axelone1/img/madame.png" alt="madame">
-            </div>
-            <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
 
-            </div>
+        </div>
         </div>
     </div>
 </main>
