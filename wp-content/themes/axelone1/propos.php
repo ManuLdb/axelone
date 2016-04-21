@@ -18,11 +18,6 @@ Template Name: à propos
             </div>
 
             <div class="row">
-                <div class="col-md-6">
-
-                    <img src="img/puma.jpg" class="img-responsive" alt="" />
-
-                </div>
 
                 <div class="col-md-4 entreprise">
                     <h2>L'ENTREPRISE</h2>

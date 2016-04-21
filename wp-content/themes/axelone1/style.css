@@ -743,7 +743,7 @@ body {
     text-align: center;
 }
 .apropos {
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 .triangle3apropos {
     width: 0;
@@ -770,5 +770,5 @@ body {
     display: block;
 }
 .triangleapropos {
-    margin-top: 9em;
+    margin-top: -8em;
 }
