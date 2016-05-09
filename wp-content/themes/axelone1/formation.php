@@ -57,7 +57,11 @@
                 <p>Profession : Lorem</p>
                 <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda rerum sed.
-                    Adipisci amet asperiores, consequatur delectus deserunt dignissimos dolores, ducimus eius fuga illo iure, iusto laborum sed tempore ut!
+                    Adipisci amet asperiores, consequatur delectus deserunt dignissimos dolores,
+                    ducimus eius fuga illo iure, iusto laborum sed tempore ut!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda rerum sed.
+                    Adipisci amet asperiores, consequatur delectus deserunt dignissimos dolores,
+                    ducimus eius fuga illo iure, iusto laborum sed tempore ut!
                 </p>
             </div>
         </div>

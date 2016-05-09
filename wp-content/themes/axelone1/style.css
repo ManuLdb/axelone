@@ -704,10 +704,10 @@ body {
 }
 .formationvideo{
     z-index: 55 !important;
-    min-height: 70em !important;
+    min-height: 54em !important;
     min-width: 100% !important;
     position: relative;
-    top: -11em;
+    top: -5em;
 }
 #formation3{
     min-height: 40em;
@@ -729,7 +729,7 @@ body {
 #formation4{
     margin-top:0 !important;
     background-color: #ddc503;
-    min-height: 60em;
+    min-height: 40em;
     z-index: 59;
     position: relative;
 }
@@ -752,6 +752,15 @@ body {
     float: right;
     position: absolute;
     top:-12em;
+}
+#formation4 img{
+    margin-left: 50%;
+}
+#formation4 p{
+    color:white;
+}
+#formation4 .description{
+    margin-top: 6em;
 }
 /*MediaQuerries*/
 /*1900*/
