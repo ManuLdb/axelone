@@ -47,18 +47,18 @@
         <div class="col-md-6 firstriangle">
             <div class="formationtriangle4"></div>
         </div>
-        <div class="col-md-6">
-                <img src="../wp-content/themes/axelone1/img/madame.png" alt="madame">
-        </div>
-        <div class="col-md-6">
-
-        </div>
         <div class="col-md-12">
             <div class="col-md-6 firstriangle">
-                <div class="formationbordtriangle1"></div>
+                <img src="../wp-content/themes/axelone1/img/madame.png" alt="madame">
             </div>
             <div class="col-md-6 firstriangle">
-                <div class="formationbordtriangle2"></div>
+                <p>Nom : GALLOT-LAVALLEE</p>
+                <p>Prénom : Karine</p>
+                <p>Profession : Lorem</p>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda rerum sed.
+                    Adipisci amet asperiores, consequatur delectus deserunt dignissimos dolores, ducimus eius fuga illo iure, iusto laborum sed tempore ut!
+                </p>
             </div>
         </div>
     </div>
