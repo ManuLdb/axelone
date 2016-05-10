@@ -660,62 +660,43 @@ body {
 }
 /*Formation*/
 #formation1{
-    margin-top: 0 !important;
-    top: -2em;
-}
-#formation1{
     background-color: #c80d0d;
-    min-height: 20em;
     z-index: 59;
     position: relative;
 }
-#formation1 h2 {
+#formation1 h1 {
     text-align: center;
-    font-size: 60px;
-    top: 4em;
     position: relative;
     z-index: 61;
-    top: 4em;
+    color: black;
 }
 .formationtriangle1 {
     width: 0;
     height: 0;
-    border-top: 15em solid #c80d0d;
-    border-left: 30em solid transparent;
     z-index: 60;
     float: right;
     position: relative;
-    top:10em;
 }
 .formationtriangle2 {
     width: 0;
     height: 0;
-    border-top: 15em solid #c80d0d;
-    border-right: 30em solid transparent;
     z-index: 60;
     float: right;
     position: absolute;
-    top:10em;
 }
 #formation2{
-    min-height: 20em;
-    max-height: 60em;
     z-index: 54;
 }
 .formationvideo{
     z-index: 55 !important;
-    min-height: 54em !important;
     min-width: 100% !important;
     position: relative;
-    top: -5em;
 }
 #formation3{
-    min-height: 40em;
     z-index: 60;
 }
-#formation3 h3{
+#formation3 h2{
     text-align: center;
-    font-size: 50px;
 }
 #formation3 p{
     text-align: center;
@@ -723,48 +704,430 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
-    margin-top: 2em;
 }
 #formation4{
-    margin-top:0 !important;
     background-color: #ddc503;
-    min-height: 40em;
     z-index: 59;
     position: relative;
 }
 .formationtriangle3{
     width: 0;
     height: 0;
-    border-bottom: 13em solid #ddc503;
-    border-left: 100em solid transparent;
     z-index: 60;
     float: right;
     position: relative;
-    top:-12em;
 }
 .formationtriangle4{
     width: 0;
     height: 0;
-    border-bottom: 13em solid #ddc503;
-    border-right: 100em solid transparent;
     z-index: 60;
     float: right;
     position: absolute;
-    top:-12em;
-}
-#formation4 img{
-    margin-left: 50%;
 }
 #formation4 p{
     color:white;
+    position: relative;
 }
-#formation4 .description{
-    margin-top: 6em;
+#formation4 img{
+    position: relative;
 }
 /*MediaQuerries*/
 /*1900*/
+@media only screen and (min-width : 1636px) {
+    #formation1{
+        margin-top: 0 !important;
+        top: -2em;
+    }
+    #formation1{
+        min-height: 20em;
+    }
+    #formation1 h1 {
+        font-size: 60px;
+        top: 4em;
+    }
+    .formationtriangle1 {
+        border-top: 15em solid #c80d0d;
+        border-left: 30em solid transparent;
+        top:10em;
+    }
+    .formationtriangle2 {
+        border-top: 15em solid #c80d0d;
+        border-right: 30em solid transparent;
+        top:10em;
+    }
+    #formation2{
+        min-height: 20em;
+        max-height: 60em;
+    }
+    .formationvideo{
+        min-height: 54em !important;
+        min-width: 100% !important;
+        top: -6em;
+    }
+    #formation3{
+        min-height: 41em;
+    }
+    #formation3 h2{
+        font-size: 50px;
+    }
+    #formation3 p{
+        width: 90%;
+        font-size: 20px;
+        margin-top: 2em;
+    }
+    #formation4{
+        margin-top: 2em !important;
+        min-height: 35em;
+    }
+    .formationtriangle3{
+        border-bottom: 13em solid #ddc503;
+        border-left: 100em solid transparent;
+        top:-12em;
+    }
+    .formationtriangle4{
+        border-bottom: 13em solid #ddc503;
+        border-right: 100em solid transparent;
+        top:-12em;
+    }
+    #formation4 img{
+        margin-left: 50%;
+        position: relative;
+    }
+    #formation4 .description{
+        margin-top: 2em;
+    }
+    .divbas{
+        display: none;
+    }
+}
 /*1500*/
+@media only screen and (max-width : 1635px) and (min-width : 1300px) {
+    #formation1{
+        margin-top: 0 !important;
+        top: -2em;
+    }
+    #formation1{
+        min-height: 20em;
+    }
+    #formation1 h1 {
+        font-size: 60px;
+        top: 4em;
+    }
+    .formationtriangle1 {
+        border-top: 15em solid #c80d0d;
+        border-left: 30em solid transparent;
+        top:10em;
+    }
+    .formationtriangle2 {
+        border-top: 15em solid #c80d0d;
+        border-right: 30em solid transparent;
+        top:10em;
+    }
+    #formation2{
+        min-height: 20em;
+        max-height: 60em;
+    }
+    .formationvideo{
+        min-height: 35em !important;
+        min-width: 100% !important;
+        top: -6em;
+    }
+    #formation3{
+        min-height: 40em;
+    }
+    #formation3 h2{
+        font-size: 50px;
+    }
+    #formation3 p{
+        width: 90%;
+        font-size: 18px;
+        margin-top: 2em;
+    }
+    #formation4{
+        margin-top: 7em !important;
+        min-height: 40em;
+    }
+    .formationtriangle3{
+        border-bottom: 13em solid #ddc503;
+        border-left: 100em solid transparent;
+        top:-12em;
+    }
+    .formationtriangle4{
+        border-bottom: 13em solid #ddc503;
+        border-right: 100em solid transparent;
+        top:-12em;
+    }
+    #formation4 img{
+        margin-left: 50%;
+    }
+    #formation4 .description{
+        margin-top: 2em;
+    }
+    .divbas{
+        display: none;
+    }
+}
 /*1200*/
+@media only screen and (max-width : 1299px) and (min-width : 1000px) {
+    #formation1{
+        margin-top: 0 !important;
+        top: -2em;
+    }
+    .divbas{
+        display: none;
+    }
+    #formation1{
+        min-height: 20em;
+    }
+    #formation1 h1 {
+        font-size: 60px;
+        top: 4em;
+    }
+    .formationtriangle1 {
+        border-top: 15em solid #c80d0d;
+        border-left: 30em solid transparent;
+        top:10em;
+    }
+    .formationtriangle2 {
+        border-top: 15em solid #c80d0d;
+        border-right: 30em solid transparent;
+        top:10em;
+    }
+    #formation2{
+        min-height: 20em;
+        max-height: 60em;
+    }
+    .formationvideo{
+        min-height: 29em !important;
+        min-width: 100% !important;
+        top: -6em;
+    }
+    #formation3{
+        min-height: 40em;
+    }
+    #formation3 h2{
+        font-size: 40px;
+    }
+    #formation3 p{
+        width: 90%;
+        font-size: 16px;
+        margin-top: 2em;
+    }
+    #formation4{
+        margin-top: 7em !important;
+        min-height: 32em;
+    }
+    #formation4 p{
+        top: -11em;
+    }
+    .formationtriangle3{
+        border-bottom: 13em solid #ddc503;
+        border-left: 100em solid transparent;
+        top:-12em;
+    }
+    .formationtriangle4{
+        border-bottom: 13em solid #ddc503;
+        border-right: 100em solid transparent;
+        top:-12em;
+    }
+    #formation4 img{
+        margin-left: 50%;
+        top: -10em;
+    }
+    #formation4 .description{
+        margin-top: 2em;
+    }
+}
 /*Ipad*/
+@media only screen and (max-width : 999px) and (min-width : 700px) {
+    body{
+         padding-right: 0px !important;
+         padding-left: 0px !important;
+    }
+    .divsup{
+        display: none;
+    }
+    .divbas{
+        margin-top: 3em;
+    }
+    main{
+        background-color: white !important;
+    }
+    #formation1{
+        margin-top: 0 !important;
+        top: -2em;
+    }
+    #formation1{
+        min-height: 20em;
+    }
+    #formation1 h1 {
+        font-size: 50px;
+        top: 4em;
+    }
+    #formation2{
+        min-height: 20em;
+        max-height: 60em;
+    }
+    .formationvideo{
+        min-height: 18em !important;
+        min-width: 100% !important;
+        top: -6em;
+    }
+    #formation3{
+        min-height: 20em;
+    }
+    #formation3 h2{
+        font-size: 30px;
+    }
+    #formation3 p{
+        width: 90%;
+        font-size: 12px;
+        margin-top: 2em;
+    }
+    #formation4{
+        margin-top: 7em !important;
+        min-height: 26em;
+    }
+    #formation4 img{
+        margin-left: 50%;
+        max-height: 10em;
+        margin-top: 6em;
+    }
+    #formation4 .description{
+        margin-top: 2em;
+    }
+    body{
+        background-color: darkgrey;
+    }
+}
+/*Smartphone*/
+@media only screen and (max-width : 699px) and (min-width : 400px) {
+    body{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .divsup{
+        display: none;
+    }
+    .divbas{
+        margin-top: 3em;
+    }
+    #formation1{
+        margin-top: 0 !important;
+        top: -2em;
+    }
+    #formation1{
+        min-height: 20em;
+    }
+    #formation1 h1 {
+        font-size: 30px;
+        top: 4em;
+
+    }
+    #formation2{
+        min-height: 20em;
+        max-height: 60em;
+    }
+    .formationvideo{
+        min-height: 18em !important;
+        min-width: 100% !important;
+        top: -6em;
+    }
+    body{
+        background-color: darkgrey;
+    }
+    main{
+        background-color: white !important;
+    }
+    #formation3{
+        min-height: 20em;
+    }
+    #formation3 h2{
+        font-size: 20px;
+    }
+    #formation3 p{
+        width: 90%;
+        font-size: 12px;
+        margin-top: 2em;
+    }
+    #formation4{
+        margin-top: 7em !important;
+        min-height: 26em;
+    }
+    #formation4 img{
+        margin-left: 40%;
+        max-height: 6em;
+        margin-top: 6em;
+    }
+    #formation4 .description{
+        margin-top: 2em;
+    }
+    #formation4 p{
+        font-size: 11px !important;
+    }
+}
 /*Mobile*/
+@media only screen and (max-width : 399px) and (min-width : 0px) {
+    body{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .divsup{
+        display: none;
+    }
+    .divbas{
+        margin-top: 3em;
+    }
+    #formation1{
+        margin-top: 0 !important;
+        top: -2em;
+    }
+    #formation1{
+        min-height: 20em;
+    }
+    #formation1 h1 {
+        font-size: 30px;
+        top: 6em;
+    }
+    #formation2{
+        min-height: 20em;
+        max-height: 60em;
+    }
+    .formationvideo{
+        min-height: 18em !important;
+        min-width: 100% !important;
+        top: -6em;
+    }
+    body{
+        background-color: darkgrey;
+    }
+    main{
+        background-color: white !important;
+    }
+    #formation3{
+        min-height: 20em;
+    }
+    #formation3 h2{
+        font-size: 20px;
+    }
+    #formation3 p{
+        width: 90%;
+        font-size: 12px;
+        margin-top: 2em;
+    }
+    #formation4{
+        margin-top: 7em !important;
+        min-height: 26em;
+    }
+    #formation4 img{
+        margin-left: 30%;
+        max-height: 6em;
+        margin-top: 6em;
+    }
+    #formation4 .description{
+        margin-top: 2em;
+    }
+    #formation4 p{
+        font-size: 10px !important;
+    }
+}
