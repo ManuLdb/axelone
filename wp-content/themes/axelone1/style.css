@@ -283,9 +283,31 @@ body{
     z-index: 90;
     position: relative;
     text-align: center;
+    top:-56em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    top: -15em;
+}
+#cink h6 {
+    color: gold;
+    z-index: 90;
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    top: -22em;
+}
+/*
+#cink h5 {
+    color: gold;
+    z-index: 90;
+    position: relative;
+    text-align: center;
     font-size: 60px;
     margin-bottom: 1em;
-    top: 10em;
+
 }
 #cink h6 {
     color: gold;
@@ -294,8 +316,8 @@ body{
     text-align: center;
     font-size: 50px;
     margin-bottom: 1em;
-    top: 12em;
 }
+*/
 .bordtriangle3 {
     width: 0;
     height: 0;

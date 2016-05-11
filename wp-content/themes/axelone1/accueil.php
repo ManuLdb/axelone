@@ -152,21 +152,18 @@
             <div class="col-md-6 triangle7"></div>
             <div class="col-md-6 triangle8"></div>
             <img src="wp-content/themes/axelone1/img/imgprojets.png" alt="imgprojet" class="img-responsive">
-            
-        </div>
-        <div class="">
             <h5 id="titre">CONTACT</h5>
             <h6 id="titre"> UNE QUESTION,</h6>
             <h6 id="titre">UN PROJET ?</h6>
         </div>
     </div>
-    <div class="col-md-6 " id="siss">
+    <div class="col-md-12" id="siss">
         <div class="col-md-6 bordtriangle5"></div>
         <div class="col-md-6 bordtriangle6"></div>
         <div class="col-md-6 triangle9"></div>
         <div class="col-md-6 triangle10"></div>
-        <div class="">
-           <div class="col-md-8 col-md-offset-3">
+        <div class="col-md-12">
+           <div class="col-md-6">
                <p class="sissp">
                 CENTRE D'AFFAIRES EXALIS - BAT. F </br>
                 11 RUE DU CHEMIN ROUGE - CS 97332 </br>
@@ -174,11 +171,11 @@
                 TEL : 02 40 20 83 29</br>
                 FAX : 02 51 13 49 940</br>
                 INFO@ELITE-ORGANISATION.FR
-            </p></div>
-            
-        </div>
-        <div class="col-md-6">
-            <?php echo do_shortcode('[simplecf]'); ?>
+            </p>
+           </div>
+            <div class="col-md-6">
+                <?php echo do_shortcode('[simplecf]'); ?>
+            </div>
         </div>
     </div>
 </main>
