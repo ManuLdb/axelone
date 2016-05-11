@@ -395,36 +395,21 @@ body{
     font-weight: 100;
     line-height: 50px;
 }
-#siss input {
-    z-index: 60;
-    min-height: 5em;
-    width: 70%;
-    float: left;
-    margin-bottom: 4em;
-    position: relative !important;
-    background-color: transparent;
+#siss input{
     border-right: none;
     border-left: none;
     border-top: none;
-    border-bottom: 5px solid white;
-}
-#siss textarea {
+    border-bottom: 3px solid white;
     background-color: transparent;
+    width: 50%;
+}
+#siss textarea{
     border-right: none;
     border-left: none;
     border-top: none;
-    border-bottom: 5px solid white;
-    width: 70%;
-    float: left;
-}
-#siss button {
-    margin-top: 3em;
-    background-color: white;
-    color: darkgray;
-    min-width: 30%;
-    min-height: 3em;
-    font-size: 20px;
-    float: left;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    width: 50%;
 }
 .bordtriangle5 {
     width: 0;

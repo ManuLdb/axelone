@@ -178,7 +178,7 @@
             
         </div>
         <div class="col-md-6">
-            <?php echo do_shortcode('[contact-form-7 id="6" title="Formulaire de contact 1"]'); ?>
+            <?php echo do_shortcode('[simplecf]'); ?>
         </div>
     </div>
 </main>
