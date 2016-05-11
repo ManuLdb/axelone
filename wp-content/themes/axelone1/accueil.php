@@ -154,7 +154,7 @@
             <img src="wp-content/themes/axelone1/img/imgprojets.png" alt="imgprojet" class="img-responsive">
             
         </div>
-        <div class="col-md-12 cinkontact">
+        <div class="">
             <h5 id="titre">CONTACT</h5>
             <h6 id="titre"> UNE QUESTION,</h6>
             <h6 id="titre">UN PROJET ?</h6>
@@ -165,7 +165,7 @@
         <div class="col-md-6 bordtriangle6"></div>
         <div class="col-md-6 triangle9"></div>
         <div class="col-md-6 triangle10"></div>
-        <div class="col-md-6">
+        <div class="">
            <div class="col-md-8 col-md-offset-3">
                <p class="sissp">
                 CENTRE D'AFFAIRES EXALIS - BAT. F </br>
