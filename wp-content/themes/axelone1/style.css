@@ -52,7 +52,7 @@ body{
 .bordtriangle1 {
     width: 0;
     height: 0;
-    border-bottom: 10em solid #ddc503;
+    border-bottom: 10em solid #589eff;
     border-right: 75em solid transparent;
     z-index: 57;
     float: right;
@@ -62,7 +62,7 @@ body{
 .bordtriangle2 {
     width: 0;
     height: 0;
-    border-bottom: 10em solid #ddc503;
+    border-bottom: 10em solid #589eff;
     border-left: 75em solid transparent;
     z-index: 57;
     float: right;
@@ -104,7 +104,7 @@ body{
 .triangle3 {
     width: 0;
     height: 0;
-    border-bottom: 13em solid #ddc503;
+    border-bottom: 13em solid #589eff;
     border-left: 100em solid transparent;
     z-index: 60;
     float: right;
@@ -114,7 +114,7 @@ body{
 .triangle4 {
     width: 0;
     height: 0;
-    border-bottom: 13em solid #ddc503;
+    border-bottom: 13em solid #589eff;
     border-right: 100em solid transparent;
     z-index: 60;
     float: right;
@@ -170,7 +170,7 @@ body{
     margin-top: 20%;
 }
 #katre {
-    border-top: 3px solid #ddc503;
+    border-top: 3px solid #589eff;
     border-bottom: 3px solid red;
     background-color: lightgrey;
     min-height: 40em;
@@ -205,7 +205,7 @@ body{
 .blockjaune {
     min-height: 10em;
     min-width: 10em;
-    background-color: #ddc503;
+    background-color: #589eff;
     width: 80%;
     margin-left: 20%;
     position: absolute;
@@ -343,7 +343,7 @@ body{
 .triangle5 {
     width: 0;
     height: 0;
-    border-bottom: 13em solid #ddc503;
+    border-bottom: 13em solid #589eff;
     border-left: 95em solid transparent;
     z-index: 58;
     float: right;
@@ -353,7 +353,7 @@ body{
 .triangle6 {
     width: 0;
     height: 0;
-    border-bottom: 13em solid #ddc503;
+    border-bottom: 13em solid #589eff;
     border-right: 95em solid transparent;
     z-index: 58;
     float: right;
@@ -392,7 +392,7 @@ body{
 }
 #siss {
     margin-top: 35em;
-    background-color: #d65c5c;
+    background-color: #589eff;
     min-height: 20em;
     min-width: 100%;
     position: relative;
@@ -436,7 +436,7 @@ body{
 .bordtriangle5 {
     width: 0;
     height: 0;
-    border-bottom: 10em solid #d65c5c;
+    border-bottom: 10em solid #589eff;
     border-right: 95em solid transparent;
     z-index: 58;
     float: right;
@@ -446,7 +446,7 @@ body{
 .bordtriangle6 {
     width: 0;
     height: 0;
-    border-bottom: 10em solid #d65c5c;
+    border-bottom: 10em solid #589eff;
     border-left: 95em solid transparent;
     z-index: 58;
     float: right;
@@ -595,7 +595,8 @@ body {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    color: #d65c5c;
+    color: #589eff;
+
 }
 .deuztext p {
     text-align: center !important;
@@ -614,6 +615,8 @@ body {
 #titre {
     font-family: 'code_lightregular';
     font-weight: bold;
+    font-size: 3em;
+    color:#579eff!important;
 }
 .footer {
     background-color: darkgrey;

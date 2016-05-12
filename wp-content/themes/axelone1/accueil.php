@@ -25,8 +25,8 @@
     <div class="col-md-12" id="deuz">
         <div class="col-md-12">
             <div class="col-md-4 deuztext">
-                <h2 id="titre">SERVICE 1</h2>
-                <i class="fa fa-lightbulb-o glyph" style="font-size:40px;"></i>
+                <h2 id="titre">FORMATION</h2>
+                <i class="fa fa-lightbulb-o glyph" style="font-size:65px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -35,8 +35,8 @@
                 </p>
             </div>
             <div class="col-md-4 deuztext">
-                <h2 id="titre">SERVICE 2</h2>
-                <i class="fa fa-thumbs-o-up glyph" aria-hidden="true" style="font-size:40px;"></i>
+                <h2 id="titre">CONSEIL</h2>
+                <i class="fa fa-thumbs-o-up glyph" aria-hidden="true" style="font-size:65px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -46,7 +46,7 @@
             </div>
             <div class="col-md-4 deuztext">
                 <h2 id="titre">SERVICE 3</h2>
-                <i class="fa fa-clock-o glyph" style="font-size:40px;"></i>
+                <i class="fa fa-clock-o glyph" style="font-size:65px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
