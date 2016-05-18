@@ -2,7 +2,8 @@ html {
     overflow-x: hidden;
     margin-top: 0px !important;
 }
-body{
+
+body {
     margin-top: 0px !important;
 }
 
@@ -14,6 +15,7 @@ body{
     min-width: 100%;
     z-index: 55;
 }
+
 #usine {
     min-height: 75em;
     min-width: 100%;
@@ -28,6 +30,7 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
 #persoheader {
     min-height: 65em;
     z-index: 99;
@@ -36,6 +39,7 @@ body{
     position: absolute;
     margin-top: 26em;
 }
+
 #deuz {
     background-color: lightgrey;
     min-height: 40em;
@@ -45,10 +49,12 @@ body{
     display: block;
     top: -275px;
 }
+
 .firstriangle {
     padding: 0 !important;
     display: block;
 }
+
 .bordtriangle1 {
     width: 0;
     height: 0;
@@ -59,6 +65,7 @@ body{
     position: absolute;
     top: -10em;
 }
+
 .bordtriangle2 {
     width: 0;
     height: 0;
@@ -69,6 +76,7 @@ body{
     position: relative;
     top: -10em;
 }
+
 .triangle1 {
     width: 0;
     height: 0;
@@ -79,6 +87,7 @@ body{
     position: absolute;
     top: -275px;
 }
+
 .triangle2 {
     width: 0;
     height: 0;
@@ -89,11 +98,13 @@ body{
     position: relative;
     top: -275px;
 }
+
 .deuztext {
     position: relative;
     z-index: 90;
     top: 6em;
 }
+
 #deuz h3 {
     z-index: 90;
     position: relative;
@@ -101,6 +112,7 @@ body{
     top: 4em;
     font-size: 60px;
 }
+
 .triangle3 {
     width: 0;
     height: 0;
@@ -111,6 +123,7 @@ body{
     position: relative;
     top: 8em;
 }
+
 .triangle4 {
     width: 0;
     height: 0;
@@ -121,6 +134,7 @@ body{
     position: absolute;
     top: 8em;
 }
+
 #troiz {
     background-color: black;
     min-height: 50em;
@@ -136,39 +150,45 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
 #opacity1 {
     background-color: black;
     min-height: 45em;
-    margin: 40px 50px 40px 5%;
+    margin: 20px 40px 20px 5%;
     opacity: 0.6;
 }
+
 #opacity2 {
     background-color: black;
     height: 45em;
-    margin: 40px 5% 40px 20px;
+    margin: 20px 5% 40px 20px;
     opacity: 0.6;
 }
+
 .karine {
     color: white;
     text-align: center;
     display: block;
     margin-top: 50%;
     font-size: 70px;
-    font-weight: lighter!important;
+    font-weight: lighter !important;
 }
+
 .axel {
     color: #ddc503;
     text-align: center;
     font-size: 55px;
-    font-weight: lighter!important;
+    font-weight: lighter !important;
     margin-top: 10%;
 }
+
 .apropotxt {
     color: white;
     font-family: helvetica;
     font-size: 20px;
     margin-top: 20%;
 }
+
 #katre {
     border-top: 3px solid #589eff;
     border-bottom: 3px solid red;
@@ -181,6 +201,7 @@ body{
     display: block;
     top: -275px;
 }
+
 #katre h3 {
     z-index: 90;
     position: relative;
@@ -189,6 +210,7 @@ body{
     top: 1em;
     color: grey;
 }
+
 #katre p {
     font-size: 20px;
     text-align: center;
@@ -202,6 +224,7 @@ body{
     margin-left: auto;
     margin-bottom: 10em;
 }
+
 .blockjaune {
     min-height: 10em;
     min-width: 10em;
@@ -212,6 +235,7 @@ body{
     bottom: 0;
     z-index: 60;
 }
+
 #scroller {
     position: relative;
     width: 100%;
@@ -220,6 +244,7 @@ body{
     height: 100% !important;
     min-height: 10em !important;
 }
+
 #scroller .zone {
     overflow: hidden;
     position: absolute;
@@ -228,17 +253,20 @@ body{
     top: 0;
     bottom: 0;
 }
+
 #scroller ul {
     padding: 0;
     margin: 0;
     position: relative;
 }
+
 #scroller li {
     padding: 0;
     margin: 0;
     list-style-type: none;
     position: absolute;
 }
+
 #scroller img {
     position: relative;
     z-index: 80;
@@ -249,10 +277,12 @@ body{
     max-height: 10em;
     max-width: 10em;
 }
+
 #scroller img:hover {
     position: relative;
     z-index: 81;
 }
+
 #cink {
     background-color: white;
     min-width: 100%;
@@ -263,11 +293,13 @@ body{
     top: -275px;
     max-height: 70em;
 }
+
 #cink h3 {
     z-index: 90;
     text-align: center;
     font-size: 60px;
 }
+
 #cink h4 {
     z-index: 90;
     text-align: center;
@@ -275,20 +307,23 @@ body{
     top: 5em;
     position: relative;
 }
+
 .cinkontact {
     top: -100em;
 }
+
 #cink h5 {
     color: gold;
     z-index: 90;
     position: relative;
     text-align: center;
-    top:-56em;
+    top: -56em;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 60px;
     top: -15em;
 }
+
 #cink h6 {
     color: gold;
     z-index: 90;
@@ -299,6 +334,7 @@ body{
     font-size: 40px;
     top: -22em;
 }
+
 /*
 #cink h5 {
     color: gold;
@@ -329,6 +365,7 @@ body{
     position: absolute;
     top: 90px;
 }
+
 .bordtriangle4 {
     width: 0;
     height: 0;
@@ -340,6 +377,7 @@ body{
     position: absolute;
     top: 90px;
 }
+
 .triangle5 {
     width: 0;
     height: 0;
@@ -350,6 +388,7 @@ body{
     position: relative;
     top: 6em;
 }
+
 .triangle6 {
     width: 0;
     height: 0;
@@ -360,6 +399,7 @@ body{
     position: absolute;
     top: 6em;
 }
+
 .triangle7 {
     width: 0;
     height: 0;
@@ -372,6 +412,7 @@ body{
     top: 10em;
     left: 30%;
 }
+
 .triangle8 {
     width: 0;
     height: 0;
@@ -384,12 +425,14 @@ body{
     top: 10em;
     left: -30%;
 }
+
 #cink img {
     z-index: 59;
     position: relative;
     min-height: 80em;
     top: -56em;
 }
+
 #siss {
     margin-top: 35em;
     background-color: #589eff;
@@ -400,9 +443,11 @@ body{
     padding: 0 !important;
     top: 0em;
 }
+
 #siss p {
     margin: 0 !important;
 }
+
 .sissp {
     text-transform: uppercase !important;
     display: block !important;
@@ -417,7 +462,8 @@ body{
     font-weight: 100;
     line-height: 50px;
 }
-#siss input{
+
+#siss input {
     border-right: none;
     border-left: none;
     border-top: none;
@@ -425,7 +471,8 @@ body{
     background-color: transparent;
     width: 50%;
 }
-#siss textarea{
+
+#siss textarea {
     border-right: none;
     border-left: none;
     border-top: none;
@@ -433,6 +480,7 @@ body{
     background-color: transparent;
     width: 50%;
 }
+
 .bordtriangle5 {
     width: 0;
     height: 0;
@@ -443,6 +491,7 @@ body{
     position: absolute;
     top: -9em;
 }
+
 .bordtriangle6 {
     width: 0;
     height: 0;
@@ -453,6 +502,7 @@ body{
     position: relative;
     top: -9em;
 }
+
 .triangle9 {
     width: 0;
     height: 0;
@@ -463,6 +513,7 @@ body{
     position: absolute;
     top: -10em;
 }
+
 .triangle10 {
     width: 0;
     height: 0;
@@ -474,17 +525,19 @@ body{
     top: -20em;
 }
 
-
-
 /*autre*/
 
 h1 {
     color: #1991dd;
 }
-header {}
+
+header {
+}
+
 header ul {
     margin: 0;
 }
+
 header ul li {
     display: inline-block;
     list-style-type: none;
@@ -492,6 +545,7 @@ header ul li {
     border-width: 0px 2px 0px 0px;
     border-color: white;
 }
+
 header ul li a {
     color: white;
     padding: 10px 20px;
@@ -499,20 +553,25 @@ header ul li a {
     text-transform: uppercase;
     text-decoration: none !important;
 }
+
 header ul li a:hover {
     text-decoration: none;
     color: #ff7d44;
 }
+
 header ul li.current-menu-item a {
     color: black;
 }
+
 body {
     margin: 0px;
 }
+
 #head1 {
     background-color: #00a0d1 !important;
     height: 600px;
 }
+
 #triangle-topright {
     width: 0;
     height: 0;
@@ -520,6 +579,7 @@ body {
     border-left: 720px solid transparent;
     float: left;
 }
+
 #triangle-topleft {
     width: 0;
     height: 0;
@@ -527,6 +587,7 @@ body {
     border-right: 720px solid transparent;
     float: right !important;
 }
+
 #triangle-bottomright {
     width: 0;
     height: 0;
@@ -536,6 +597,7 @@ body {
     z-index: 999 !important;
     margin-top: 200px;
 }
+
 #triangle-bottomleft {
     width: 0;
     height: 0;
@@ -545,11 +607,13 @@ body {
     z-index: 999 !important;
     margin-top: 200px;
 }
+
 .tri {
     margin-left: auto;
     margin-right: auto;
     width: auto;
 }
+
 .nav {
     margin: 0 auto !important;
     background: none !important;
@@ -558,28 +622,34 @@ body {
     z-index: 999 !important;
     Updated: upstream
 }
+
 .menu {
     float: right;
     margin-right: 5%;
     margin-top: 2%;
     font-size: 15px;
 }
+
 .secondiv {
     background-color: greenyellow !important;
     height: 570px;
 }
+
 .thirdiv {
     background-color: rebeccapurple !important;
     height: 800px;
 }
+
 .partenaires {
     background-color: lightyellow !important;
     height: 500px;
 }
+
 .projetitre {
     background-color: aquamarine !important;
     height: 300px;
 }
+
 .projet {
     background-color: mediumvioletred !important;
     height: 500px;
@@ -590,6 +660,7 @@ body {
 .deuztext h2 {
     text-align: center !important;
 }
+
 .glyph {
     text-align: center !important;
     display: block !important;
@@ -598,6 +669,7 @@ body {
     color: #589eff;
 
 }
+
 .deuztext p {
     text-align: center !important;
     display: block !important;
@@ -605,6 +677,7 @@ body {
     margin-right: auto !important;
     margin-top: 3%;
 }
+
 @font-face {
     font-family: 'code_lightregular';
     src: url('fonts/code_light.eot');
@@ -612,12 +685,14 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
 #titre {
     font-family: 'code_lightregular';
     font-weight: bold;
     font-size: 3em;
-    color:#579eff!important;
+    color: #579eff !important;
 }
+
 .footer {
     background-color: darkgrey;
     text-align: center;
@@ -625,22 +700,27 @@ body {
     font-weight: bold;
     font-size: 1em;
 }
+
 .footer a {
-    text-decoration: none!important;
-    font-color: black!important;
+    text-decoration: none !important;
+    font-color: black !important;
 }
+
 .entreprise {
     margin-top: 10%;
     margin-left: 55%;
     text-align: center;
 }
+
 .histoire {
     margin-left: 5%;
     text-align: center;
 }
+
 .apropos {
     background-color: lightgrey;
 }
+
 .triangle3apropos {
     width: 0;
     height: 0;
@@ -651,6 +731,7 @@ body {
     position: relative;
     top: 8em;
 }
+
 .triangle4apropos {
     width: 0;
     height: 0;
@@ -672,6 +753,7 @@ body {
     position: relative;
     top: 8em;
 }
+
 .triangle6apropos {
     width: 0;
     height: 0;
@@ -682,25 +764,30 @@ body {
     position: absolute;
     top: 8em;
 }
+
 .firstriangleapropos {
     padding: 0 !important;
     display: block;
 }
+
 .triangleapropos {
     margin-top: -8em;
 }
+
 /*Formation*/
-#formation1{
+#formation1 {
     background-color: #c80d0d;
     z-index: 59;
     position: relative;
 }
+
 #formation1 h1 {
     text-align: center;
     position: relative;
     z-index: 61;
     color: black;
 }
+
 .formationtriangle1 {
     width: 0;
     height: 0;
@@ -708,6 +795,7 @@ body {
     float: right;
     position: relative;
 }
+
 .formationtriangle2 {
     width: 0;
     height: 0;
@@ -715,450 +803,605 @@ body {
     float: right;
     position: absolute;
 }
-#formation2{
+
+#formation2 {
     z-index: 54;
 }
-.formationvideo{
+
+.formationvideo {
     z-index: 55 !important;
     min-width: 100% !important;
     position: relative;
 }
-#formation3{
+
+#formation3 {
     z-index: 60;
 }
-#formation3 h2{
+
+#formation3 h2 {
     text-align: center;
 }
-#formation3 p{
+
+#formation3 p {
     text-align: center;
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-#formation4{
+
+#formation4 {
     background-color: #ddc503;
     z-index: 59;
     position: relative;
 }
-.formationtriangle3{
+
+.formationtriangle3 {
     width: 0;
     height: 0;
     z-index: 60;
     float: right;
     position: relative;
 }
-.formationtriangle4{
+
+.formationtriangle4 {
     width: 0;
     height: 0;
     z-index: 60;
     float: right;
     position: absolute;
 }
-#formation4 p{
-    color:white;
+
+#formation4 p {
+    color: white;
     position: relative;
 }
-#formation4 img{
+
+#formation4 img {
     position: relative;
 }
+
 /*MediaQuerries*/
 /*1900*/
-@media only screen and (min-width : 1636px) {
-    #formation1{
+@media only screen and (min-width: 1636px) {
+    #formation1 {
         margin-top: 0 !important;
         top: -2em;
     }
-    #formation1{
+
+    #formation1 {
         min-height: 20em;
     }
+
     #formation1 h1 {
         font-size: 60px;
         top: 4em;
     }
+
     .formationtriangle1 {
         border-top: 15em solid #c80d0d;
         border-left: 30em solid transparent;
-        top:10em;
+        top: 10em;
     }
+
     .formationtriangle2 {
         border-top: 15em solid #c80d0d;
         border-right: 30em solid transparent;
-        top:10em;
+        top: 10em;
     }
-    #formation2{
+
+    #formation2 {
         min-height: 20em;
         max-height: 60em;
     }
-    .formationvideo{
+
+    .formationvideo {
         min-height: 54em !important;
         min-width: 100% !important;
         top: -6em;
     }
-    #formation3{
+
+    #formation3 {
         min-height: 41em;
     }
-    #formation3 h2{
+
+    #formation3 h2 {
         font-size: 50px;
     }
-    #formation3 p{
+
+    #formation3 p {
         width: 90%;
         font-size: 20px;
         margin-top: 2em;
     }
-    #formation4{
+
+    #formation4 {
         margin-top: 2em !important;
         min-height: 35em;
     }
-    .formationtriangle3{
+
+    .formationtriangle3 {
         border-bottom: 13em solid #ddc503;
         border-left: 100em solid transparent;
-        top:-12em;
+        top: -12em;
     }
-    .formationtriangle4{
+
+    .formationtriangle4 {
         border-bottom: 13em solid #ddc503;
         border-right: 100em solid transparent;
-        top:-12em;
+        top: -12em;
     }
-    #formation4 img{
+
+    #formation4 img {
         margin-left: 50%;
         position: relative;
     }
-    #formation4 .description{
+
+    #formation4 .description {
         margin-top: 2em;
     }
-    .divbas{
+
+    .divbas {
         display: none;
     }
 }
+
 /*1500*/
-@media only screen and (max-width : 1635px) and (min-width : 1300px) {
-    #formation1{
+@media only screen and (max-width: 1635px) and (min-width: 1300px) {
+    #formation1 {
         margin-top: 0 !important;
         top: -2em;
     }
-    #formation1{
+
+    #formation1 {
         min-height: 20em;
     }
+
     #formation1 h1 {
         font-size: 60px;
         top: 4em;
     }
+
     .formationtriangle1 {
         border-top: 15em solid #c80d0d;
         border-left: 30em solid transparent;
-        top:10em;
+        top: 10em;
     }
+
     .formationtriangle2 {
         border-top: 15em solid #c80d0d;
         border-right: 30em solid transparent;
-        top:10em;
+        top: 10em;
     }
-    #formation2{
+
+    #formation2 {
         min-height: 20em;
         max-height: 60em;
     }
-    .formationvideo{
+
+    .formationvideo {
         min-height: 35em !important;
         min-width: 100% !important;
         top: -6em;
     }
-    #formation3{
+
+    #formation3 {
         min-height: 40em;
     }
-    #formation3 h2{
+
+    #formation3 h2 {
         font-size: 50px;
     }
-    #formation3 p{
+
+    #formation3 p {
         width: 90%;
         font-size: 18px;
         margin-top: 2em;
     }
-    #formation4{
+
+    #formation4 {
         margin-top: 7em !important;
         min-height: 40em;
     }
-    .formationtriangle3{
+
+    .formationtriangle3 {
         border-bottom: 13em solid #ddc503;
         border-left: 100em solid transparent;
-        top:-12em;
+        top: -12em;
     }
-    .formationtriangle4{
+
+    .formationtriangle4 {
         border-bottom: 13em solid #ddc503;
         border-right: 100em solid transparent;
-        top:-12em;
+        top: -12em;
     }
-    #formation4 img{
+
+    #formation4 img {
         margin-left: 50%;
     }
-    #formation4 .description{
+
+    #formation4 .description {
         margin-top: 2em;
     }
-    .divbas{
+
+    .divbas {
         display: none;
     }
 }
+
 /*1200*/
-@media only screen and (max-width : 1299px) and (min-width : 1000px) {
-    #formation1{
+@media only screen and (max-width: 1299px) and (min-width: 1000px) {
+    #formation1 {
         margin-top: 0 !important;
         top: -2em;
     }
-    .divbas{
+
+    .divbas {
         display: none;
     }
-    #formation1{
+
+    #formation1 {
         min-height: 20em;
     }
+
     #formation1 h1 {
         font-size: 60px;
         top: 4em;
     }
+
     .formationtriangle1 {
         border-top: 15em solid #c80d0d;
         border-left: 30em solid transparent;
-        top:10em;
+        top: 10em;
     }
+
     .formationtriangle2 {
         border-top: 15em solid #c80d0d;
         border-right: 30em solid transparent;
-        top:10em;
+        top: 10em;
     }
-    #formation2{
+
+    #formation2 {
         min-height: 20em;
         max-height: 60em;
     }
-    .formationvideo{
+
+    .formationvideo {
         min-height: 29em !important;
         min-width: 100% !important;
         top: -6em;
     }
-    #formation3{
+
+    #formation3 {
         min-height: 40em;
     }
-    #formation3 h2{
+
+    #formation3 h2 {
         font-size: 40px;
     }
-    #formation3 p{
+
+    #formation3 p {
         width: 90%;
         font-size: 16px;
         margin-top: 2em;
     }
-    #formation4{
+
+    #formation4 {
         margin-top: 7em !important;
         min-height: 32em;
     }
-    #formation4 p{
+
+    #formation4 p {
         top: -11em;
     }
-    .formationtriangle3{
+
+    .formationtriangle3 {
         border-bottom: 13em solid #ddc503;
         border-left: 100em solid transparent;
-        top:-12em;
+        top: -12em;
     }
-    .formationtriangle4{
+
+    .formationtriangle4 {
         border-bottom: 13em solid #ddc503;
         border-right: 100em solid transparent;
-        top:-12em;
+        top: -12em;
     }
-    #formation4 img{
+
+    #formation4 img {
         margin-left: 50%;
         top: -10em;
     }
-    #formation4 .description{
+
+    #formation4 .description {
         margin-top: 2em;
     }
 }
+
 /*Ipad*/
-@media only screen and (max-width : 999px) and (min-width : 700px) {
-    body{
-         padding-right: 0px !important;
-         padding-left: 0px !important;
+@media only screen and (max-width: 999px) and (min-width: 700px) {
+    body {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
     }
-    .divsup{
+
+    .divsup {
         display: none;
     }
-    .divbas{
+
+    .divbas {
         margin-top: 3em;
     }
-    main{
+
+    main {
         background-color: white !important;
     }
-    #formation1{
+
+    #formation1 {
         margin-top: 0 !important;
         top: -2em;
     }
-    #formation1{
+
+    #formation1 {
         min-height: 20em;
     }
+
     #formation1 h1 {
         font-size: 50px;
         top: 4em;
     }
-    #formation2{
+
+    #formation2 {
         min-height: 20em;
         max-height: 60em;
     }
-    .formationvideo{
+
+    .formationvideo {
         min-height: 18em !important;
         min-width: 100% !important;
         top: -6em;
     }
-    #formation3{
+
+    #formation3 {
         min-height: 20em;
     }
-    #formation3 h2{
+
+    #formation3 h2 {
         font-size: 30px;
     }
-    #formation3 p{
+
+    #formation3 p {
         width: 90%;
         font-size: 12px;
         margin-top: 2em;
     }
-    #formation4{
+
+    #formation4 {
         margin-top: 7em !important;
         min-height: 26em;
     }
-    #formation4 img{
+
+    #formation4 img {
         margin-left: 50%;
         max-height: 10em;
         margin-top: 6em;
     }
-    #formation4 .description{
+
+    #formation4 .description {
         margin-top: 2em;
     }
-    body{
+
+    body {
         background-color: darkgrey;
     }
 }
+
 /*Smartphone*/
-@media only screen and (max-width : 699px) and (min-width : 400px) {
-    body{
+@media only screen and (max-width: 699px) and (min-width: 400px) {
+    body {
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
-    .divsup{
+
+    .divsup {
         display: none;
     }
-    .divbas{
+
+    .divbas {
         margin-top: 3em;
     }
-    #formation1{
+
+    #formation1 {
         margin-top: 0 !important;
         top: -2em;
     }
-    #formation1{
+
+    #formation1 {
         min-height: 20em;
     }
+
     #formation1 h1 {
         font-size: 30px;
         top: 4em;
 
     }
-    #formation2{
+
+    #formation2 {
         min-height: 20em;
         max-height: 60em;
     }
-    .formationvideo{
+
+    .formationvideo {
         min-height: 18em !important;
         min-width: 100% !important;
         top: -6em;
     }
-    body{
+
+    body {
         background-color: darkgrey;
     }
-    main{
+
+    main {
         background-color: white !important;
     }
-    #formation3{
+
+    #formation3 {
         min-height: 20em;
     }
-    #formation3 h2{
+
+    #formation3 h2 {
         font-size: 20px;
     }
-    #formation3 p{
+
+    #formation3 p {
         width: 90%;
         font-size: 12px;
         margin-top: 2em;
     }
-    #formation4{
+
+    #formation4 {
         margin-top: 7em !important;
         min-height: 26em;
     }
-    #formation4 img{
+
+    #formation4 img {
         margin-left: 40%;
         max-height: 6em;
         margin-top: 6em;
     }
-    #formation4 .description{
+
+    #formation4 .description {
         margin-top: 2em;
     }
-    #formation4 p{
+
+    #formation4 p {
         font-size: 11px !important;
     }
 }
+
 /*Mobile*/
-@media only screen and (max-width : 399px) and (min-width : 0px) {
-    body{
+@media only screen and (max-width: 399px) and (min-width: 0px) {
+    body {
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
-    .divsup{
+
+    .divsup {
         display: none;
     }
-    .divbas{
+
+    .divbas {
         margin-top: 3em;
     }
-    #formation1{
+
+    #formation1 {
         margin-top: 0 !important;
         top: -2em;
     }
-    #formation1{
+
+    #formation1 {
         min-height: 20em;
     }
+
     #formation1 h1 {
         font-size: 30px;
         top: 6em;
     }
-    #formation2{
+
+    #formation2 {
         min-height: 20em;
         max-height: 60em;
     }
-    .formationvideo{
+
+    .formationvideo {
         min-height: 18em !important;
         min-width: 100% !important;
         top: -6em;
     }
-    body{
+
+    body {
         background-color: darkgrey;
     }
-    main{
+
+    main {
         background-color: white !important;
     }
-    #formation3{
+
+    #formation3 {
         min-height: 20em;
     }
-    #formation3 h2{
+
+    #formation3 h2 {
         font-size: 20px;
     }
-    #formation3 p{
+
+    #formation3 p {
         width: 90%;
         font-size: 12px;
         margin-top: 2em;
     }
-    #formation4{
+
+    #formation4 {
         margin-top: 7em !important;
         min-height: 26em;
     }
-    #formation4 img{
+
+    #formation4 img {
         margin-left: 30%;
         max-height: 6em;
         margin-top: 6em;
     }
-    #formation4 .description{
+
+    #formation4 .description {
         margin-top: 2em;
     }
-    #formation4 p{
+
+    #formation4 p {
         font-size: 10px !important;
     }
+}
+
+.card {
+    position: relative;
+    padding-bottom: 21%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card__front,
+.card__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card__front,
+.card__back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s;
+}
+
+.card__front {
+    background-color: transparent;
+}
+
+.card__back {
+    background-color: black;
+    opacity: 0.7;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
 }

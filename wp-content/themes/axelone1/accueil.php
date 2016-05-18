@@ -67,18 +67,31 @@
         </div>
     </div>
     <div class="col-md-12" id="troiz">
-        <div class="col-md-5" id="opacity1">
-            <h1 id="titre" class="axel">AXEL'ONE</h1>
-            <p class="apropotxt">
-                ÉLITE ORGANISATION est un cabinet spécialisé dans l'amélioration des performances et des organisations, intervenant dans tous les secteurs d'activité : industrie, services, logistique, BTP, etc.
-                <br>
-                <br>
-                ÉLITE ORGANISATION vous conseille, forme vos équipes et les accompagne dans la mise en œuvre des plans d'amélioration.
-           </p>
-
+        <div class="card effect__hover col-md-5" id="opacity1">
+            <div class="card__front">
+                <h1 id="titre" class="axel">AXEL'ONE</h1>
+            </div>
+            <div class="card__back">
+                <p class="apropotxt">
+                    ÉLITE ORGANISATION est un cabinet spécialisé dans l'amélioration des performances et des organisations, intervenant dans tous les secteurs d'activité : industrie, services, logistique, BTP, etc.
+                    <br>
+                    <br>
+                    ÉLITE ORGANISATION vous conseille, forme vos équipes et les accompagne dans la mise en œuvre des plans d'amélioration.
+                </p>
+            </div>
         </div>
-        <div class="col-md-5" id="opacity2">
-            <h1 id="titre" class="karine">KARINE G.L</h1>
+        <div class="card effect__hover col-md-5" id="opacity1">
+            <div class="card__front">
+                <h1 id="titre" class="axel">KARINE G.L</h1>
+            </div>
+            <div class="card__back">
+                <p class="apropotxt">
+                    ÉLITE ORGANISATION est un cabinet spécialisé dans l'amélioration des performances et des organisations, intervenant dans tous les secteurs d'activité : industrie, services, logistique, BTP, etc.
+                    <br>
+                    <br>
+                    ÉLITE ORGANISATION vous conseille, forme vos équipes et les accompagne dans la mise en œuvre des plans d'amélioration.
+                </p>
+            </div>
         </div>
     </div>
     <div class="col-md-12" id="katre">
