@@ -25,8 +25,8 @@
     <div class="col-md-12" id="deuz">
         <div class="col-md-12">
             <div class="col-md-4 deuztext">
-                <h2 id="titre">SERVICE 1</h2>
-                <i class="fa fa-lightbulb-o glyph" style="font-size:40px;"></i>
+                <h2 id="titre">FORMATION</h2>
+                <i class="fa fa-lightbulb-o glyph" style="font-size:65px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -35,8 +35,8 @@
                 </p>
             </div>
             <div class="col-md-4 deuztext">
-                <h2 id="titre">SERVICE 2</h2>
-                <i class="fa fa-thumbs-o-up glyph" aria-hidden="true" style="font-size:40px;"></i>
+                <h2 id="titre">CONSEIL</h2>
+                <i class="fa fa-thumbs-o-up glyph" aria-hidden="true" style="font-size:65px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -46,7 +46,7 @@
             </div>
             <div class="col-md-4 deuztext">
                 <h2 id="titre">SERVICE 3</h2>
-                <i class="fa fa-clock-o glyph" style="font-size:40px;"></i>
+                <i class="fa fa-clock-o glyph" style="font-size:65px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -67,18 +67,31 @@
         </div>
     </div>
     <div class="col-md-12" id="troiz">
-        <div class="col-md-5" id="opacity1">
-            <h1 id="titre" class="axel">AXEL'ONE</h1>
-            <p class="apropotxt">
-                ÉLITE ORGANISATION est un cabinet spécialisé dans l'amélioration des performances et des organisations, intervenant dans tous les secteurs d'activité : industrie, services, logistique, BTP, etc.
-                <br>
-                <br>
-                ÉLITE ORGANISATION vous conseille, forme vos équipes et les accompagne dans la mise en œuvre des plans d'amélioration.
-           </p>
-
+        <div class="card effect__hover col-md-5" id="opacity1">
+            <div class="card__front">
+                <h1 id="titre" class="axel">AXEL'ONE</h1>
+            </div>
+            <div class="card__back">
+                <p class="apropotxt">
+                    ÉLITE ORGANISATION est un cabinet spécialisé dans l'amélioration des performances et des organisations, intervenant dans tous les secteurs d'activité : industrie, services, logistique, BTP, etc.
+                    <br>
+                    <br>
+                    ÉLITE ORGANISATION vous conseille, forme vos équipes et les accompagne dans la mise en œuvre des plans d'amélioration.
+                </p>
+            </div>
         </div>
-        <div class="col-md-5" id="opacity2">
-            <h1 id="titre" class="karine">KARINE G.L</h1>
+        <div class="card effect__hover col-md-5" id="opacity1">
+            <div class="card__front">
+                <h1 id="titre" class="axel">KARINE G.L</h1>
+            </div>
+            <div class="card__back">
+                <p class="apropotxt">
+                    ÉLITE ORGANISATION est un cabinet spécialisé dans l'amélioration des performances et des organisations, intervenant dans tous les secteurs d'activité : industrie, services, logistique, BTP, etc.
+                    <br>
+                    <br>
+                    ÉLITE ORGANISATION vous conseille, forme vos équipes et les accompagne dans la mise en œuvre des plans d'amélioration.
+                </p>
+            </div>
         </div>
     </div>
     <div class="col-md-12" id="katre">
