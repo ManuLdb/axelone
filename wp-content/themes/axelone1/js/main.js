@@ -40,3 +40,7 @@ $(function(){
     setInterval(doScroll, 20);
     tweenToNewSpeed(controller.fullSpeed);
 });
+$('#myCarousel').carousel({
+    interval: 3000,
+    cycle: true
+});

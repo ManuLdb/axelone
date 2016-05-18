@@ -5,7 +5,10 @@ html {
 body{
     margin-top: 0px !important;
 }
-
+/*Temoingnage*/
+.carousel-control.left { opacity: 0; }
+.carousel-control.right {  opacity: 0;  }
+#myCarousel ol{opacity: 0;}
 /*Accueil*/
 
 #first {
@@ -756,9 +759,8 @@ body {
     color:white;
     position: relative;
 }
-#formation4 img{
-    position: relative;
-}
+#formation4 img{  position: relative;  display: block;  margin-left: auto;  margin-right: auto;  }
+.col-xs-6{display: none;}
 /*MediaQuerries*/
 /*1900*/
 @media only screen and (min-width : 1636px) {
@@ -800,7 +802,7 @@ body {
     }
     #formation3 p{
         width: 90%;
-        font-size: 20px;
+        font-size: 19px;
         margin-top: 2em;
     }
     #formation4{
@@ -817,10 +819,7 @@ body {
         border-right: 100em solid transparent;
         top:-12em;
     }
-    #formation4 img{
-        margin-left: 50%;
-        position: relative;
-    }
+    #formation4 img{max-height: 15em;min-height: 15em; }
     #formation4 .description{
         margin-top: 2em;
     }
@@ -865,6 +864,7 @@ body {
     }
     #formation3 h2{
         font-size: 50px;
+        position: relative;
     }
     #formation3 p{
         width: 90%;
@@ -885,9 +885,7 @@ body {
         border-right: 100em solid transparent;
         top:-12em;
     }
-    #formation4 img{
-        margin-left: 50%;
-    }
+    #formation4 img{max-height: 15em;min-height: 15em; }
     #formation4 .description{
         margin-top: 2em;
     }
@@ -946,7 +944,6 @@ body {
         min-height: 32em;
     }
     #formation4 p{
-        top: -11em;
     }
     .formationtriangle3{
         border-bottom: 13em solid #ddc503;
@@ -958,10 +955,7 @@ body {
         border-right: 100em solid transparent;
         top:-12em;
     }
-    #formation4 img{
-        margin-left: 50%;
-        top: -10em;
-    }
+    #formation4 img{max-height: 10em;min-height: 10em; }
     #formation4 .description{
         margin-top: 2em;
     }
@@ -1010,20 +1004,18 @@ body {
     #formation3 p{
         width: 90%;
         font-size: 12px;
-        margin-top: 2em;
     }
     #formation4{
         margin-top: 7em !important;
-        min-height: 26em;
+        min-height: 15em;
     }
-    #formation4 img{
-        margin-left: 50%;
-        max-height: 10em;
-        margin-top: 6em;
-    }
+    #formation4 img{max-height: 10em;min-height: 10em; max-width: 50%;}
+
     #formation4 .description{
         margin-top: 2em;
     }
+    .col-md-6{display: none;}
+    .col-xs-6{display: block}
     body{
         background-color: darkgrey;
     }
@@ -1080,19 +1072,17 @@ body {
     }
     #formation4{
         margin-top: 7em !important;
-        min-height: 26em;
+        min-height: 13em;
     }
-    #formation4 img{
-        margin-left: 40%;
-        max-height: 6em;
-        margin-top: 6em;
-    }
+    #formation4 img{max-height: 8em;min-height: 8em; max-width: 50%;}
     #formation4 .description{
         margin-top: 2em;
     }
     #formation4 p{
         font-size: 11px !important;
     }
+    .col-md-6{display: none;}
+    .col-xs-6{display: block}
 }
 /*Mobile*/
 @media only screen and (max-width : 399px) and (min-width : 0px) {
@@ -1145,17 +1135,15 @@ body {
     }
     #formation4{
         margin-top: 7em !important;
-        min-height: 26em;
+        min-height: 10em;
     }
-    #formation4 img{
-        margin-left: 30%;
-        max-height: 6em;
-        margin-top: 6em;
-    }
+    #formation4 img{max-height: 5em;min-height: 5em; max-width: 50%;}
     #formation4 .description{
         margin-top: 2em;
     }
     #formation4 p{
         font-size: 10px !important;
     }
+    .col-md-6{display: none;}
+    .col-xs-6{display: block}
 }

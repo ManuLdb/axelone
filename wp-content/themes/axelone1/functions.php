@@ -9,7 +9,6 @@ function theme_enqueue_styles() {
 remove_action( 'init', 'wp_admin_bar_init' );
 // Ajouter Image à la Une sur les articles
 add_theme_support('post-thumbnails');
-
 // Ajouter un menu
 register_nav_menu('principal', 'Menu principal');
 register_nav_menu('footer', 'Menu du bas');
