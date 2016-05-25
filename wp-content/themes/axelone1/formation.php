@@ -20,25 +20,21 @@
     </div>
     <div id="formation3">
        <h2>NOS COURS</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur cumque delectus
-            explicabo fuga illo illum in maiores nisi numquam pariatur perferendis quam ratione reiciendis sequi sunt temporibus, ullam.
-        </p>
+
+        <?php
+        // Start the loop.
+        while ( have_posts() ) : the_post();?>
+                <p><?php the_content(__('(more...)')); ?></p>
+                    <?php
+                    if ( comments_open() || get_comments_number() ) :
+                        comments_template();
+                    endif;
+                    ?>
+            <?php
+
+            // End the loop.
+        endwhile;
+        ?>
     </div>
     <div id="formation4">
         <div class="col-md-6 firstriangle"><div class="formationtriangle3"></div></div>
