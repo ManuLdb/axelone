@@ -737,7 +737,7 @@ body {
 .triangle3apropos {
     width: 0;
     height: 0;
-    border-top: 13em solid #579eff;
+    border-top: 13em solid #03224C;
     border-left: 100em solid transparent;
     z-index: 0;
     float: right;
@@ -748,7 +748,7 @@ body {
 .triangle4apropos {
     width: 0;
     height: 0;
-    border-top: 13em solid #579eff;
+    border-top: 13em solid #03224C;
     border-right: 100em solid transparent;
     z-index: 0;
     float: right;
@@ -759,7 +759,7 @@ body {
 .triangle5apropos {
     width: 0;
     height: 0;
-    border-bottom: 13em solid #579eff;
+    border-bottom: 13em solid #03224C;
     border-right: 100em solid transparent;
     z-index: 0;
     float: right;
@@ -771,7 +771,7 @@ body {
 .triangle6apropos {
     width: 0;
     height: 0;
-    border-bottom: 13em solid #579eff;
+    border-bottom: 13em solid #03224C;
     border-left: 100em solid transparent;
     z-index: 0;
     float: right;
