@@ -21,43 +21,42 @@ Template Name: à propos
           
           
            <div class="image1apropos"> 
-           <img src="../wp-content/themes/axelone1/img/Calque1apropos.png" class="img-responsive" alt="Responsive image">
+               <img style="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Calque1apropos.png" class="img-responsive" alt="Responsive image">
+           </div>
+           
+           <div class="entrepriseapropos">
+               
+                  <h1>L'ENTREPRISE</h1>
+  
+            </div>
+           
+           <div class="texteentreprise">
+               <div class="col-md-6">
+                   <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</b></p>
+                   
+                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+               </div>
+           </div>
+    
+           <div class="texteentreprise">
+               <div class="col-md-6">
+                   <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</b></p>
+                   
+                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+               </div>
            </div>
            
             <div class="image2apropos"> 
-           <img src="../wp-content/themes/axelone1/img/Calque1apropos.png" class="img-responsive" alt="Responsive image">
+               <img style="" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Calque2apropos.png" class="img-responsive" alt="Responsive image">
            </div>
            
             
 
-        
-         <div class="col-md-12">
-            
-             <div class="col-md-12 triangleapropos">
-                <div class="col-md-6 firstriangle">
-                    <div class="triangle5apropos"></div>
-                </div>
-                <div class="col-md-6 firstriangle">
-                    <div class="triangle6apropos"></div>
-                </div>
-            </div>
-            
-            </div>
-            
             
             
 
             <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
             <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-2.2.3.min.js"></script>
             <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/main.js"></script>
-
-            <div class="col-md-12 footer">
-                <p>
-                    <a href="#">Mentions Légales</a> - Réalisation <a href="#">Agence I communication</a>
-                </p>
-            </div>
-
-            </body>
-            <?php wp_footer(); ?>
-
-                </html>
+        
+            <?php get_footer(); ?>
