@@ -17,7 +17,19 @@ Template Name: à propos
                 </div>
             </div>
             
-/** second triangle **/
+
+          
+          
+           <div class="image1apropos"> 
+           <img src="../wp-content/themes/axelone1/img/Calque1apropos.png" class="img-responsive" alt="Responsive image">
+           </div>
+           
+            <div class="image2apropos"> 
+           <img src="../wp-content/themes/axelone1/img/Calque1apropos.png" class="img-responsive" alt="Responsive image">
+           </div>
+           
+            
+
         
          <div class="col-md-12">
             
