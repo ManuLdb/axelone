@@ -90,6 +90,28 @@
                             <p><?php the_field('nom2'); ?></p>
                         </div>
                     </div>
+                    <div class="item">
+                        <div class="col-md-6">
+                            <?php $image = get_field('photo3');
+                            if( !empty($image) ): ?>
+                                <img class="img-label" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                            <?php endif; ?>
+                        </div>
+                        <div class="col-md-6">
+                            <p><?php the_field('description3'); ?></p>
+                            <p><?php the_field('nom3'); ?></p>
+                        </div>
+                        <div class="col-xs-6">
+                            <?php $image = get_field('photo3');
+                            if( !empty($image) ): ?>
+                                <img class="img-label" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                            <?php endif; ?>
+                        </div>
+                        <div class="col-xs-6">
+                            <p><?php the_field('description3'); ?></p>
+                            <p><?php the_field('nom3'); ?></p>
+                        </div>
+                    </div>
                 </div>
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
                 <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="fa fa-chevron-right"></span></a>
