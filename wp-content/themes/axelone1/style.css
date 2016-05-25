@@ -6,10 +6,20 @@ html {
 body {
     margin-top: 0px !important;
 }
-/*Temoingnage*/
-.carousel-control.left { opacity: 0; }
-.carousel-control.right {  opacity: 0;  }
-#myCarousel ol{opacity: 0;}
+
+/*Temoignage*/
+.carousel-control.left {
+    opacity: 0;
+}
+
+.carousel-control.right {
+    opacity: 0;
+}
+
+#myCarousel ol {
+    opacity: 0;
+}
+
 /*Accueil*/
 
 #first {
@@ -147,7 +157,7 @@ body {
     padding: 0 !important;
     display: block;
     top: -275px;
-    background: url('../axelone1/img/factory.png') no-repeat center center fixed;
+    background-color: #579eff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -158,7 +168,7 @@ body {
     background-color: black;
     min-height: 45em;
     margin: 20px 40px 20px 5%;
-    opacity: 0.6;
+
 }
 
 #opacity2 {
@@ -727,7 +737,7 @@ body {
 .triangle3apropos {
     width: 0;
     height: 0;
-    border-top: 13em solid #579eff;
+    border-top: 13em solid #03224C;
     border-left: 100em solid transparent;
     z-index: 0;
     float: right;
@@ -738,7 +748,7 @@ body {
 .triangle4apropos {
     width: 0;
     height: 0;
-    border-top: 13em solid #579eff;
+    border-top: 13em solid #03224C;
     border-right: 100em solid transparent;
     z-index: 0;
     float: right;
@@ -749,19 +759,20 @@ body {
 .triangle5apropos {
     width: 0;
     height: 0;
-    border-top: 13em solid #579eff;
-    border-left: 100em solid transparent;
+    border-bottom: 13em solid #03224C;
+    border-right: 100em solid transparent;
     z-index: 0;
     float: right;
     position: relative;
     top: 8em;
+     
 }
 
 .triangle6apropos {
     width: 0;
     height: 0;
-    border-top: 13em solid #579eff;
-    border-right: 100em solid transparent;
+    border-bottom: 13em solid #03224C;
+    border-left: 100em solid transparent;
     z-index: 0;
     float: right;
     position: absolute;
@@ -859,14 +870,21 @@ body {
     color: white;
     position: relative;
 }
-#formation4 img{  position: relative;  display: block;  margin-left: auto;  margin-right: auto;  }
-.col-xs-6{display: none;}
 
+#formation4 img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-xs-6 {
+    display: none;
+}
 
 #formation4 img {
     position: relative;
 }
-
 
 /*MediaQuerries*/
 /*1900*/
@@ -940,8 +958,17 @@ body {
         top: -12em;
     }
 
+<<<<<<< HEAD
     #formation4 img{max-height: 15em;min-height: 15em; }
     #formation4 .description{}
+=======
+    #formation4 img {
+        max-height: 15em;
+        min-height: 15em;
+    }
+
+    #formation4 .description {
+>>>>>>> b65bc652c0eaa781b56a2b9180ae37446b4e7b2a
 
     #formation4 img {
         margin-left: 50%;
@@ -955,6 +982,8 @@ body {
     .divbas {
         display: none;
     }
+}
+
 }
 
 /*1500*/
@@ -1027,8 +1056,18 @@ body {
         border-right: 100em solid transparent;
         top: -12em;
     }
+<<<<<<< HEAD
     #formation4 img{max-height: 15em;min-height: 15em; }
     #formation4 .description{}
+=======
+
+    #formation4 img {
+        max-height: 15em;
+        min-height: 15em;
+    }
+
+    #formation4 .description {
+>>>>>>> b65bc652c0eaa781b56a2b9180ae37446b4e7b2a
 
     #formation4 img {
         margin-left: 50%;
@@ -1041,6 +1080,8 @@ body {
     .divbas {
         display: none;
     }
+}
+
 }
 
 /*1200*/
@@ -1105,6 +1146,7 @@ body {
         margin-top: 7em !important;
         min-height: 32em;
     }
+
     #formation4 p {
         top: -11em;
     }
@@ -1120,8 +1162,19 @@ body {
         border-right: 100em solid transparent;
         top: -12em;
     }
+<<<<<<< HEAD
     #formation4 img{max-height: 10em;min-height: 10em; }
     #formation4 .description{}
+=======
+
+    #formation4 img {
+        max-height: 10em;
+        min-height: 10em;
+    }
+
+    #formation4 .description {
+
+>>>>>>> b65bc652c0eaa781b56a2b9180ae37446b4e7b2a
     #formation4 img {
         margin-left: 50%;
         top: -10em;
@@ -1135,6 +1188,8 @@ body {
         width: 100%;
          overflow: inherit;
     }
+}
+
 }
 
 /*Ipad*/
@@ -1198,14 +1253,26 @@ body {
         margin-top: 7em !important;
         min-height: 15em;
     }
-    #formation4 img{max-height: 10em;min-height: 10em; max-width: 50%;}
 
-    #formation4 .description{
+    #formation4 img {
+        max-height: 10em;
+        min-height: 10em;
+        max-width: 50%;
+    }
+
+    #formation4 .description {
         margin-top: 2em;
     }
-    .col-md-6{display: none;}
-    .col-xs-6{display: block}
-    body{
+
+    .col-md-6 {
+        display: none;
+    }
+
+    .col-xs-6 {
+        display: block
+    }
+
+    body {
         min-height: 26em;
     }
 
@@ -1292,8 +1359,14 @@ body {
         margin-top: 7em !important;
         min-height: 13em;
     }
-    #formation4 img{max-height: 8em;min-height: 8em; max-width: 50%;}
-    #formation4 .description{
+
+    #formation4 img {
+        max-height: 8em;
+        min-height: 8em;
+        max-width: 50%;
+    }
+
+    #formation4 .description {
         min-height: 26em;
     }
 
@@ -1310,8 +1383,14 @@ body {
     #formation4 p {
         font-size: 11px !important;
     }
-    .col-md-6{display: none;}
-    .col-xs-6{display: block}
+
+    .col-md-6 {
+        display: none;
+    }
+
+    .col-xs-6 {
+        display: block
+    }
 }
 
 /*Mobile*/
@@ -1381,8 +1460,14 @@ body {
 
         min-height: 10em;
     }
-    #formation4 img{max-height: 5em;min-height: 5em; max-width: 50%;}
-    #formation4 .description{
+
+    #formation4 img {
+        max-height: 5em;
+        min-height: 5em;
+        max-width: 50%;
+    }
+
+    #formation4 .description {
 
         min-height: 26em;
     }
@@ -1402,10 +1487,14 @@ body {
         font-size: 10px !important;
     }
 
-    .col-md-6{display: none;}
-    .col-xs-6{display: block}
-}
+    .col-md-6 {
+        display: none;
+    }
 
+    .col-xs-6 {
+        display: block
+    }
+}
 
 .card {
     position: relative;
@@ -1413,6 +1502,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: #03224c !important;
 }
 
 .card__front,
@@ -1433,12 +1523,11 @@ body {
 }
 
 .card__front {
-    background-color: transparent;
+    background-color: #03224c;
 }
 
 .card__back {
-    background-color: black;
-    opacity: 0.7;
+    background-color: #03224c;
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 }
@@ -1452,4 +1541,19 @@ body {
     -webkit-transform: rotateY(0);
     transform: rotateY(0);
 }
+ 
+.image1apropos {
+  margin:0;
+  padding:0;
+  background: url(img/Calque1apropos.png) no-repeat center; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
 
+.image2apropos {
+  margin:0;
+  padding:0;
+  background: url(img/Calque1apropos.png) no-repeat center; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}

@@ -45,7 +45,7 @@
                 </p>
             </div>
             <div class="col-md-4 deuztext">
-                <h2 id="titre">SERVICE 3</h2>
+                <h2 id="titre">AMOA</h2>
                 <i class="fa fa-clock-o glyph" style="font-size:65px;"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
