@@ -1542,18 +1542,21 @@ body {
     transform: rotateY(0);
 }
  
-.image1apropos {
-  margin:0;
-  padding:0;
-  background: url(img/Calque1apropos.png) no-repeat center; 
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+
+
+.image1apropos img { 
+    width: 100%;
 }
 
-.image2apropos {
-  margin:0;
-  padding:0;
-  background: url(img/Calque1apropos.png) no-repeat center; 
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+
+.image2apropos img { 
+    width: 100%;
+}
+
+.entrepriseapropos h1 {
+    font-family: 'code_lightregular';
+    font-weight: bold;
+    font-size: 3em;
+    color: black !important;
+    text-align: center;
 }
