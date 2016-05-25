@@ -23,7 +23,7 @@ body {
 /*Accueil*/
 
 #first {
-    background-color: #0a5aa6;
+    background-color: #03224c;
     min-height: 65em;
     min-width: 100%;
     z-index: 55;
@@ -37,7 +37,7 @@ body {
     padding: 0 !important;
     display: block;
     top: -275px;
-    background: url('../axelone1/img/flatusine.png') no-repeat center center fixed;
+    background: url('../axelone1/img/picto.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,9 +48,9 @@ body {
     min-height: 65em;
     z-index: 99;
     min-width: 100%;
-    background: url('../axelone1/img/personnages.png') no-repeat center bottom;
     position: absolute;
     margin-top: 26em;
+    opacity: 0.5!important;
 }
 
 #deuz {
@@ -156,7 +156,7 @@ body {
     z-index: 56;
     padding: 0 !important;
     display: block;
-    top: -275px;
+    top: -18em;
     background-color: #579eff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -204,7 +204,7 @@ body {
 
 #katre {
     border-top: 3px solid #589eff;
-    border-bottom: 3px solid red;
+    border-bottom: 2px solid #589eff;
     background-color: lightgrey;
     min-height: 40em;
     min-width: 100%;
@@ -416,8 +416,8 @@ body {
 .triangle7 {
     width: 0;
     height: 0;
-    border-bottom: 30em solid #ddc503;
-    border-top: 30em solid #ddc503;
+    border-bottom: 30em solid white;
+    border-top: 30em solid white;
     border-left: 200em solid transparent;
     z-index: 60;
     float: right;
@@ -429,8 +429,8 @@ body {
 .triangle8 {
     width: 0;
     height: 0;
-    border-bottom: 30em solid #ddc503;
-    border-top: 30em solid #ddc503;
+    border-bottom: 30em solid white;
+    border-top: 30em solid white;
     border-right: 200em solid transparent;
     z-index: 60;
     float: right;
@@ -704,6 +704,20 @@ body {
     font-weight: bold;
     font-size: 3em;
     color: #579eff !important;
+}
+
+#titre2 {
+    font-family: 'code_lightregular';
+    font-weight: bold;
+    font-size: 3em;
+    color: black !important;
+}
+
+#titre3 {
+    font-family: 'code_lightregular';
+    font-weight: bold;
+    font-size: 3em;
+    color: white !important;
 }
 
 .footer {

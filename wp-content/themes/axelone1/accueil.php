@@ -55,7 +55,7 @@
                 </p>
             </div>
         </div>
-        <h3 id="titre">À propos</h3>
+        <h3 id="titre3">À propos</h3>
 
         <div class="col-md-12">
             <div class="col-md-6 firstriangle">
@@ -97,7 +97,7 @@
     <div class="col-md-12" id="katre">
         <h3 id="titre">NOS PARTENAIRES</h3>
         <p>
-            Depuis notre création en 2003, notre équipe <FONT color="yellow"> <b>ELITE ORGANISATION</b> </FONT> s'est structurée de manière cohérente et maîtrisée autour de six pôles d'expertises:</br>
+            Depuis notre création en 2003, notre équipe <FONT color="#ff9600"> <b>ELITE ORGANISATION</b> </FONT> s'est structurée de manière cohérente et maîtrisée autour de six pôles d'expertises:</br>
             Logistique, Méthodes, Lean, Ergonomie, QSE et Management
         </p>
         <div class="blockjaune">
@@ -105,20 +105,20 @@
                 <div class="zone">
                     <ul>
                         <li style="left: 0px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 120px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 236px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 351px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
-                        <li style="left: 466px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
+                        <li style="left: 120px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
+                        <li style="left: 236px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
+                        <li style="left: 351px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
+                        <li style="left: 466px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 1353px;"><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 1438px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 1538px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
-                        <li style="left: 1668px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 1906px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 2140px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 2304px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
-                        <li style="left: 2535px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 2745px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 3011px;"><a href=""><img  src="../wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
+                        <li style="left: 1438px;"><a href=""><img  src="/wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
+                        <li style="left: 1538px;"><a href=""><img  src="/wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
+                        <li style="left: 1668px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
+                        <li style="left: 1906px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
+                        <li style="left: 2140px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
+                        <li style="left: 2304px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
+                        <li style="left: 2535px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
+                        <li style="left: 2745px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
+                        <li style="left: 3011px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
                         <li style="left: 0px;"><a href=""><img  src=" wp-content/theme/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
                         <li style="left: 120px;"><a href=""><img  src=" img/partenaire2.png" class="img-responsive"></a></li>
                         <li style="left: 236px;"><a href=""><img  src=" img/partenaire3.png" class="img-responsive"></a></li>
@@ -155,10 +155,10 @@
         </div>
         <div class="col-md-12">
             <div class="col-md-6">
-                <h4 id="titre">PROJET 1</h4>
+                <h4 id="titre2">PROJET 1</h4>
             </div>
             <div class="col-md-6">
-                <h4 id="titre">PROJET 2</h4>
+                <h4 id="titre2">PROJET 2</h4>
             </div>
         </div>
         <div class="col-md-12">
