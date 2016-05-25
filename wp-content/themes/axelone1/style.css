@@ -779,7 +779,7 @@ body {
 
 /*Formation*/
 #formation1 {
-    background-color: #c80d0d;
+    background-color: #03234c;
     z-index: 59;
     position: relative;
 }
@@ -788,7 +788,7 @@ body {
     text-align: center;
     position: relative;
     z-index: 61;
-    color: black;
+    color: white;
 }
 
 .formationtriangle1 {
@@ -826,7 +826,7 @@ body {
 }
 
 #formation3 p {
-    text-align: center;
+    text-align: justify;
     width: 90%;
     display: block;
     margin-left: auto;
@@ -834,7 +834,7 @@ body {
 }
 
 #formation4 {
-    background-color: #ddc503;
+    background-color: #0b72ff;
     z-index: 59;
     position: relative;
 }
@@ -882,19 +882,20 @@ body {
 
     #formation1 h1 {
         font-size: 60px;
-        top: 4em;
+        top: 2em;
     }
 
+
     .formationtriangle1 {
-        border-top: 15em solid #c80d0d;
-        border-left: 30em solid transparent;
-        top: 10em;
+        border-top: 15em solid #03234c;
+        border-left: 50em solid transparent;
+        top: 3em;
     }
 
     .formationtriangle2 {
-        border-top: 15em solid #c80d0d;
-        border-right: 30em solid transparent;
-        top: 10em;
+        border-top: 15em solid #03234c;
+        border-right: 50em solid transparent;
+        top: 3em;
     }
 
     #formation2 {
@@ -928,19 +929,19 @@ body {
     }
 
     .formationtriangle3 {
-        border-bottom: 13em solid #ddc503;
+        border-bottom: 13em solid #0b72ff;
         border-left: 100em solid transparent;
         top: -12em;
     }
 
     .formationtriangle4 {
-        border-bottom: 13em solid #ddc503;
+        border-bottom: 13em solid #0b72ff;
         border-right: 100em solid transparent;
         top: -12em;
     }
 
     #formation4 img{max-height: 15em;min-height: 15em; }
-    #formation4 .description{
+    #formation4 .description{}
 
     #formation4 img {
         margin-left: 50%;
@@ -969,19 +970,19 @@ body {
 
     #formation1 h1 {
         font-size: 60px;
-        top: 4em;
+        top: 2em;
     }
 
     .formationtriangle1 {
-        border-top: 15em solid #c80d0d;
-        border-left: 30em solid transparent;
-        top: 10em;
+        border-top: 15em solid #03234c;
+        border-left: 50em solid transparent;
+        top: 3em;
     }
 
     .formationtriangle2 {
-        border-top: 15em solid #c80d0d;
-        border-right: 30em solid transparent;
-        top: 10em;
+        border-top: 15em solid #03234c;
+        border-right: 50em solid transparent;
+        top: 3em;
     }
 
     #formation2 {
@@ -1016,18 +1017,18 @@ body {
     }
 
     .formationtriangle3 {
-        border-bottom: 13em solid #ddc503;
+        border-bottom: 13em solid #0b72ff;
         border-left: 100em solid transparent;
         top: -12em;
     }
 
     .formationtriangle4 {
-        border-bottom: 13em solid #ddc503;
+        border-bottom: 13em solid #0b72ff;
         border-right: 100em solid transparent;
         top: -12em;
     }
     #formation4 img{max-height: 15em;min-height: 15em; }
-    #formation4 .description{
+    #formation4 .description{}
 
     #formation4 img {
         margin-left: 50%;
@@ -1058,20 +1059,21 @@ body {
     }
 
     #formation1 h1 {
-        font-size: 60px;
-        top: 4em;
+        font-size: 50px;
+        top: 2em;
     }
 
+
     .formationtriangle1 {
-        border-top: 15em solid #c80d0d;
-        border-left: 30em solid transparent;
-        top: 10em;
+        border-top: 15em solid #03234c;
+        border-left: 50em solid transparent;
+        top: 3em;
     }
 
     .formationtriangle2 {
-        border-top: 15em solid #c80d0d;
-        border-right: 30em solid transparent;
-        top: 10em;
+        border-top: 15em solid #03234c;
+        border-right: 50em solid transparent;
+        top: 3em;
     }
 
     #formation2 {
@@ -1108,18 +1110,18 @@ body {
     }
 
     .formationtriangle3 {
-        border-bottom: 13em solid #ddc503;
+        border-bottom: 13em solid #0b72ff;
         border-left: 100em solid transparent;
         top: -12em;
     }
 
     .formationtriangle4 {
-        border-bottom: 13em solid #ddc503;
+        border-bottom: 13em solid #0b72ff;
         border-right: 100em solid transparent;
         top: -12em;
     }
     #formation4 img{max-height: 10em;min-height: 10em; }
-    #formation4 .description{
+    #formation4 .description{}
     #formation4 img {
         margin-left: 50%;
         top: -10em;
@@ -1127,6 +1129,11 @@ body {
 
     #formation4 .description {
         margin-top: 2em;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+         overflow: inherit;
     }
 }
 
@@ -1205,7 +1212,7 @@ body {
     #formation4 img {
         margin-left: 50%;
         max-height: 10em;
-        margin-top: 6em;
+        margin-top: 2em;
     }
 
     #formation4 .description {
@@ -1293,7 +1300,7 @@ body {
     #formation4 img {
         margin-left: 40%;
         max-height: 6em;
-        margin-top: 6em;
+        margin-top: 2em;
     }
 
     #formation4 .description {
@@ -1383,7 +1390,7 @@ body {
     #formation4 img {
         margin-left: 30%;
         max-height: 6em;
-        margin-top: 6em;
+        margin-top: 3em;
     }
 
     #formation4 .description {
