@@ -958,17 +958,13 @@ body {
         top: -12em;
     }
 
-<<<<<<< HEAD
     #formation4 img{max-height: 15em;min-height: 15em; }
-    #formation4 .description{}
-=======
     #formation4 img {
         max-height: 15em;
         min-height: 15em;
     }
 
-    #formation4 .description {
->>>>>>> b65bc652c0eaa781b56a2b9180ae37446b4e7b2a
+    #formation4 .description {}
 
     #formation4 img {
         margin-left: 50%;
@@ -1056,18 +1052,15 @@ body {
         border-right: 100em solid transparent;
         top: -12em;
     }
-<<<<<<< HEAD
     #formation4 img{max-height: 15em;min-height: 15em; }
-    #formation4 .description{}
-=======
+
 
     #formation4 img {
         max-height: 15em;
         min-height: 15em;
     }
 
-    #formation4 .description {
->>>>>>> b65bc652c0eaa781b56a2b9180ae37446b4e7b2a
+    #formation4 .description {}
 
     #formation4 img {
         margin-left: 50%;
@@ -1082,7 +1075,6 @@ body {
     }
 }
 
-}
 
 /*1200*/
 @media only screen and (max-width: 1299px) and (min-width: 1000px) {
@@ -1162,19 +1154,14 @@ body {
         border-right: 100em solid transparent;
         top: -12em;
     }
-<<<<<<< HEAD
     #formation4 img{max-height: 10em;min-height: 10em; }
     #formation4 .description{}
-=======
 
     #formation4 img {
         max-height: 10em;
         min-height: 10em;
     }
 
-    #formation4 .description {
-
->>>>>>> b65bc652c0eaa781b56a2b9180ae37446b4e7b2a
     #formation4 img {
         margin-left: 50%;
         top: -10em;
