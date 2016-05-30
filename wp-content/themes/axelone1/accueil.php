@@ -148,8 +148,6 @@
             </div>
         </div>
         <div class="col-md-12">
-            <div class="col-md-6 triangle7"></div>
-            <div class="col-md-6 triangle8"></div>
             <img src="wp-content/themes/axelone1/img/imgprojets.png" alt="imgprojet" class="img-responsive">
             <h5 id="titre">CONTACT</h5>
             <h6 id="titre"> UNE QUESTION,</h6>

@@ -317,7 +317,7 @@ body {
     z-index: 90;
     text-align: center;
     font-size: 60px;
-    top: 5em;
+    top: 1em;
     position: relative;
 }
 
@@ -334,7 +334,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 60px;
-    top: -15em;
+    top: -21em;
 }
 
 #cink h6 {
@@ -345,7 +345,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 40px;
-    top: -22em;
+    top: -31em;
 }
 
 /*
@@ -443,7 +443,7 @@ body {
     z-index: 59;
     position: relative;
     min-height: 80em;
-    top: -56em;
+    top: -5em;
 }
 
 #siss {
