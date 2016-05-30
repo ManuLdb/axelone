@@ -5,7 +5,20 @@
 <?php get_header(); ?>
 <main>
     <div id="formation1">
-        <h1>FORMATION</h1>
+        <?php
+        // Start the loop.
+        while ( have_posts() ) : the_post();?>
+            <h1><?php the_title(); ?></h1>
+            <?php
+            if ( comments_open() || get_comments_number() ) :
+                comments_template();
+            endif;
+            ?>
+            <?php
+
+            // End the loop.
+        endwhile;
+        ?>
         <div class="col-md-12">
             <div class="col-md-6 firstriangle">
                 <div class="formationtriangle1"></div>
