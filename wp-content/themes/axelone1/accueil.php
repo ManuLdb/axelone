@@ -104,36 +104,22 @@
             <div class="col-md-12" id="scroller">
                 <div class="zone">
                     <ul>
-                        <li style="left: 0px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 120px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 236px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 351px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
+
+                        <li style="left: 0px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire1.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 120px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire2.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 236px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire3.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 351px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire4.png" class="img-responsive" alt="Responsive image"></a></li>
                         <li style="left: 466px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 1353px;"><img  src="../wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 1438px;"><a href=""><img  src="/wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
+                        <li style="left: 1353px;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire2.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 1438px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire3.png" class="img-responsive" alt="Responsive image"></a></li>
                         <li style="left: 1538px;"><a href=""><img  src="/wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
-                        <li style="left: 1668px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 1906px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 2140px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 2304px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire4.png" class="img-responsive"></a></li>
-                        <li style="left: 2535px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 2745px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 3011px;"><a href=""><img  src="wp-content/themes/axelone1/img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 0px;"><a href=""><img  src=" wp-content/theme/axelone1/img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 120px;"><a href=""><img  src=" img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 236px;"><a href=""><img  src=" img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 351px;"><a href=""><img  src=" img/partenaire4.png" class="img-responsive"></a></li>
-                        <li style="left: 466px;"><a href=""><img  src=" img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 1353px;"><img  src=" img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 1438px;"><a href=""><img  src=" img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 1538px;"><a href=""><img  src="img/partenaire4.png" class="img-responsive"></a></li>
-                        <li style="left: 1668px;"><a href=""><img  src="img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 1906px;"><a href=""><img  src="img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 2140px;"><a href=""><img  src="img/partenaire3.png" class="img-responsive"></a></li>
-                        <li style="left: 2304px;"><a href=""><img  src="img/partenaire4.png" class="img-responsive"></a></li>
-                        <li style="left: 2535px;"><a href=""><img  src="img/partenaire1.png" class="img-responsive"></a></li>
-                        <li style="left: 2745px;"><a href=""><img  src="img/partenaire2.png" class="img-responsive"></a></li>
-                        <li style="left: 3011px;"><a href=""><img  src="img/partenaire3.png" class="img-responsive"></a></li>
+                        <li style="left: 1668px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire1.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 1906px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire2.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 2140px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire3.png" class="img-responsive" alt="Responsive image">></a></li>
+                        <li style="left: 2304px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire4.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 2535px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire1.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 2745px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire2.png" class="img-responsive" alt="Responsive image"></a></li>
+                        <li style="left: 3011px;"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/partenaire3.png" class="img-responsive" alt="Responsive image"></a></li>
                     </ul>
                 </div>
             </div>
