@@ -438,10 +438,15 @@ body {
 #cink img {
     z-index: 59;
     position: relative;
-    min-height: 80em;
-    top: -5em;
+    min-height: 100% !important;
+    min-width: 108% !important;
+    left: -3em;
 }
+#cink .imgoch{
+}
+#cink .imgdroi{
 
+}
 #siss {
     margin-top: 35em;
     background-color: #589eff;

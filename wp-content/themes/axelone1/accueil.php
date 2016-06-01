@@ -69,7 +69,7 @@
     <div class="col-md-12" id="troiz">
         <div class="card effect__hover col-md-5" id="opacity1">
             <div class="card__front">
-                <h1 id="titre" class="axel">AXEL'ONE</h1>
+                <h1 id="titre" class="axel">Axelone</h1>
             </div>
             <div class="card__back">
                 <p class="apropotxt">
@@ -148,7 +148,15 @@
             </div>
         </div>
         <div class="col-md-12">
-            <img src="wp-content/themes/axelone1/img/imgprojets.png" alt="imgprojet" class="img-responsive">
+            <div class="col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carregauche.png" class="img-responsive imgoch" alt="Responsive image">
+            </div>
+            <div class="col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carredroit.png" class="img-responsive imgdroi" alt="Responsive image">
+            </div>
+        </div>
+        <div class="col-md-12">
+
             <h5 id="titre">CONTACT</h5>
             <h6 id="titre"> UNE QUESTION,</h6>
             <h6 id="titre">UN PROJET ?</h6>
