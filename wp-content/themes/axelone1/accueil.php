@@ -27,31 +27,31 @@
             <div class="col-md-4 deuztext">
                 <h2 id="titre">FORMATION</h2>
                 <i class="fa fa-lightbulb-o glyph" style="font-size:65px;"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequa.
+                <p>
+                    Soyez prêt à vous former aﬁn d’acquérir de nouvelles compétences dans la gestion de votre entreprise.
+                    Axelone vous permet de vous former à coordonner toutes les activités au sein de votre entreprise et de les mesurer grâce à des indicateurs.
+                    Contrôle de gestion les moyens mis en oeuvre et réalisés.
                 </p>
             </div>
             <div class="col-md-4 deuztext">
                 <h2 id="titre">CONSEIL</h2>
                 <i class="fa fa-thumbs-o-up glyph" aria-hidden="true" style="font-size:65px;"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p>
+                    Axel one vous permet d’obtenir les conseils nécessaire aﬁn d’avoir toutes les clés en main pour optimiser la gestion de votre entreprise.
+                    Nos conseils abordent différents sujets adaptable selon la taille de votre entreprise. Nous vous promettons un professionnalisme exemplaire,
+                    le sérieux du suivi de la théorie des contraintes, l’accompagnement durant votre changement.
                 </p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequa.
-                </p>
+                <p>- Amélioration de la qualité du service client et du fournisseur  </p>
+                <p>- Nettoyage la base de données l’ERP </p>
+                <p>- Réalisation d’un plan industriel et commercial </p>
             </div>
             <div class="col-md-4 deuztext">
                 <h2 id="titre">AMOA</h2>
                 <i class="fa fa-clock-o glyph" style="font-size:65px;"></i>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequa.
+                <p>
+                    Le rôle de l'AMOA consiste à assister la MOA dans ses responsabilités (en délégation) et dans ses activités,
+                    notamment dans la partie opérationnelle en mettant en oeuvre des moyens et
+                    des compétences pour aider la MOA à atteindre ses objectifs. Grace à axelone développer vos compétences et devenez l’AMOA de votre entreprise.
                 </p>
             </div>
         </div>

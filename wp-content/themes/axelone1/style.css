@@ -129,8 +129,8 @@ body {
 .triangle3 {
     width: 0;
     height: 0;
-    border-bottom: 13em solid #589eff;
-    border-left: 100em solid transparent;
+    border-bottom: 18em solid #589eff;
+    border-left: 130em solid transparent;
     z-index: 60;
     float: right;
     position: relative;
@@ -140,8 +140,8 @@ body {
 .triangle4 {
     width: 0;
     height: 0;
-    border-bottom: 13em solid #589eff;
-    border-right: 100em solid transparent;
+    border-bottom: 18em solid #589eff;
+    border-right: 130em solid transparent;
     z-index: 60;
     float: right;
     position: absolute;
@@ -903,6 +903,9 @@ body {
 /*MediaQuerries*/
 /*1900*/
 @media only screen and (min-width: 1636px) {
+    /*Accueil*/
+
+    /*Formation*/
     #formation1 {
         margin-top: 0 !important;
         top: -2em;
@@ -997,6 +1000,11 @@ body {
 
 /*1500*/
 @media only screen and (max-width: 1635px) and (min-width: 1300px) {
+    /*Accueil*/
+    #cink{
+        max-height:47em !important;
+    }
+    /*Formation*/
     #formation1 {
         margin-top: 0 !important;
         top: -2em;
@@ -1091,6 +1099,14 @@ body {
 
 /*1200*/
 @media only screen and (max-width: 1299px) and (min-width: 1000px) {
+    /*Accueil*/
+    #cink{
+        max-height: 40em !important;
+    }
+    .card{
+        width: 40% !important;
+    }
+    /*Formation*/
     #formation1 {
         margin-top: 0 !important;
         top: -2em;
@@ -1194,6 +1210,14 @@ body {
 
 /*Ipad*/
 @media only screen and (max-width: 999px) and (min-width: 700px) {
+    /*Accueil*/
+    #troiz{
+        top:-22em !important;
+    }
+    #katre{
+        top:-24em !important;
+    }
+    /*Formation*/
     body {
         padding-right: 0px !important;
         padding-left: 0px !important;
