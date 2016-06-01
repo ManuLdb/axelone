@@ -283,12 +283,8 @@ body {
 #scroller img {
     position: relative;
     z-index: 80;
-    margin-left: 15em;
-    margin-right: 15em;
-    min-width: 10em;
-    min-height: 10em;
-    max-height: 10em;
-    max-width: 10em;
+    margin-left: 20em;
+    margin-right: 20em;
 }
 
 #scroller img:hover {
@@ -334,7 +330,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 60px;
-    top: -21em;
+    top: -4em;
 }
 
 #cink h6 {
@@ -345,7 +341,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 40px;
-    top: -31em;
+    top: -5em;
 }
 
 /*
@@ -493,7 +489,13 @@ body {
     background-color: transparent;
     width: 50%;
 }
+#siss form{
+    position: relative;
+    top: -5em;
+}
+#simplecf-submit {
 
+}
 .bordtriangle5 {
     width: 0;
     height: 0;
@@ -1002,7 +1004,7 @@ body {
 @media only screen and (max-width: 1635px) and (min-width: 1300px) {
     /*Accueil*/
     #cink{
-        max-height:47em !important;
+        max-height:55em !important;
     }
     /*Formation*/
     #formation1 {
@@ -1095,13 +1097,11 @@ body {
         display: none;
     }
 }
-
-
 /*1200*/
 @media only screen and (max-width: 1299px) and (min-width: 1000px) {
     /*Accueil*/
     #cink{
-        max-height: 40em !important;
+        max-height: 60em !important;
     }
     .card{
         width: 40% !important;
@@ -1211,11 +1211,35 @@ body {
 /*Ipad*/
 @media only screen and (max-width: 999px) and (min-width: 700px) {
     /*Accueil*/
+    .triangle1{display: none;}
+    .triangle2{display: none;}
+    .bordtriangle1{display: none;}
+    .bordtriangle2{display: none;}
     #troiz{
         top:-22em !important;
     }
     #katre{
         top:-24em !important;
+    }
+    #cink{
+        max-height: 33em !important;
+    }
+    #cink h3{
+        top:-1em;
+        position: relative;
+    }
+    #siss p{
+        text-align: center;
+        position: relative;
+        top:-15em;
+    }
+    #siss form{
+        position: relative;
+        top:-3em;
+    }
+    #simplecf-submit{
+        position: relative;
+        top:2em;
     }
     /*Formation*/
     body {
@@ -1288,13 +1312,6 @@ body {
         margin-top: 2em;
     }
 
-    .col-md-6 {
-        display: none;
-    }
-
-    .col-xs-6 {
-        display: block
-    }
 
     body {
         min-height: 26em;
@@ -1318,6 +1335,38 @@ body {
 
 /*Smartphone*/
 @media only screen and (max-width: 699px) and (min-width: 400px) {
+    /*Accueil*/
+    .triangle1{display: none;}
+    .triangle2{display: none;}
+    .bordtriangle1{display: none;}
+    .bordtriangle2{display: none;}
+    #troiz{
+        top:-22em !important;
+    }
+    #katre{
+        top:-24em !important;
+    }
+    #cink{
+        max-height: 33em !important;
+    }
+    #cink h3{
+        top:-1em;
+        position: relative;
+    }
+    #siss p{
+        text-align: center;
+        position: relative;
+        top:-15em;
+    }
+    #siss form{
+        position: relative;
+        top:-3em;
+    }
+    #simplecf-submit{
+        position: relative;
+        top:2em;
+    }
+    /*Formation*/
     body {
         padding-right: 0px !important;
         padding-left: 0px !important;
@@ -1408,13 +1457,6 @@ body {
         font-size: 11px !important;
     }
 
-    .col-md-6 {
-        display: none;
-    }
-
-    .col-xs-6 {
-        display: block
-    }
 }
 
 /*Mobile*/
