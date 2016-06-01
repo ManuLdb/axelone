@@ -32,22 +32,21 @@
         <iframe class="formationvideo" src="https://www.youtube.com/embed/dsDTJ__jioo" frameborder="0" allowfullscreen></iframe>
     </div>
     <div id="formation3">
-       <h2>NOS COURS</h2>
+        <div class="col-md-6">
+            <h2>NOS CONSEILS</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Alias corporis culpa est fugiat harum laborum minus mollitia sapiente tenetur ullam. Assumenda consequuntur facere laudantium magni quo repudiandae,
+                 temporibus voluptas voluptates?
+             </p>
+        </div>
+        <div class="col-md-6">
+            <h2>NOS COURS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Alias corporis culpa est fugiat harum laborum minus mollitia sapiente tenetur ullam. Assumenda consequuntur facere laudantium magni quo repudiandae,
+                temporibus voluptas voluptates?
+            </p>
+        </div>
 
-        <?php
-        // Start the loop.
-        while ( have_posts() ) : the_post();?>
-                <p><?php the_content(__('(more...)')); ?></p>
-                    <?php
-                    if ( comments_open() || get_comments_number() ) :
-                        comments_template();
-                    endif;
-                    ?>
-            <?php
-
-            // End the loop.
-        endwhile;
-        ?>
     </div>
     <div id="formation4">
         <div class="col-md-6 firstriangle"><div class="formationtriangle3"></div></div>
