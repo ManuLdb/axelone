@@ -1567,7 +1567,6 @@ body {
 }
  
 
-
 .image1apropos img { 
     width: 100%;
 }
@@ -1583,4 +1582,29 @@ body {
     font-size: 3em;
     color: black !important;
     text-align: center;
+    margin-bottom: 5%;
+}
+
+.histoireapropos h1 {
+    font-family: 'code_lightregular';
+    font-weight: bold;
+    font-size: 3em;
+    color: black !important;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.entreprise {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.histoire {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
