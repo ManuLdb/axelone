@@ -19,7 +19,9 @@ body {
 #myCarousel ol {
     opacity: 0;
 }
-
+#body{
+    overflow-x: hidden !important;
+}
 /*Accueil*/
 
 #first {
@@ -1372,6 +1374,7 @@ body {
         top:2em;
     }
     #scroller{display: none;}
+    .blockjaune{display: none;}
     /*Formation*/
     body {
         padding-right: 0px !important;
@@ -1499,6 +1502,7 @@ body {
         top:2em;
     }
     #scroller{display: none;}
+    .blockjaune{display: none;}
     /*Formation*/
     body {
         padding-right: 0px !important;
@@ -1592,13 +1596,6 @@ body {
         font-size: 10px !important;
     }
 
-    .col-md-6 {
-        display: none;
-    }
-
-    .col-xs-6 {
-        display: block
-    }
 }
 
 .card {

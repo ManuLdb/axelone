@@ -7,7 +7,7 @@
     <a href="#">Mentions Légales</a> - Réalisation <a href="#">Agence I communication</a>
 </p>
 </div>
-
+</div>
 </body>
 <?php wp_footer(); ?>
 </html>
