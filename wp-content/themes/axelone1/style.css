@@ -1371,6 +1371,7 @@ body {
         position: relative;
         top:2em;
     }
+    #scroller{display: none;}
     /*Formation*/
     body {
         padding-right: 0px !important;
@@ -1466,6 +1467,39 @@ body {
 
 /*Mobile*/
 @media only screen and (max-width: 399px) and (min-width: 0px) {
+    /*Accueil*/
+    .triangle1{display: none;}
+    .triangle2{display: none;}
+    .bordtriangle1{display: none;}
+    .bordtriangle2{display: none;}
+    #troiz{
+        top:-22em !important;
+    }
+    #katre{
+        top:-24em !important;
+    }
+    #cink{
+        max-height: 33em !important;
+    }
+    #cink h3{
+        top:-1em;
+        position: relative;
+    }
+    #siss p{
+        text-align: center;
+        position: relative;
+        top:-15em;
+    }
+    #siss form{
+        position: relative;
+        top:-3em;
+    }
+    #simplecf-submit{
+        position: relative;
+        top:2em;
+    }
+    #scroller{display: none;}
+    /*Formation*/
     body {
         padding-right: 0px !important;
         padding-left: 0px !important;
