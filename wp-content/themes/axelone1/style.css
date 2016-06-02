@@ -441,13 +441,13 @@ body {
     z-index: 59;
     position: relative;
     min-height: 100% !important;
-    min-width: 108% !important;
-    left: -3em;
+    min-width: 105% !important;
 }
 #cink .imgoch{
+    left: -2em;
 }
 #cink .imgdroi{
-
+    left: -1em;
 }
 #siss {
     margin-top: 35em;

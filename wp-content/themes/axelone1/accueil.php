@@ -149,10 +149,10 @@
         </div>
         <div class="col-md-12">
             <div class="col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carregauche.png" class="img-responsive imgoch" alt="Responsive image">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet1.png" class="img-responsive imgoch" alt="Responsive image">
             </div>
             <div class="col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/carredroit.png" class="img-responsive imgdroi" alt="Responsive image">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet2.png" class="img-responsive imgdroi" alt="Responsive image">
             </div>
         </div>
         <div class="col-md-12">
