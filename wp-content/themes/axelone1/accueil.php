@@ -97,9 +97,10 @@
     <div class="col-md-12" id="katre">
         <h3 id="titre">NOS PARTENAIRES</h3>
         <p>
-            Depuis notre création en 2003, notre équipe <FONT color="#ff9600"> <b>ELITE ORGANISATION</b> </FONT> s'est structurée de manière cohérente et maîtrisée autour de six pôles d'expertises:</br>
+            Depuis notre création en 2003, notre équipe <font color="#ff9600"> <b>ELITE ORGANISATION</b> </font> s'est structurée de manière cohérente et maîtrisée autour de six pôles d'expertises:</br>
             Logistique, Méthodes, Lean, Ergonomie, QSE et Management
         </p>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/perso.png" class="img-responsive perso" alt="perso">
         <div class="blockjaune">
             <div class="col-md-12" id="scroller">
                 <div class="zone">
@@ -147,13 +148,13 @@
                 <h4 id="titre2">PROJET 2</h4>
             </div>
         </div>
-        <div class="col-md-12">
-            <div class="col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet1.png" class="img-responsive imgoch" alt="Responsive image">
-            </div>
-            <div class="col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet2.png" class="img-responsive imgdroi" alt="Responsive image">
-            </div>
+        <div class="col-md-12 imgprojet">
+            <ul>
+                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet1.png" class="img-responsive imgoch" alt="Responsive image"></li>
+                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet2.png" class="img-responsive imgdroi" alt="Responsive image"></li>
+
+
+            </ul>
         </div>
         <div class="col-md-12">
 

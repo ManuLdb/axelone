@@ -257,7 +257,10 @@ nav{
     margin-left: auto;
     margin-bottom: 10em;
 }
-
+#katre .perso{
+    z-index: 99;
+    position: relative;
+}
 .blockjaune {
     min-height: 10em;
     min-width: 10em;
@@ -322,7 +325,19 @@ nav{
     top: -275px;
     max-height: 70em;
 }
-
+#cink .imgprojet{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#cink ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#cink li{
+    display: block;
+    float: left;
+}
 #cink h3 {
     z-index: 90;
     text-align: center;
@@ -459,13 +474,14 @@ nav{
     z-index: 59;
     position: relative;
     min-height: 100% !important;
-    min-width: 105% !important;
+    min-width: 110% !important;
 }
 #cink .imgoch{
-    left: -2em;
 }
 #cink .imgdroi{
-    left: -1em;
+    padding: 0;
+    margin: 0;
+    left: 6em;
 }
 #siss {
     margin-top: 35em;
@@ -893,7 +909,9 @@ body {
 /*1900*/
 @media only screen and (min-width: 1636px) {
     /*Accueil*/
-
+    #katre .perso{
+        left: 18em;
+    }
     /*Formation*/
     #formation1 {
         margin-top: 0 !important;
