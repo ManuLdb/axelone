@@ -14,5 +14,29 @@
 <body>
 <div id="body">
 <header class="nav">
-    <?php wp_nav_menu(array('theme_location' => 'principal')); ?>
-</header>cd
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://ldb-paris.eu/axelone/">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" class="img-responsive brandpc" alt="Responsive image">
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <a class="navbar-brand" href=" http://ldb-paris.eu/axelone/formation/"><img src="" alt="">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" class="img-responsive brandmob" alt="Responsive image">
+                    </a>
+                    <li><a href=" http://ldb-paris.eu/axelone/formation/">Formation/Conseil</a></li>
+                    <li><a href="http://ldb-paris.eu/axelone/amoa/">AMOA</a></li>
+                    <li><a href="http://ldb-paris.eu/axelone/a-propos/">A propos</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+</header>
