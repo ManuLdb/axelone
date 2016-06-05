@@ -1242,7 +1242,7 @@ body {
 
 
 /*Ipad*/
-@media only screen and (max-width: 999px) and (min-width: 700px) {
+@media only screen and (max-width: 999px) and (min-width: 768px) {
 
     /*Accueil*/
     .triangle1{display: none;}
@@ -1394,7 +1394,7 @@ body {
 }
 
 /*Smartphone*/
-@media only screen and (max-width: 699px) and (min-width: 400px) {
+@media only screen and (max-width: 767px) and (min-width: 400px) {
     /*Accueil*/
     .triangle1{display: none;}
     .triangle2{display: none;}
