@@ -149,12 +149,7 @@
             </div>
         </div>
         <div class="col-md-12 imgprojet">
-            <ul>
-                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet1.png" class="img-responsive imgoch" alt="Responsive image"></li>
-                <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet2.png" class="img-responsive imgdroi" alt="Responsive image"></li>
-
-
-            </ul>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/projet.png" class="img-responsive" alt="Responsive image">
         </div>
         <div class="col-md-12">
 
